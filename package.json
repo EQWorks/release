@@ -1,0 +1,24 @@
+{
+  "name": "release-notes-util",
+  "version": "1.0.0",
+  "description": "A tool for compiling release notes from a project's git log",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EQWorks/release-notes-util.git"
+  },
+  "author": "Harrison Hutcheon <harrison.hutcheon@gmail.com> (http://parseinteractive.com/harrisonhutcheon/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EQWorks/release-notes-util/issues"
+  },
+  "homepage": "https://github.com/EQWorks/release-notes-util#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^8.2.0"
+  }
+}
