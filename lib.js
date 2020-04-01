@@ -20,8 +20,8 @@ module.exports.processLog = (logs) => {
   return parsed
 }
 
-const formatNotes = ({ parsed, version }) => {
-  let notes = `## Release Notes: ${version}`
+const formatNotes = ({ parsed, version, previous }) => {
+  let notes = `## Release Notes: from ${previous} to ${version}`
 
   Object.keys(parsed).forEach(key => {
     notes += `\n\n### ${key}\n`
@@ -35,9 +35,9 @@ const formatNotes = ({ parsed, version }) => {
 }
 module.exports.formatNotes = formatNotes
 
-module.exports.writeNotes = ({ notes, version, file }) => {
+module.exports.writeNotes = ({ notes, version, previous, file }) => {
   fs.writeFile(
-    file || `release-notes-${version}.md`,
+    file || `release-notes-${previous}-${version}.md`,
     notes,
     function (err) {
       if (err) {

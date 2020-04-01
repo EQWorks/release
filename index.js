@@ -43,13 +43,14 @@ if (require.main === module) {
         const [_base, _head] = execSync(cmd).toString().trim().split('\n')
 
         const version = head || _head
-        cmd = `git log --no-merges --abbrev-commit --pretty=oneline ${version}...${base || _base}`
+        const previous = base || _base
+        cmd = `git log --no-merges --abbrev-commit --pretty=oneline ${version}...${previous}`
         console.log(cmd)
         const logs = execSync(cmd).toString().trim().split('\n')
         const parsed = lib.processLog(logs)
 
-        const notes = lib.formatNotes({ parsed, version })
-        lib.writeNotes({ notes, version, file })
+        const notes = lib.formatNotes({ parsed, version, previous })
+        lib.writeNotes({ notes, version, previous, file })
       } catch(err) {
         // console.log(err)
       }
