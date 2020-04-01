@@ -37,10 +37,10 @@ function processLog(log) {
       const lineSplit = logList[line].split(' - ')
       const feature = lineSplit[0].split(' ')[1].replace(/[^a-zA-Z ]/g, "")
       const message = lineSplit[1]
-  
+
       if (!parsedLog.items[feature]) {
         parsedLog.items[feature] = []
-      } 
+      }
       parsedLog.items[feature].push(message)
     }
     return parsedLog
