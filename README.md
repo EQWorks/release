@@ -1,29 +1,24 @@
-# release-notes-util
+# release
 
-A tool for compiling release notes
+A CLI for release notes generation based on tags and commit history.
+
+## Installation
+
+```shell
+yarn global add @eqworks/release
+# or
+npm i -g @eqworks/release
+```
 
 ## Usage
 
-Install necessary packages:
-`yarn`
+In any git repo, run:
 
-Create a `.env` file, formatted like so:
-
-```bash
-PROJECT_PATH=[path to root project folder]
-LATEST=[most recent git tag]
-PREVIOUS=[previous git tag]
-
-# Example
-
-PROJECT_PATH=[homepath]/EQWorks/Projects/snoke
-LATEST=v1.4.4
-PREVIOUS=v1.4.3
+```shell
+release notes
 ```
 
-Run with `yarn start`
-
-A file will be created called `release-notes-[the value of LATEST]`.
+You can learn more about the CLI by typing `release` or `release [COMMAND] --help`.
 
 ### Important Note
 
