@@ -1,111 +1,64 @@
-const fs = require('fs');
-const { exec } = require('child_process')
+#!/usr/bin/env node
+const { execSync } = require('child_process')
 
-require('dotenv').config()
+const lib = require('./lib')
 
-const projectPath = process.env.PROJECT_PATH
-const gitTarget = `git --git-dir=${projectPath}/.git`
-const latestTag = process.env.LATEST
-const previousTag = process.env.PREVIOUS
-
-function execCommand(cmd, callback) {
-  exec(cmd, (error, stdout, stderr) => {
-    if (error) {
-      console.log(`error ${error}`)
-      callback({
-        error
+if (require.main === module) {
+  require('yargs')
+  .usage('Usage: $0 <command> [options]')
+  .command(
+    'notes',
+    'Generate notes based on git refs',
+    yargs => yargs
+      .option('base', {
+        type: 'string',
+        default: null,
+        description: 'base ref, default second latest tag',
       })
-    }
-    if (stderr) {
-      console.log(`stderr ${stderr}`)
-      callback({
-        error: stderr
+      .option('head', {
+        type: 'string',
+        default: null,
+        description: 'head ref, default latest tag',
       })
-    }
-    callback({
-      output: stdout
-    })
-  })
-}
-
-function processLog(log) {
-  try {
-    const logList = log.split('\n')
-    logList.pop()
-    const parsedLog = { success: true, items: {} }
-    for (let line in logList) {
-      const lineSplit = logList[line].split(' - ')
-      const feature = lineSplit[0].split(' ')[1].replace(/[^a-zA-Z ]/g, "")
-      const message = lineSplit[1]
-  
-      if (!parsedLog.items[feature]) {
-        parsedLog.items[feature] = []
-      } 
-      parsedLog.items[feature].push(message)
-    }
-    return parsedLog
-  } catch (e) {
-    return e
-  }
-}
-
-function formatReleaseNotes(parsedLog) {
-  let outputString = `## Release Notes: ${latestTag}`
-
-  Object.keys(parsedLog).forEach(key => {
-    outputString += `\n\n ### ${key}\n`
-    const items = parsedLog[key]
-    for (let item in items) {
-      outputString += `\n * ${items[item]}`
-    }
-  })
-
-  return outputString
-}
-
-function outputLog(parsedLog) {
-  fs.writeFile(`release-notes-${latestTag}.md`,
-  formatReleaseNotes(parsedLog),
-  function (err) {
-    if (err) {
-      console.log('Error outputting release notes:');
-      console.log(err);
-    } else {
-      console.log('Release notes saved!');
-    }
-  });
-}
-
-execCommand(`${gitTarget} fetch --prune`, tagResp => {
-  try {
-    console.log('Fetching tags...')
-    if (!tagResp.error) {
-      console.log('Tags fetched!')
-      console.log('Retrieving log...')
-      execCommand(`${gitTarget} log --no-merges --pretty=oneline ${latestTag}...${previousTag}`, logResp => {
-        if (!logResp.error) {
-          console.log('Log Retrieved!')
-          console.log('Parsing log...')
-          const parseResp = processLog(logResp.output)
-          if (parseResp.success) {
-            console.log('Log Parsed!')
-            console.log('Outputting log to file...')
-            outputLog(parseResp.items)
-          } else {
-            console.log('Error parsing log:')
-            console.log(parseResp)
-          }
-        } else {
-          console.log('Error retrieving log:')
-          console.log(logResp.error.toString())
-        }
+      .option('pattern', {
+        type: 'string',
+        default: 'v*',
+        description: 'tag matching pattern. Ignored when both head and base refs are specified',
       })
-    } else {
-      console.log('Error fetching tags:')
-      console.log(tagResp.error.toString())
-    }
-  } catch (e) {
-    console.log ('Something went horribly wrong')
-    console.log(e)
-  }
-})
+      .option('file', {
+        type: 'string',
+        alias: 'f',
+        describe: 'Output file path, default "./release-notes-{version}.md"',
+        default: null,
+      })
+    ,
+    ({ base, head, pattern, file }) => {
+      try {
+        let cmd = 'git fetch --prune'
+        console.log(cmd)
+        execSync(cmd)
+
+        cmd = `git tag -il '${pattern}' --cleanup=srip | tail -2`
+        console.log(cmd)
+        const [_base, _head] = execSync(cmd).toString().trim().split('\n')
+
+        const version = head || _head
+        const previous = base || _base
+        cmd = `git log --no-merges --abbrev-commit --pretty=oneline ${version}...${previous}`
+        console.log(cmd)
+        const logs = execSync(cmd).toString().trim().split('\n')
+        const parsed = lib.processLog(logs)
+
+        const notes = lib.formatNotes({ parsed, version, previous })
+        lib.writeNotes({ notes, version, previous, file })
+      } catch(err) {
+        // console.log(err)
+      }
+    },
+  )
+  .demandCommand()
+  .help()
+  .argv
+} else {
+  module.exports = lib
+}
