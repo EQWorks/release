@@ -6,7 +6,7 @@ module.exports.processLog = (logs) => {
   try {
     for (let line in logs) {
       const lineSplit = logs[line].split(' - ')
-      const feature = lineSplit[0].split(' ')[1].replace(/[^a-zA-Z ]/g, "")
+      const feature = lineSplit[0].split(' ')[1]
       const message = lineSplit[1]
 
       if (!parsed[feature]) {
