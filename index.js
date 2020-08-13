@@ -38,7 +38,7 @@ if (require.main === module) {
           console.log(cmd)
           execSync(cmd)
 
-          cmd = `git tag -il '${pattern}' --cleanup=srip | tail -2`
+          cmd = `git tag -il '${pattern}' --cleanup=srip --sort version:refname | tail -2`
           console.log(cmd)
           const [_base, _head] = execSync(cmd).toString().trim().split('\n')
 
@@ -52,7 +52,7 @@ if (require.main === module) {
           const notes = lib.formatNotes({ parsed, version, previous })
           lib.writeNotes({ notes, version, previous, file })
         } catch(err) {
-        // console.log(err)
+          console.error(err)
         }
       },
     )
