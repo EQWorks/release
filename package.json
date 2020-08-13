@@ -3,6 +3,18 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "source": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": "git@github.com:EQWorks/release.git",
+  "author": "EQ Devs <dev@eqworks.com>",
+  "scripts": {
+    "lint": "yarn eslint .",
+    "prepublishOnly": "yarn lint"
+  },
   "dependencies": {
     "yargs": "^15.1.0"
   },
