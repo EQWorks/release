@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Added
+- `notes` - author name per commit
+
+### Fixed
+- `notes` - unexpected cutoff at extra "-" and "/" characters
+
+## [1.1.0] - 2020-08-14
 ### Added
 - `notes` - support tier 2 category, when commit message subject is in the form of `tier1/tier2 - title`
 - `notes` - CLI `--verbose` option controlled non-error and non-eventual output messages
