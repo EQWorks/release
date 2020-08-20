@@ -39,4 +39,4 @@ You can learn more about the CLI by typing `release` or `release [COMMAND] --hel
 
 Currently, this only works if commit messages are formatted like so:
 
-`category - message`
+`category - message`, where `category` can contain a secondary portion such as `category/sub category`.
