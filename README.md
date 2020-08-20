@@ -21,16 +21,17 @@ release notes
 Which would give you a markdown such as:
 
 ```md
-## Release Notes: from v1.7.0 to v1.7.2
+## Release Notes: from v1.1.0-alpha to v1.2.0-alpha
 
-### devops
+### notes
 
-* alpha package release
-* fix netlify ignore script to account for multi-line commit msg
+* add - author name per commit (ee73c70 by Runzhou Li (woozyking))
+* fix - unxpected cutoff on extra "-", "/" (e8454fc by Runzhou Li (woozyking))
+* fix - tag cleanup mode :typo: on 'strip' (97e0763 by Runzhou Li (woozyking))
 
-### table
+### version
 
-* update when sort changes dynamically [build]
+* 1.1.0 (af3bb6d by Runzhou Li (woozyking))
 ```
 
 You can learn more about the CLI by typing `release` or `release [COMMAND] --help`.
