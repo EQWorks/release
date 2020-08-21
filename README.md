@@ -12,7 +12,7 @@ npm i -g @eqworks/release
 
 ## Usage
 
-In any git repo, run:
+In any git repo (suppose the tagging pattern is `v*`), run:
 
 ```shell
 release notes
@@ -35,6 +35,23 @@ Which would give you a markdown such as:
 ```
 
 You can learn more about the CLI by typing `release` or `release [COMMAND] --help`.
+
+```shell
+% release notes --help
+release notes
+
+Generate notes based on git refs
+
+Options:
+  --version   Show version number                                      [boolean]
+  --help      Show help                                                [boolean]
+  --base      base ref, default second latest tag       [string] [default: null]
+  --head      head ref, default latest tag              [string] [default: null]
+  --pattern   tag matching pattern. Ignored when both head and base refs are
+              specified                                 [string] [default: "v*"]
+  --file, -f  Output file path, default "./release-notes-{version}.md"
+                                                        [string] [default: null]
+```
 
 ### Important Note
 
