@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `notes` - support commit message body (b386123 by Runzhou Li (woozyking))
+	* body is persed per line as list item and indented under its subject
+	* body lines that start with `- ` and `* ` are standardized as `- `
+- `notes` - A generic "others" category to capture all parser-unmatched (fe5bfb1 by Runzhou Li (woozyking))
+
+### Changed
+- `notes` - regex based parser (0488a32 by Runzhou Li (woozyking))
+
+### Fixed
+- `notes` - dash `-` parsing error for category (b57aedb by hyx131)
+
 ## [1.2.0] - 2020-08-21
 ### Added
 - `notes` - author name per commit
