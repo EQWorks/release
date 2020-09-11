@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-09-11
+
 ### Added
 - `notes` - support commit message body (b386123 by Runzhou Li (woozyking))
 	* body is persed per line as list item and indented under its subject
