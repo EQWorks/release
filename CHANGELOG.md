@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- `notes` - parse with named capture groups
 - `notes` - match invalid filename chars and replace with dash
 
 ## [1.3.0] - 2020-09-11
