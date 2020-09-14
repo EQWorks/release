@@ -43,14 +43,17 @@ release notes
 Generate notes based on git refs
 
 Options:
-  --version   Show version number                                      [boolean]
-  --help      Show help                                                [boolean]
-  --base      base ref, default second latest tag       [string] [default: null]
-  --head      head ref, default latest tag              [string] [default: null]
-  --pattern   tag matching pattern. Ignored when both head and base refs are
-              specified                                 [string] [default: "v*"]
-  --file, -f  Output file path, default "./release-notes-{version}.md"
+  --version      Show version number                                   [boolean]
+  --help         Show help                                             [boolean]
+  --base         base ref, default second latest tag    [string] [default: null]
+  --head         head ref, default latest tag           [string] [default: null]
+  --pattern      tag matching pattern. Ignored when both head and base refs are
+                 specified                              [string] [default: "v*"]
+  --file, -f     Output file path, default "./release-notes-{base}-{head}.md"
                                                         [string] [default: null]
+  --skip, -s     One or more keywords to skip from the given pattern match
+                                                           [array] [default: []]
+  --verbose, -v  Show verbose output                  [boolean] [default: false]
 ```
 
 ### Important Note

@@ -5,13 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.4.0] - 2020-09-14
+
 ### Changed
-- `notes` - parse with named capture groups
-- `notes` - match invalid filename chars and replace with dash
+- `notes` - parse with named capture groups (beb99f6 by hyx131)
+- `notes` - match invalid filename chars and replace with dash (ea2862b by hyx131)
 
 ### Added
-- `notes` - add `--skip, -s` multi-options to skip tags based on keywords (eg `--skip alpha -s beta`)
-- `notes` - add (actually officialize) `--verbose, -v` option
+- `notes` - `--skip, -s` multi-options to skip tags based on keywords (eg `-s alpha -s beta`) (19f65d9 by Runzhou Li (woozyking))
+- `notes` - (actually officialize) `--verbose, -v` option (19f65d9 by Runzhou Li (woozyking))
 
 ## [1.3.0] - 2020-09-11
 
