@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `notes` - parse with named capture groups
 - `notes` - match invalid filename chars and replace with dash
 
+### Added
+- `notes` - add `--skip, -s` multi-options to skip tags based on keywords (eg `--skip alpha -s beta`)
+- `notes` - add (actually officialize) `--verbose, -v` option
+
 ## [1.3.0] - 2020-09-11
 
 ### Added
