@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- `notes` - `--github, --gh` flag to redirect file output to updating the head ref (tag) associated GitHub release.
+- `notes` - `--github, --gh` flag to redirect file output to updating the head ref (tag) associated GitHub release
 	* Requires valid `$GITHUB_TOKEN` and `$GITHUB_OWNER` environment variables
 	* Support `$GITHUB_REPO` environment variable, but default to git local toplevel name
+- `notes` - `--fetch` flag to control whether to run git fetch before the rest fo the command
 
 ## [1.4.0] - 2020-09-14
 
