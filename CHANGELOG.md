@@ -6,13 +6,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### FEATURES
+
+* common - --print flag to redirect file output to stdout (print) (558da11 by Runzhou Li (woozyking))
+* changelog - command to generate changelog with NLP predicted labels (ddf4799 by Runzhou Li (woozyking))
+* lib/parseCommits - enrich with NLP model predicted label (27ecd40 by Runzhou Li (woozyking))
+	* [BREAKING] parseCommits is now a Promise (async function)
+	* NLP model trained and applied through fastText (by facebook)
+
+### PERFECTIVE
+
+* lib - factor out lib/common and refactor command to be like plugins (ce658b4 by Runzhou Li (woozyking))
+
 ## [1.5.0] - 2020-09-22
 
-### Added
-- `notes` - `--github, --gh` flag to redirect file output to updating the head ref (tag) associated GitHub release
-	* Requires valid `$GITHUB_TOKEN` and `$GITHUB_OWNER` environment variables
-	* Support `$GITHUB_REPO` environment variable, but default to git local toplevel name
-- `notes` - `--fetch` flag to control whether to run git fetch before the rest fo the command
+### CORRECTIVE
+
+* devops - dogfood github release notes after npm publish (f5718f8 by Runzhou Li (woozyking))
+
+### FEATURES
+
+* notes - `--fetch` flag to control whether to run git fetch (28550c9 by Runzhou Li (woozyking))
+* notes - `--github` flag to update the head ref associated GitHub release (21d6278 by Runzhou Li (woozyking))
+	* omit local file output
+	* factor out `utils.exec` to perform `execSync` and `log`
+	* requires `$GITHUB_TOKEN`, `$GITHUB_OWNER`, and `$GITHUB_REPO` env vars
+	* `$GITHUB_REPO` falls back to local repo toplevel name
 
 ## [1.4.0] - 2020-09-14
 
