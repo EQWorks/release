@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2020-09-22
+
 ### Added
 - `notes` - `--github, --gh` flag to redirect file output to updating the head ref (tag) associated GitHub release
 	* Requires valid `$GITHUB_TOKEN` and `$GITHUB_OWNER` environment variables
