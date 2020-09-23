@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { notes } = require('./lib')
+const { notes, changelog } = require('./lib')
 
 if (require.main === module) {
   require('yargs')
@@ -9,6 +9,12 @@ if (require.main === module) {
       notes.description,
       notes.options,
       notes.handler,
+    )
+    .command(
+      changelog.command,
+      changelog.description,
+      changelog.options,
+      changelog.handler,
     )
     .demandCommand()
     .help()
