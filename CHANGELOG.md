@@ -6,12 +6,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2020-10-06 (NLP enchanted)
+
+### CORRECTIVE
+
+* lib - fix NLP model loading to be portable (58ef627 by Runzhou Li (woozyking))
+* lib/parseCommits - fix error case return, print full error log on `-v` (c83c3b3 by Runzhou Li (woozyking))
+
 ### FEATURES
 
+* notes - utilize NLP labels into the format (1ac3818 by Runzhou Li (woozyking))
+	* README - update with latest big changes
+* misc - update CHANGELOG.md by dogfooding the changelog cmd (ea4be5b by Runzhou Li (woozyking))
 * common - --print flag to redirect file output to stdout (print) (558da11 by Runzhou Li (woozyking))
 * changelog - command to generate changelog with NLP predicted labels (ddf4799 by Runzhou Li (woozyking))
 * lib/parseCommits - enrich with NLP model predicted label (27ecd40 by Runzhou Li (woozyking))
-	* [BREAKING] parseCommits is now a Promise (async function)
+	* [BREAKING] `parseCommits` now returns a Promise (async function)
 	* NLP model trained and applied through fastText (by facebook)
 
 ### PERFECTIVE
