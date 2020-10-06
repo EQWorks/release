@@ -64,10 +64,18 @@ Which gives:
 
 You can learn more about the CLI by typing `release` or `release <command> --help`.
 
-### Important Note
+### Tips
 
-Ideally, the following convention should be applied for best formatting:
+The following convention should be applied on your commit messages for ideal parsing:
 
-`category - message`, where `category` can contain a secondary portion such as `category/sub category`.
+> category - message
 
-Since v1.3.0, a generic "others" category is added to capture all unmatched commit messages.
+where `category` can contain a secondary portion such as
+
+> category/sub category.
+
+For example:
+
+> builder/details - show job viz for newly created, unprocessed jobs
+
+Since v1.3.0, a generic `others` category is added to capture all unparsed commit messages.
