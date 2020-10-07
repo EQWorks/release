@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2020-10-06
+
+### CORRECTIVE
+
+* github - fix incorrect reference to the formatted notes (f70cf62 by Runzhou Li (woozyking))
+
 ## [2.0.0] - 2020-10-06 (NLP enchanted)
 
 ### CORRECTIVE
