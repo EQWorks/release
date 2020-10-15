@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2020-10-15
+
+### FEATURES
+
+* lib/formatNotes - group by T2 (242ebea by Tamires Lowande)
+* lib/parseCommits - T1-categories to be normalized (9b27f1c by Tamires Lowande)
+
 ## [2.0.1] - 2020-10-06
 
 ### CORRECTIVE
