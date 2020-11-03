@@ -1,0 +1,500 @@
+builder - match recurring jobs cadence values as backend's
+builder - recurring XWI job pricing calculation
+builder - consistent preview block for job details as creation
+builder - recurring job data_range reflected in pricing
+builder - recurring jobs to define data scan range (in # of days)
+builder - enable v3.5 for scheduled and recurring jobs
+builder - enable v3.5 for recurring jobs
+builder/export - XWI report export for eligible jobs
+marketplace - refactor: extract help/hook/api functions to its own files
+marketplace/route - replace anchor tags with react-router Link
+marketplace/data - custom hook for products list
+marketplace/data - combine MainPage data (topItems) in its hook
+marketplace - remove unused labelColor import from ImageCard
+devops/lint - fix deferred missing React component propTypes errors
+marketplace - replaced chip components
+marketplace - removed container component for CSS behaviour
+marketplace/bundle-detail - refresh subscription status when CU changes
+marketplace/main - revised button navigation
+marketplace - changed import order
+marketplace - fix regex for safari support - remove look behind
+marketplace - make route available only for dev
+marketplace - incorp toasify to the button in mobile screen
+marketplace/bundle-detail - layout adjustment
+marketplace - remove duplicated buttons + useTheme
+marketplace - revised react-labs/MUI import syntaxes
+marketplace/product-list - replaced bundle/item toggle to Tabs component
+marketplace/main - close button added in modal view
+marketplace/product-list - responsive layout implemented
+marketplace/product-detail - unified padding size calculation
+marketplace/bundle-detail - Grid divider inserted
+marketplace/mysubs - changed accordion layout for responsive screen
+marketplace/mysubs - responsive screen + add alert for empty list
+marketplace/main - responsiveness added
+marketplace - responsive layout for appbar added
+marketplace/product-detail - support responsiveness
+marketplace/bundle-detail - add responsiveness to the page with modified layout
+map/style - add back style.css import
+marketplace/top-items - add redirect link to view all & bundle inside search. Extract common function to util
+marketplace/access - block marketplace subscription if no wl/cu selected
+ml-ui - upgrade to v0.2.0-alpha.1 includes reports subview changes
+nav - allow nav access for both home and finance before wl/cu select
+nav - allow nav access for finance before wl/cu select
+nav - block nav access before wl/cu select from home
+marketplace - refactor/re-org imports
+marketplace/bundleDetail - extract items list to its own componnet
+marketplace/bundleDetail - adjust POST action to account for bundle
+marketplace/subscription - adjust view to account for bundle
+marketplace/bundleDetail - add subscribe actions
+marketplace/bundleDetail - make image div sticky
+marketplace/bundleDetail - add component
+marketplace/bundleDetail - add single view route
+marketplace/productDetail - add mid section breadcrumb
+marketplace/topsection - add link to product details
+devops - various webpack related cleanups
+marketplace/data - drop unsplash use and get image from db
+marketplace/data - parse items name with regex
+marketplace/data - render topItems dynamically and aggregate image with unsplash
+marketplace/mysubs - fixed category image src
+marketplace/mysubs - code cleanup
+marketplace - styling fix with recent React-labs update
+marketplace - lint error hotfix
+marketplace - code cleanup
+marketplace - yarn.lock modified
+marketplace/mysubs - add breadcrumbs
+marketplace/components - apply BreadCrumb in product-detail.js
+marketplace/components - extract BreadCrumb as a component
+marketplace - fix CssBaseline import error
+marketplace/single-product - code cleanup
+marketplace/single-product - code cleanup
+marketplace/single-product - code clean up
+marketplace/mysubs - add routing to main page
+marketplace/mysubs - product DELETE request added
+marketplace/single-product - image card currency display change
+marketplace/single-product - add query based links to ImageSlider
+marketplace/single-product - refactor
+marketplace/single-product - dynamically render subscription status
+marketplace/single-product - added subscription POST request
+marketplace/single-product - dynamically display bundles section
+marketplace/single-product - breadcrumb drafted
+marketplace - apply react-labs 1.8.0
+marketplace - Activate Route  with an exact url
+marketplace - single product page created
+marketplace/mysubs - loads subscription list from firstorder
+marketplace/mysubs - modal created
+marketplace/subs - dynamic billing date display added
+marketplace/subscription - finetuned layout
+marketplace/mysubs - my list drafted
+marketplace - my subscription page WIP
+marketplace - apply react-labs 1.8.0
+marketplace - Activate Route  with an exact url
+marketplace - single product page created
+devops - skip deploy-previews for non-src code change
+marketplace/data - make bundle_ref available inside all items and refactor selectionControls.js
+devops - automate release notes updating process
+marketplace/routes - fix product-list when no params and breadcrumb to account for WL/CU
+marketplace/data - fetch data from index and pass as prop to component
+deps - downgrade snoke-builder-viz to 0.4 for correct sizing
+builder/details - show job viz for newly created, unprocessed jobs
+builder/viz - update to 0.5, with animated panel and less deps
+marketplace/filters - refactor
+marketplace/search - apply bundle filter
+marketplace/search - render bundles card properly
+marketplace/main - dynamically render bundles
+devops/lint - follow-up lint after rebasing with new marketplace
+builder/job creation - handle US data source end date special case
+builder/job creation - smarterer end date based on selected data sources
+builder/job creation - smarter end date based on audience data avail
+builder/job creation - adapt auto-caching/auto-refetching API calls
+devops/lint - groom/update eslint, remove invalid rules, fix lint errors
+marketplace/filters - bug fix: when no filters, no data displayed
+home/recent-activities - fix initial cu-panel render
+home/recent-activities - reload activities on wl change
+home/recent-activities - redirect to Builder on confirm for internal & client home
+finance - API requests caching and auto-refetching
+finance - open data pipeline financial report to all
+marketplace/search - remove search from defaultConfig
+marketplace/product-list - keep breadcrumbs
+marketplace/refactor
+builder/viz - highlight selected node's edges, with panel price formatting
+marketplace/filters - sync write and read with string params
+marketplace/search - separate bundle data in api and apply fuse separately
+marketplace/data - replace data fetch with react-query in custom hook
+marketplace/filters - add all filters to string param
+marketplace/filters - all filters default expanded
+marketplace/search - extract search ui to omni-search repo and import
+marketplace/search - add bundle support in search
+marketplace/search - add search with fuse
+marketplace/search - add search query param logic
+builder - update viz to include panel design
+home/recent-activities - fill in details for share-with-external logs
+home - redirect to builder for ClientHome on Confirm click
+home/recent-activities - load activities in client home for when wl does not equal to 0 - this fixes the no-activites-pulled-on-page-load issue
+home/recent-activities - reload data with Confirm onClick - removed redirectToBuilder onClick handler - upgrade to react-labs v1.8.0 and common-login v0,7,9-alpha.2
+Notebook - Layout enhanced with MUI
+theme - Home missing theme fix
+theme - structure update
+home/recent-activities - move selectAll logic into filter component - move button into filter component
+ml - replace ml view with @eqworks/ml-ui package
+builder/list - wrap table with Paper container
+builder/list - re-introduce refresh with react-query refetch
+builder/list - job requests caching and auto re-fetching
+clients - white-label and customer hooks with built-in cache
+builder/list - fix tooltip styling and DAGTasks usage
+login - logout from all products handler
+builder/creation - default v3.5 on for one-time jobs
+login - cross login with login button option
+marketplace/warnings - fix console errors and warnings
+POI - fix edit icon now showing in polygon POI creatation
+marketplace/routes - refactor to use default props and proper label in nav
+marketplace/appbar - add zIndex to work with login box
+builder/creation - adapt Flow4 visualization to match job details view
+LOCUS Notebook: Added cookie config
+ml - enable internal access
+LOCUS Notebook: restricted feature view to just internal use
+LOCUS Notebook: Added iframe back but with button redirecting to iframe - changed notebook URL to more user-friendly URL
+LOCUS Notebook: Added styled button that redirects to notebook link - replaced iframe with button
+LOCUS Notebook: Created Notebook Component & Route with Embedded Jupyter notebook - hardcoded user with jwt - using IFrame for test embed
+builder - job detail DAG flow with proper zoomed Flow4
+builder - job detail DAG flow with newly animated Flow2
+builder - job detail DAG flow visualization when applicable
+login/logout - set auth_loading to false when logout
+login/fix - useEffect hook missing dependency warning in authenticated container
+login/fix - useEffect hook missing dependency warning in app
+login/fix - import react-hot-loader before react
+login/storage - handlers to check common storage for credentials
+deps - remove unused deps and add missing deps
+routes - lazily load view components when needed
+home/recent activities - add no results jpg - remove text description if no customers has results
+home/recent activities - get state with useData hook - manage state with useReducer instead of useState - removed scrolling ui for list div
+home/recent activities - filter with multiple values - new filter ui with checkboxes instead of dropdown
+home/recent activities - override global text-align theme with mui CssBaseline
+home/recent activities - view-all option for all results on new page
+home/recent activities - fetch names for campaign and marketplace layers - sort cu list based on their activity timestamp
+home/recent activities - remove actionCategory function - move data fetching functions to helper file
+home/recent activities - include job request logs
+home/recent activities - sort and filter by category features
+home/recent activities - parsed log data for activity list view
+home/recent activities - beacons: include wlID in query body for create beacons
+home/recent activities - load customers using hook - add skeleton loader when cuLoading is true
+home/recent activities - insert component with example data - change width of autocomplete from 500 to 470 to match margin alignment
+route - hideNav active for new marketplace
+marketplace - segments image cards added
+poi - update @eqworks/poi-manage
+marketplace - codes revised
+marketplace - view all url query string updated
+marketplace - getAxios setup
+marketplace - main/product-list page style refinement
+marketplace - router setup
+finance - pipeline job list revise cost breakdown display
+finance - adapt react-labs table for data pipeline jobs list
+ marketplace - avatar display mapping
+beacons - manage view update domain to ads3.eqads.com
+beacons - fix content encoding in beacon HTML tags
+beacons - adapt beacons manage to use table for downloadable tags
+Marketplace - filtering system refactored
+marketplace - top section dynamically updates/filter panel expandable
+marketplace - slider control added
+Theme - base font scale reajusted to 14
+Home - old theme.js removed
+Theme - Typography fix
+home/marketplace - make mui theme global
+marketplace - style adjustment
+marketplace - errors from merging fixed
+marketplace - WindowScroller bug fixed
+marketplace -  WindowScroller bug fixed
+marketplace - exp with windowScroller
+marketplace - exp with virtualized list
+marketplace - react-window applied for loading time optimization
+marketplace - categories view with initial filering
+marketplace - product panel draft added
+builder - show airflow  stats in job details
+login - override global theme
+marketplace - selection control draft internal logic added
+login - import new-ui from react-labs
+login - new ui from react-labs update
+builder - use stepper to visualize sequence of
+builder - materialize airflow `dag_tasks` stats
+marketplace - draft filtering system  established
+builder - include enforced step order ID for front-back consistency
+devops - skip build initiated by github dependency bot
+devops - batch lint fix
+hub - add number of records, adapt to react-labs table
+Marketplace - selection filters set up
+marketplace - Open sans imported
+Marketplace - Router setup
+Home - typescale adjustment
+Home - copy/style revision
+Marketplace - replace local components with react-labs ones
+marketplace - main page layout refactored
+marketplace - main page layout imported
+marketplace - add the new marketplace main page component in the route             - parepare images' links
+Marketplace - view categories page
+Marketplace - lint error fixed
+marketplace -  baseRoute configured
+Marketplace - Router setup
+Home - typescale adjustment
+Marketplace - lint error fix
+Home - copy/style revision
+Marketplace - replace local components with react-labs ones
+deps - bump poi-manage version to 0.3.6
+marketplace - main page layout refactored
+marketplace - main page layout imported
+login - common login component integration - import from common-login repo - change authenticated-app from class to functional component to use hooks
+segments - adapt react-labs/table, add level column
+builder - adapt react-labs/table for request-list
+Map - GeoQuery - add geoquery type configuration
+Map - GeoQuery - add AOI parameters to allow aoi report download
+Map - GeoQuery - append data to report download
+Map - GeoQuery - toggleAll functionality
+Map - GeoQuery - report-table layer choice interface
+Map - GeoQuery - render searchable list of layer options
+Map - GeoQuery - download button in report-table to pull geoquery data to memory
+marketplace - add the new marketplace main page component in the route             - parepare images' links
+segment - update api address of fetching advertisers when share a segment to Atom
+home - removed unrelated file poi/action.js
+home - update react lab
+home - fix the autocomplete
+home - Remove unnecessary renaming      - Change typography to Open Sans      - update subtitle
+fix - button disable when no wl and cu
+fix - remove theme warning and check object is not empty
+home - add typography theme
+home - add confirm button
+fix - lint errors
+remove - console log and unused file in segment
+selector - change the default open states to false
+merge - update route to work with master branch
+home - link selectors with baseRoute
+home - add welcome message
+home - add wl and cu selector on the home page
+devops - use org secret for github registry
+devops - private registry scope
+devops - github workflow to use github registry for private packages
+devops - netlify to consume github registry for @eqworks/poi-manage
+App - unmount class dropdown to allow spacebar when selector is closed
+poi - update @eqworks/poi-manage to 0.3.1-alpha
+builder - fix data source parsing crash
+finance - update cost logic to show steps based sum if final_cost is not available
+builder - data date buffer time from 44 hours to 96 hours
+devops - netlify lambda tegola server for both stages
+auth - add locus product param for user verification
+cu url persistence - keep selected cu after page reload for whitelabel accounts
+devops - netlify dev stage tegola server URL
+builder - AOI export to respect report period
+builder - beacons in details v3.5 compatible
+devops - different FB_APP_ID for dev/prod stages
+Facebook - Segments: default param added for version code
+Segments - Facebook: Removed hardcoded inputs - use env for API version - remove unnecessary html tags which included hardcoded App ID
+poi - revise actions initiation from poi-manage 0.2.1 change
+devops - revise setup-node step to work with private npm
+poi - use poi-manage included actions and remove legacy code
+poi - working POI view with @eqworks/poi-manage
+poi - plug poi-manage back in
+segments - filter change for Marketplace subscribed segments
+builder - v3.5 enable checkbox to show info popup
+builder - further adoption of new job view design
+builder - better job_ver comparison logic
+builder - v3.5 jobs fetching compat revision
+builder - reword to Builder v3.5 for consistency
+builder - add checkbox to enable v4 (v3.5) builder (airflow based)
+devops - eslint config update and lint fixes
+devops - clean up webpack entrypoint, update eslint related dev packages
+deps - remove unused prod dependencies
+devops - webpack.dev.config to use polling for 10x less CPU usage
+devops - fix env var loading
+devops - further clean up webpack configs
+devops - cleaner environment variable references and netlify context
+devops - force update v1/prod branch on v* tag releases
+builder - view job: hide exports for jobs with no reports
+builder - view job shows lookalike stats when push_seg is done
+builder - list view status reflect lookalike push_seg status
+builder - list view to hide bell_increment jobs and show raw type for easier expansion
+builder - drop v2 :put_litter_in_its_place:
+customer-selector - fix e.state is not a function
+builder - job view: add missing step names in price breakdown
+builder - job view: remove legacy blue background on price breakdown
+Authentication: Fix for Finance not being able to see finance route - logic for returning restricted routes included finance - b/c min times for restrict was for 2 user roles, now flexible
+builder - relay API approval error message
+Map - remove db widget api call from map-actions
+App - add 'exact' to POI route
+Segments - Facebook: Fixed Infinite loading when FB error or delay - try/catch/finally blocks implemented where async await used
+Segments - Facebook: Fix for not retrieving user email - moved user email into state for easy retrieval
+Segments - Facebook: Changed logout button to Unlink FB from Locus - changing b/c more clear about removing FB data from Locus
+User Roles - App Reviewer: Fixed buttons in segment sharing page - removed marketplace button
+Segments - External Share to FB: Fixed user being saved - removed hardcoded email to user email
+User Roles - App Reviewer: Revised route access for app reviewer - allow builder and poi access instead of hub and map - segments access still there
+User Roles - App Reviewer - Segments page changes for app reviewer - removed rendering of checkbox for & segments from marketplace
+User Roles - App Reviewer - Created app reviewer user role - restricting app reviewer to just segments, hub and map - app reviewer status verified by prefix
+App - Flexible Routing: Added util for verifying Customer, not using raw access - created hasCustomerAccess that checks if read > 0 or is -1
+App - Flexible Routing: Refactored locus routes & checking user roles - locus routes now created filtering the route-config array - checking user roles more concise
+Segments - Facebook Permissions: Refactor + Formatting
+App - Flexible Routing: Fixed route config, includes all routes - missing segment share & wrong segment-combine route - removed duplicates of segment-gam-list
+App - Flexible Routing: Added util for verifying Customer, not using raw access - created hasCustomerAccess that checks if read > 0 or is -1
+App - Flexible Routing: Fix for how routes determined when 2 user roles present - handles when allowed routes contain values:  all and specific route - remove the value (all) vs filtering based on count
+App - Flexible Routing: Fixed logic for deciding sections to show - for determining restricted routes when multiple user roles - diff user roles have diff restricted routes - restrict routes that show up more than once
+App - Flexible Routing: Nav bar rendered based on user roles
+App - Flexible Routing: Changed Locus ML to ML and fixed route config for nav bar - locus-ml to ml - route config fixed to include hideNav property for routes hidden in nav
+App - Flexible Routing: Authenticated routes rendered based on user roles - check user roles, then filter route-config based on user roles
+App - Flexible Routing: Allowed access to routes if found in both allowed & restricted - changed variable names to be more clear i.e. rawAllowedRoutes - remove routes in restricted routes array if found in allowed routes
+App - Flexible Routing: Created route config to render routes & nav bar
+App - Flexible Routing: Fixed user roles and access
+App - Flexible Routing: Get Locus sections based on user roles - created reference for section access based on role - created util to render array of sections user has access to based on roles - gather all allowed routes and filter based on restricted routes - if allowed routes includes 'all', all routes are visible - if restricted routes include 'none', no routes are filtered out
+App - Flexible Routing: Created util for checking user roles - created locus user roles array for ref & util
+Marketplace - display:flex was causing carousels not to render
+Segments - Facebook Permissions: Detect if user accepts all permissions - once user accepts profile access, check if req permissions accepted - if not, throw login error message telling user
+Segments - Facebook Permissions: Detect if user declines public profile access - added condition to check for access token & userID - set login error message if declined
+Segments - External Share to FB: Changed filename for Error Message for consistency
+Segments - External Share to FB: Refactored disabling acc options if shared
+Segments - External Share to FB: Spacebar detection in older browsers for handling Spaces
+Segments - External Share to FB: Upgraded API version to v6.0
+Segments - External Share to FB: Explicit of whether loading should show - created variable called showLoading to render loader vs form or button
+Segments - External Share to FB: Refactored getting Facebook Data + Error handling - created new function for handling getting user facebook data - used async await vs .then method - used conditions to check businesses, ad acc, token & render error if none found
+Segments - External Share to FB: Modified Login Error Message Look + refactor - flatter state control of error messages i.e. login, business, ad account - created ErrorMessage Class in helpers/styling - modified formatting of error messages
+Segments - External Share to FB: Changed naming of valid token status - flattened state control for checking token and removed saved token
+Segments - External Share to FB: Loading begins right away - refactored code for loading to be true - removed code in ComponentDidMount of setting loading true
+Segments - External Share to FB: Fixed Bug where Login button inactive + formatting - inactive due to fb button not being semantic ui button inside form - removed Form component container and placed only around fields - inserted loader for showing loading instead of form prop - made fields equal lengths
+Segments - External Share to FB: Fixed bug where spaces not allowed in inputs - created keyup function to allow spaces in input
+Segments - External Share to FB: Included Business & Ad Acc name when submitting - for shared segments table to show names
+deps - fix inconsistent yarn.lock
+Segments - External Share to FB: Fixed Bug in Submit button staying disabled - onChange parameter on Input component not detecting inner destructuring - took keys outside connector_payload state var and made all state vars
+Segments - External Share to FB: Fixed lint errors
+Segments - External Share to FB: Refactor business & ad acc retrieval - utilize axios calls from componentdidmount and use in responseFacebook
+Segments - External Share to FB: Refactor state variables
+Segments - External Share to FB: Added comments for clarification
+Segments - External Share to FB: Disable ad acc options that are already shared to - make axios call to check segments shared to facebook - if segment shared to a specific ad acc, add disabled property
+Segments - External Share to FB: Removed initial errors shown if user logs out and back in - reset all error messages to empty strings if logging into FB again
+Segments - External Share to FB: Added Logout Button - added button to form component - created logout function which makes axios call and deletes user credentials
+Segments - External Share to FB: Error messages shown to User - login error message shown if expired token or if cannot save user token for first-time user - business error message shown if no businesses or API error in fetching it - ad acc error message shown if no ad accs or API error
+Segments - External Share to FB: Fetch user ad accs using existing user creds - if axios call for fetching user businesses is successful, axios call for ad accs - store user ad accs in state variable adAccounts
+Segments - External Share to FB: Fetch user businesses using existing creds - if user token is valid, fetch user businesses - store user businesses into state variable businesses
+Segments - External Share to FB: Verifying existing user credentials - axios call to fetch user credentials saved and check if user token valid - store value in variable validToken - if token valid, show form component, and if not, show login button
+Segments - External Share to FB: Saving user info for reuse + loading on - saving user token, name into db table ext_credentials - created form & login component for loading check
+Segments - External Share to FB: Fixed business & ad acc info being sent - changed business & ad acc name to id - fixed name to custom_audience_name as it was undefined
+Segments - External Share to FB: Ad Acc options filtered by business chosen - nameOnChange function for handling business option change - store filtered ad accounts based on business in new variable - change ad accs options displayed from adAccounts to filteredAdAccounts
+Segments - External Share to FB: Dummy Ad Acc option replaced by user FB Ad accs - similar to businesses, FB API call for user ad accs - ad accounts stored in state variable adAccounts - display user ad acc options in form
+Segments - External Share to FB: Dummy business option replaced with User FB Businesses - FB API call to get user facebook businesses based on userid - store user fb businesses in state variable businesses - display business options based on businesses state variable
+Segments - External Share to FB: Included Facebook Login Button - facebook sdk loaded when component mounts - current bug: button does not become active until facebook chosen twice
+Segments - External Share to FB: Working Submit button + validate fix - created connector params for facebook sharing - axios post call to external-sharing endpoint - added cpm to validate fn so submit button active when all fields filled
+Segments - External Share to FB: Submit button active if all fields filled - validate function modified to include all input variables
+Segments - External Share to FB: Added form fields relevant to FB sharing - Includes audience info like name & description & cpm - Includes facebook related info like business acc & ad acc
+Segments - External Share to FB: Added Submit button & sharing function - Includes onSubmitClick & validate functions - Includes submit button currently disabled
+Segments - External Share to FB: FB Button Added & Component created
+finance - pipeline list consistency with builder list view
+finance - incorporate control revision from builder redesign
+finance [BREAKING] - pipeline show job status
+builder - fix view job segment result links
+Shared Segments Table: Include appropriate FB Usage details - created condition for checking if destination_name exists - if it does not, show fb-related details like ad acc & audience name
+builder - remove Segment and change labels to plaintext link for job results - segments
+builder - change Labels to plain text for job result panel titles
+builder - more actionable buttons in job detail view
+devops - CI test node version to 12
+devops - define yarn version in netlify.toml
+builder - revise v3 price breakdown list
+builder - view job right division cards for price and results
+builder - view job status and run time reposition in overview section
+builder - revise view job details section
+devops - CI to use consistent node version
+deps - amend mismatching yarn.lock
+Map - fix XWI layer config save - XWI layer config included too much data, causing 413 error - remove unnecessary config to correct save
+builder - list column Creation to Date Created
+builder - list add Creation column (desc sort by default)
+builder - fix under-counting job date range
+README: replace word - replaced 'firstoder' with 'snoke'
+poi - pass CUID to API
+devops - incorporate portunus enabled print-env
+Map - fix incorrect filtering of report layer options
+Map - Kepler - fetch saved AOI layers - parse AOI layers from Kepler config on map load
+Map - fix XWI layer config save - XWI layer config included too much data, causing 413 error - remove unnecessary config to correct save
+segment - refactor share
+builder - add job_parameters.start/end_date and job_origin
+Unshare Segment from FB: Included default case for calling URL to delete audience
+Unshare Segment from FB: Delete button now flexible to external unsharing - modified url for external to include connector name key
+WidgetGrid - extract genWidgetContext function
+WidgetGrid - FIX - manage editContext in WidgetGrids to properly cycle b/t elements
+WidgetGrid - flatten file structure
+builder - fix typo Custome->Custom Job
+builder - revert create buttons back to top right
+builder - page title gets white label name
+builder - fix list view pre toggle reset
+builder - revise list view refresh and reset btns
+builder - list view buttons borderless
+builder - list view make create buttons not fluid
+builder - list view revision
+fixed lint errors according to new eslint version
+poi - only show poi list under customer level
+error-boundary - update test
+error-boundary - update error message
+WhiteLabelSelector - fix: open/close white label selector with single click
+WhiteLabelSelector - open/close white label selecter on double click
+WhiteLabelSelector - closes customer selector on mouse leave - open/close white label selector on click - search by white label IDs
+Map - TileLayer - fix AOI categorical override - isCategorical check not working for AOI - add to exclusion while it is reviewed
+layer - update test
+layer - enforce wl and cu selection
+error-boundary - add sentry to record errors
+error-boundary - add the error boundary page
+map - add warning message to guide wl and cu selecting
+Map - WidgetGrid - Fix Hook Refactor - supply EditModal with WidgetContext - properly pass through all required params
+map - force to choose wl and cu
+- segments insights shows only matched audiences data (#665)
+report_wi/add aoi data - directs clients to Builder to add AOI layer when there is no AOI info
+Marketplace - Fix Intermittent Crash - race condition with subscribedIndex and rawData would crash when sI won
+Map - Choropleth isCategorical Fix - incorrectly checking 'data' for dataType = demographic (we pull dynamically from /mvtData)
+builder/view - safeguard segment step not found
+POI - use datatable in attach poi list - fix the remove function - fix the typo
+doc - change name for devleoper hub to help centre
+Map - address propType console errors
+builder/v3 - details: fix conditions to show segment push to ATOM
+builder/v3 - fix condition to show lookalike stats
+WidgetGrid - add EditModal to simple-widget-grid, fixed style editing
+Customer Selector - toggle dropdown open/close for dev login - added state to open/close the dropdown component by clicking on the component itself
+WidgetElement - moved support for manual editing to WidgetGrid
+WidgetGrid - extract WidgetElement functionality to allow for supply of external components
+WidgetGrid - extract semantic controls to top level WidgetGrid
+WidgetElement - extract all functionality to hooks
+WidgetElement - pull out initialization into hooks.js
+WidgetElement - create /constants and update references
+segments - share to GAM
+builder - hide VWI for Bell's lookalike job (#649)
+[G2M] Builder v3 - CRITICAL fix for month multiplier logic (#650)
+[G2M] segments overhaul (#643)
+updated bell steps to use base
+feature - LocusML - toasts for handling invalid and non-numeric ranges
+Weather Table Fix: Inaccurate visit data for duration > 7 days - visit data shown in table being multiplied by 4 - e.g. for month duration: 7 visit datapoints vs 28 weather datapoints
+builder bell changed last step
+feature - LocusML - Case Statement UI
+feature- LocusML additional input field for expressions requiring 3rd argument (between, not between)
+feature- LocusML - complex expressions UI
+builder - add preprocess toggle control in additional filters
+builder - export lookalike stats (init for bell)
+builder - view details advanced short-circuit condition for bell jobs
+builder - list requests to hide bell preprocess jobs for non-devs
+finance - v3 data pipeline jobs run prices fix
+finance - job version pickable; creation/approval times backward compat
+finance - data pipeline include job ver, creation and approval times
+finance - show job version, safeguard against empty run cost
+finance - show v3 builder job run price (CPC/CPM for VWI)
+finance - show v3 builder job price breakdown
+POI - fix spelling mistake in poi
+builder - job name update for bell segment jobs
+builder - Update Bell segment param look_back_days
+builder/v3 - safeguard view job step lack of price info
+builder/v3 - add missing month modifier for xwi report step
+builder/v3 - revert to original v2 checkbox for view job
+builder/v3 - simplify segment step retrieval
+Builder - Fix - AOI Export Options - start/end dates were not generating all buttons - adjusted logic to account for last month
+builder/v3 - apply separate multiplier for XWI and max for common
+builder/v3 - properly display v3 job types
+builder - v3 viz fix from upstream
+devops - github actions add node_modules caching
+builder/v3 - add Data Source option (ca/us, ca by default)
+builder - view details show v3 prices
+Optimizing marketplace components to reduce long render times and adding pagination to limit number of result cards rendered
+builder - Improvement of Bell's custom job  page
+builder - Hide useless info in Bell lookalike segment job view
+builder - add different params in getrequests for bell segment job
+builder - set the 7 days limitation for the date range picker
+builder - change bell job's default start and end date
+builder - add date picker in custom segment form - prepare payload for custom segment request
+builder - custom segment form
+builder - create custom job modal for bell in builder
+Optimized fuzzy search to prevent lag
