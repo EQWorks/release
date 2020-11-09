@@ -1,0 +1,1690 @@
+__label__Fixed cloudstack-5636: fixed issue 'failed to upgrade network offering' in test_vpc_network test suite
+__label__Changed add editor config file
+__label__Added `movementx` and `movementy` fields to mouse events
+__label__Changed rewrite "ignoring deprecations" sub-section to clarify the ideal scenario.
+__label__Fixed fix use of c++ syntax in header file
+__label__Fixed cloudstack-7826: ui - dialog widget - dependent dropdown field (dependson property specified) - fix a bug that default opton in dependent dropdown field didn't trigger change event handler until another option in dependent dropdown field was selected.
+__label__Changed marketplace/subscription - adjust view to account for bundle
+__label__Changed access to most internal properties has been completely removed, including `this._pendingstate` and `this._rootnodeid`.
+__label__Changed hbase-8768 improve bulk load performance by moving key value construction from map phase to reduce phase (rajeshbabu)
+__label__Added cloudstack: added virtualmachine and asyncjob features
+__label__Fixed add error handling for onnext failure so exceptions- don't get thrown up the stack but instead via onerror--
+__label__Changed index: improved performance for most common use cases + reduced code
+__label__Changed upgrade metro to v0.38
+__label__Fixed new ui - domain page - fix a bug that is caused by api refactor.
+__label__Fixed "usage: fix regression build fail from fc3905fb  missing closing parenthesis"
+__label__Changed home/recent activities - insert component with example data - change width of autocomplete from 500 to 470 to match margin alignment
+__label__Added add support for bitbucket repositories
+__label__Changed minor performance improvement.
+__label__Fixed fix bug where a backspace event was emitted when entering characters after clearing a text in `textinput` by an empty string
+__label__Fixed `react-addons-update` to not depend on native `object.assign`.
+__label__Changed upgrade android support library to version 27.1.1 and set compilesdkversion to 27; buildtoolsversion comes along for the ride, too
+__label__Changed update uses of `genmockfunction` and `genmockfn` to `fn` in tests
+__label__Changed switch from using the browserified build to shipping individual modules. this allows react-tools to be used with [browserify](https://github.com/substack/node-browserify).
+__label__Fixed hadoop-7341. fix options parsing in commandformat.- contributed by daryn sharp.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1132505 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fixing npe--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@6187 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added reflection support--
+__label__Fixed cloudstack-7865: fixed pep8 errors and errors in wrong references
+__label__Changed worked on create link command to improve performance reducing memory used.
+__label__Added common - --print flag to redirect file output to stdout (print)
+__label__Added support for `onload` and `onerror` events on the `<link>` tag.
+__label__Removed remove callfunctionsync experimental apis
+__label__Added "use new jarjar ""keep"" feature instead of manual zapping
+__label__Changed sonar-926 improve performance of db migration 490_migrate_package_keys
+__label__Fixed issue with nested server rendering.
+__label__Changed sonar-8325 improve measuredao#selectbyquery performance
+__label__Added "add a page to generate and view a full thread dump
+__label__Changed standardized prop -> dom attribute process. this previously resulting in additional type checking and overhead as well as confusing cases for users. now we will always convert your value to a string before inserting it into the dom.
+__label__Added "i have implemented 2 features requested in ticket #841.
+__label__Changed some dom operation names have been updated for clarity in the output of `.printdom()`
+__label__Fixed "guard against null in -visitinnerclass--issue: spr-8358 spr-8186-"
+__label__Changed rewrite "what makes unicorns cry?" section.
+__label__Changed - refactored tasks design (still missing some functionality)
+__label__Added camel-5370: added direct-vm component to act as- synchronous direct calls between multiple camel contexts in the same jvm (eg- like direct + vm together). can be used to support transactions spanning- multiple camel contextes / bundles.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1350591 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed don't reconnect inspector if connection refused (#22625)
+__label__Changed performance improvements - in addition to speeding things up, we made some tweaks to stay out of slow path code in v8 and nitro.
+__label__Added support for more attributes:
+__label__Added hbase-7197. add multi get to remotehtable- (elliott clark)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1422143 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add support for old versions of composer (at least v1.0.0-alpha8)
+__label__Changed "reduce duplication by making ""schedule now"" the- special case--forwards to ""schedule later"" with delay of 0 now.-"
+__label__Changed performance improvement: property docx4j.openpackaging.parts.jaxbxmlpartxpathaware.binder.eager.* allows us to avoid unmarshalling via dom
+__label__Added added jcache near cache feature explanation.
+__label__Changed camel-541: removed a bad tangle in camel spi. not- this package has no tangles.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@748992 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed update flipper to 0.54
+__label__Changed warn when changes in `style` may cause an unexpected collision
+__label__Added external system: add clickable link to log- folder to the project import failure message--
+__label__Fixed fixed bug in domrepresentation causing the loss of- both public and system doctype. reported by lee saferite.--
+__label__Changed "* reverted earlier design change that allow to use regular expressions to directly match source locations. although handy  this introduces complications with function overloading that i would not want to write documentation about..."
+__label__Fixed  - the servletcontextadapter passed by the- serverservlet to the restlet's application was    not given to the- constructor but via the setcontext() method. reported by tammy croteau.--
+__label__Changed completely rewritten to collect data more accurately and to be easier to maintain.
+__label__Fixed fix for use of different serializer by the db- compare--
+__label__Added #394 one more spring boot example demo adavanced feature
+__label__Removed [wfly-6704] removing duplicated javax.api
+__label__Fixed index in tx: fixed issue 468 about deletion--
+__label__Changed `react.rendercomponent` --> `react.render`
+__label__Added **options:** add --silent flag and option for squelching output
+__label__Fixed restore previous behavior for stylesheet validation of null/undefined styles
+__label__Changed react dom now allows `data-` attributes with names that start with numbers.
+__label__Added configuration: derive repo from package.json and use default labels.
+__label__Changed improve performance for issue #382
+__label__Added no need now to get version from parent and best not to for feature branches
+__label__Changed packages structure refactoring
+__label__Fixed hbase-2057  cluster won't stop--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@894111 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed 🚧 lifecycle methods were renamed to be consistent with [react rfc6](https://github.com/reactjs/rfcs/blob/master/text/0006-static-lifecycle-methods.md) – note that there are yellowbox warnings right now because of this, it's work-in-progress
+__label__Changed jest config change as part of bringing back support for the `assetplugin` option in metro
+__label__Added add prop type `accessibilitytraits` to `text`
+__label__Added add feature.disablefieldsmartmatch
+__label__Changed improve readability of schema-h2.ddl
+__label__Fixed cloudstack-8844: network update from rvr offering to standalone offering fails - fixed
+__label__Fixed do not explicitly include `.js` in library imports
+__label__Fixed reworking rename call to reduce rpc calls and fixing a bug with the rename integration tests
+__label__Added support assume feature with junit 4.12.
+__label__Changed renamed some modules to better indicate usage
+__label__Changed marketplace/main - dynamically render bundles
+__label__Changed shallow renderer now exposes `getmountedinstance()`.
+__label__Changed refactor `mocknativemethods` in jest
+__label__Added answer "should you ever rewrite a change log?".
+__label__Added yarn-45. add protocol for schedulers to request- containers back from applicationmasters. contributed by carlo curino and- chris douglas.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1479773 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed acl item reorder: fix error message box
+__label__Changed add support for ruby 2.7.0
+__label__Changed allow to update only given gems
+__label__Added ensure that resolvedependencyjar works for netbeans compile-on-save (and possibly other ide‰ûªs similar features) even when plugin dependencies are snapshots (possibly in the reactor).
+__label__Changed perf: stop double-counting dom components
+__label__Added adds the spinner background hack to the featuretoggles demo activity
+__label__Fixed fix case where inline view is visible even though it should have been truncated
+__label__Changed add anotehr test--
+__label__Changed `react.isvalidcomponent` --> `react.isvalidelement`
+__label__Added "added some debugging features to the m3 android client. you can now press 'c' to capture a photo  'u' to decode only upc/1d barcodes  and 'q' to decode only qr codes."
+__label__Fixed "fixed although api calls are failing  event tab shows them as successful"
+__label__Changed ksenroll-2513 services merge as hand modified patch file (new project structure after remodularization)
+__label__Changed datajpa-1208 - improved readability.
+__label__Fixed fix crash when removing root nodes
+__label__Fixed "issue -2900  oflatdatabase was removed.--"
+__label__Added yarn-2502. changed distributedshell to support node- labels. contributed by wangda tan (cherry picked from commit- f6b963fdfc517429149165e4bb6fb947be6e3c99)--
+__label__Changed airportenactment design refactory
+__label__Changed upgrade mockito to 2.19.1
+__label__Changed large refactoring to clean up old code and starting to get a better structure in place.
+__label__Fixed fix virtualizedsectionlist by making sure to check array bounds
+__label__Changed flow type for `refreshcontrol`
+__label__Added allow to enable/disable dead letter feature. graylog2/graylog2-web-interface#653
+__label__Added **changelog:** :memo:test emoji on cz
+__label__Fixed [automation] - fix test failure for test_02_revert_vm_snapshots in smoke/test_vm_snapshots.py
+__label__Fixed [alluxio-2743] fix failing tests and add removemount to mounttable when deleting a mount
+__label__Added new intro screen
+__label__Added implementing support to incremental updates on- kcontainers--
+__label__Changed some cleaning up--
+__label__Changed node: minor layout improvement in discoveryservicesetting configuration to improve readability
+__label__Changed downgrade deprecation warnings to use `console.warn` instead of `console.error`.
+__label__Changed added more doco to the design notes detailing the refactors i've already started.
+__label__Changed core-2985 mssql snapshot performance improvements
+__label__Fixed  - fixed plugin descriptors for some extensions.--
+__label__Fixed "cloudstack-8075: ui > instances menu > add instance > select template/iso > ""shared"" tab > select a shared template  click next button => fix error ""unable to find matched template object""."
+__label__Fixed camel-3788 merged the patch into camel-http4--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1083724 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed only update dimensions in `reactrootview` if they've changed
+__label__Fixed fix issues with pollparams and link
+__label__Changed `jsxtransformer` error messages now include the filename and problematic line contents when a file fails to parse
+__label__Fixed zonetree - fix a bug that clicking network node didn't refresh middle menu.
+__label__Changed builder/v3 - revert to original v2 checkbox for view job
+__label__Changed improved mmap management when the buffer pool is full. now performance with millions of writes and random searches are really good. further work on this in the next days.
+__label__Changed the fallback mechanism in non-dom environments.
+__label__Changed `key` values containing `.` are now supported
+__label__Fixed yarn-1718. fix a couple isterminals in fair- scheduler queue placement rules (sandy ryza)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1569929 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fix a crash when setting `underlinecolorandroid` in textinput
+__label__Changed merge pull request #9699 from hasancelik/enhancemnet/maintenance/nativememoryconfigxml
+__label__Fixed a better fix for kernel upgrade disk space problems
+__label__Fixed fix rctnetinfo first time connection status
+__label__Changed resolve protocol http, https when not in lowercase
+__label__Added hbase-3070 add to hbaseadmin means of shutting- down a regionserver--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1003702 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added  - initial code for new default http connector and- sip connector.--
+__label__Changed upgrade react native to babel 7
+__label__Fixed fix crash for web socket in some race conditions (#22439)
+__label__Added add missing accessibility props on touchables
+__label__Changed ... and now we're at 0.54 🎉
+__label__Changed the blog has moved to [react-native-website](https://github.com/facebook/react-native-website/tree/master/website/blog)
+__label__Added check the network
+__label__Removed get rid of duplicate lines
+__label__Changed remove `timepickerandroid`
+__label__Changed improved map testing for boxed primitives
+__label__Removed jjtree-javacc get rid of duplicate interim classes
+__label__Changed "add ""same"" thread pool type (really  just for- testing)--"
+__label__Fixed bug in legacy mode suspense where effect clean-up functions are not fired. this only affects users who use suspense for data fetching in legacy mode, which is not technically supported.
+__label__Fixed distributed: fixed issue -2008 on deploying- database--
+__label__Changed - introduced the thunk structure for the intermediate representation.
+__label__Fixed lib - fix nlp model loading to be portable
+__label__Fixed handle null filenames in symbolicated stack trace gracefully in exceptionsmanager
+__label__Added [drools-389] improve support for @traitable pojos- and @trait interfaces--
+__label__Changed dbsqlsession: refactoring to improve readability.
+__label__Changed several performance improvements
+__label__Changed improved test performances for sq #2 (use sonar.jdbc.schema property to explicit schema for dbunit)
+__label__Added introduce `children` function to shorthands
+__label__Changed - refactored overall project structure to separate platform from
+__label__Added camel-870: added transferexchange option to- camel-jms.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@756685 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed making too many requests in a row to [rubygems](rubygems.org)
+__label__Changed components now always remount when the `key` property changes
+__label__Fixed **deps:** update dependency execa to ^0.11.0
+__label__Changed improve virtualizedlist error message
+__label__Added "decompiler: introduce deserializerfordecompiler--component which can ""resolve"" descriptors without project-it builds dummy descriptors for dependencies which are enough to build decompiled text-"
+__label__Fixed issue -1604. remote bag. fix save notification.--
+__label__Fixed "new ui - volume page - fix a bug ""object is not found"" when creating volume fails."
+__label__Fixed yarn-1555. fixed test failures in- applicationhistoryservice.* (vinod kumar vavilapalli via mayank) svn merge- --ignore-ancestry -c 1556753 ../yarn-321--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1562207 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed `list` updates correctly now
+__label__Fixed fix performance regression from new custom fonts implementation
+__label__Fixed "sorting on _score in the uri format is reversed - closes -1191.--"
+__label__Changed react: bump canary version
+__label__Changed react dom now correctly handles `borderimageoutset`, `borderimagewidth`, `borderimageslice`, `floodopacity`, `strokedasharray`, and `strokemiterlimit` as unitless css properties.
+__label__Fixed revert previous incomplete fix for an issue with `modal`’s `ondismiss` prop.
+__label__Added option to open module's homepage or changelog during update process.
+__label__Changed empty text node used in ie8 `innerhtml` workaround is now removed, fixing rerendering in certain cases
+__label__Fixed calling `copy` on a `requestscookiejar` will now preserve the cookie policy correctly.
+__label__Added "first cut of guice servlet 2.0. contains regex dispatching  improved binding dsl  and almost the full gamut of features short of per-servlet filtering.
+__label__Fixed **deps:** update dependency conventional-changelog to v3.1.15
+__label__Fixed don't crash when using decimal `animated.modulo` values with `usenativedriver: true`
+__label__Fixed fix bug where if `error` global is not callable when building an error, jsi will throw a js exception back to js code. #158
+__label__Fixed camel-6013 fixed the issue that  validator- component fails on xsd with indirect relative import--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1438352 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed instance page - vm group left menu (login as regular-user) - fix a bug that refresh button on right panel didn't work.
+__label__Changed "revert ""changed structure of the project to improve testing"""
+__label__Fixed fix accessibility role crash
+__label__Changed keyboard api event flow types have been improved
+__label__Added "added ""boolean isregisteredwithdestination()""- method (spr-7065)--"
+__label__Fixed new ui - fix a bug that disable ha option didn't show.
+__label__Changed refactor test to use countdownlatch instead of- thread.sleep--
+__label__Added support priority levels, continuations, and wrapped callbacks.
+__label__Added secoauth-139: refactor tokenendpoint and related xml features
+__label__Changed `getdefaultprops()` is now called once per class and shared across all instances
+__label__Changed formatting of injected code refactored - 3--
+__label__Added had to change the text we look for in the webdriver search features
+__label__Changed selector - change the default open states to false
+__label__Changed hbase-5259 normalize the regionlocation in- tableinputformat by the reverse dns lookup (liyin tang)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1238774 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed config refactoring.--
+__label__Fixed perhaps the close() is the key to fix the problem reported in
+__label__Removed "another massive try at removing javadoc  pmd  and checkstyle warnings. started to remove some code in math/ that appears to be dead as it has been duplicated and improved separately."
+__label__Fixed fixed issue -1521 about json management of- embedded lists with different types--
+__label__Added manage issues with multiple labels
+__label__Changed update tslint and fix issues.
+__label__Changed removed nasty warnings in compilation--
+__label__Fixed remove `rctdevloadingview` jank
+__label__Changed removed node 4/5 from testing matrix
+__label__Fixed a false positive warning when using `react-lifecycles-compat` in `<strictmode>`.
+__label__Added allow configuring custom threadpooltaskexecutor--issue: spr-12272-
+__label__Changed **`data-reactid` is no longer on every node.** as a result of using `document.createelement`, we can prime the node cache as we create dom nodes, allowing us to skip a potential lookup (which used the `data-reactid` attribute). root nodes will have a `data-reactroot` attribute and server generated markup will still contain `data-reactid`.
+__label__Changed improve readability of closing protocol and websocket message
+__label__Removed hbase-7911 remove duplicated code from createtablehandler
+__label__Changed "refactor package structure a bit  some validation changes  remove some unused classes. this is just the first step in refactoring the ce ui."
+__label__Fixed deps - remove unused deps and add missing deps
+__label__Fixed fix crash when passing null value in object parameter of bridged method
+__label__Fixed keep the `.gitignore`d files during the `react-native-git-upgrade` process
+__label__Changed "openam-4644 openam-4614 cr-4762 complete refactoring of the logger  in order to correct a log rotation issue. the design is different also add some test units."
+__label__Fixed fix handling of failed image downloads
+__label__Fixed on ios, don't error on the first live-reload of large codebases because of too little wait time
+__label__Changed improved beantoarray serialize performance
+__label__Removed removed duplicate code in citrixresourcebase.getpatchfiles
+__label__Changed mapreduce-2899. replace major parts of- applicationsubmissioncontext with a containerlaunchcontext (arun murthy via- mahadev) - merging r1170459 from trunk--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1170460 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed hbase-7088 duplicate code in rowcounter
+__label__Fixed properly normalize adapter prefixes for url comparison.
+__label__Fixed "cid-1249800 fix a coverity bug  but disable the code its used in as it"
+__label__Changed spread operator (`{...}`) introduced to deprecate `this.transferpropsto`
+__label__Changed marketplace/data - render topitems dynamically and aggregate image with unsplash
+__label__Changed better support for server-side rendering - [react-page](https://github.com/facebook/react-page) has helped improve the stability for server-side rendering.
+__label__Changed full-page rendering (that is, rendering the `<html>` tag using react) is now supported only when starting with server-rendered markup
+__label__Changed "- usability improvement on the preferences pages (code-formatter  comment block and code-style showing examples)"
+__label__Added lib/parsecommits - t1-categories to be normalized
+__label__Changed add visual tests
+__label__Fixed fix dynamicfrommap object pool synchronization
+__label__Fixed tvos build now works again
+__label__Changed public methods of components converted to es6 classes are no longer bound to their component instance. for `scrollview`, the affected methods are `setnativeprops`, `getscrollresponder`, `getscrollablenode`, `getinnerviewnode`, `scrollto`, `scrolltoend`, `scrollwithoutanimationto`, and `flashscrollindicators`. for `camerarollview`, the affected methods are: `rendererchanged`. for `swipeablerow`, the affected methods are: `close`. therefore, it is no longer safe to pass these method by reference as callbacks to functions. auto-binding methods to component instances was a behaviour of `createreactclass` that we decided to not preserve when switching over to es6 classes. (you can refer to [this example](https://github.com/react-native-community/react-native-releases/issues/81#issuecomment-459252692))
+__label__Changed app - flexible routing: added util for verifying customer, not using raw access - created hascustomeraccess that checks if read > 0 or is -1
+__label__Fixed fix `backgroundcolor` on touchablehighlight
+__label__Changed core-2321 improve robustness and readability
+__label__Fixed android scrollview fix for snaptointerval not snapping to end
+__label__Added jbrules-2439--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@31842 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Changed home/recent-activities - reload data with confirm onclick - removed redirecttobuilder onclick handler - upgrade to react-labs v1.8.0 and common-login v0,7,9-alpha.2
+__label__Fixed fixed podspec include/excludes around tvos
+__label__Fixed **deps:** update dependency stringify-package to v1.0.1
+__label__Fixed cloudstack-2865: fix error in preparestop
+__label__Added support for comment nodes `<div>{/* this is a comment and won't be rendered */}</div>`
+__label__Fixed cve-2015-2296: fix handling of cookies on redirect. previously a cookie without a host value set would use the hostname for the redirected url exposing requests users to session fixation attacks and potentially cookie stealing. this was disclosed privately by matthew daley of [bugfuzz](https://bugfuzz.com). this affects all versions of requests from v2.1.0 to v2.5.3 (inclusive on both ends).
+__label__Changed - usability improvement on the preferences pages (editor).
+__label__Changed "#98 added accepting infrastructure for zip jobs  including validation of zip structure and extraction of properties"
+__label__Fixed `submit` and `reset` buttons getting an empty label
+__label__Fixed remove unnecessary flag when running js server
+__label__Added update create build introduce functionality behavior
+__label__Removed log - remove console log - make return message consist - small fix based on comments
+__label__Fixed typos in swedish translation.
+__label__Added body lines that start with `- ` and `* ` are standardized as `- `
+__label__Fixed picked up stapler 1.66 for a bug fix to issue #1443.
+__label__Changed re-renders are batched in more cases
+__label__Fixed `onbeforeinput` reporting an incorrect `event.type`.
+__label__Added support for additional dom properties (`charset`, `content`, `form`, `httpequiv`, `rowspan`, `autocapitalize`).
+__label__Fixed a crash when using dynamic `children` in the `<option>` tag
+__label__Fixed resizemode applies to image.defaultsource (#22216)
+__label__Security "better support for basic security in templates  other integration testing improvements"
+__label__Added feature for saving complexobs data while saving encounter
+__label__Fixed update `node-notifier` dependency to fix memory leak
+__label__Removed hbase-7625 remove duplicated logfstree() from testrestoreflushsnapshotfromclient (matteo bertozzi)
+__label__Changed update `switch` to es6 class
+__label__Fixed #alluxio-2850 fix checkstyle error.
+__label__Added support `removeclippedsubviews` for horizontal scrollviews
+__label__Added :sparkles:update gitmoji list; use yarn; sort gitmoji by usage count
+__label__Changed `react.proptypes.renderable` --> `react.proptypes.node`
+__label__Fixed heuristic for determining when to hydrate, so we don't incorrectly hydrate during an update.
+__label__Changed issue #1404  wal performance improvements.
+__label__Changed servletrequestattributes skips well-known- immutable values when updating accessed session attributes--issue: spr-11738-
+__label__Changed improve serialize performance
+__label__Changed improved performance on fetch plan processing issue #4442
+__label__Security [fixed security-109] security-55 fix to buildtrigger configuration failed if downstream project was not visible.
+__label__Changed new structure - separate modules for each converter
+__label__Added hbase-1200 add bloomfilters--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@946464 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed **error output:** :bug: improve uncaught error output
+__label__Added map entry processor (executeonkey feature)
+__label__Added auto commit (@oelmekki)
+__label__Changed preserve indentation in `package.json` (#21, @cascornelissen)
+__label__Fixed avoid getting stuck in a loop
+__label__Fixed error handling improvement and bug fix
+__label__Changed add `$flowfixme` to invalid prop accesses where flow wasn't complaining before
+__label__Fixed added single quotes -- fixes bug where generated client throws an 'uncaught reference error'.
+__label__Added include various types of commit messages
+__label__Added `onload` handling to `<link>` element.
+__label__Fixed account page - fix a bug that newly created account in middle menu showed wrong data.
+__label__Fixed fix an error when `shownoresults=false` and arrow down is pressed
+__label__Changed modified logging to use debug logging and only if enabled in order to improve theme configuration admin performance (#929)
+__label__Fixed fixed rotatez native animation
+__label__Added yarn-3361. capacityscheduler side changes to- support non-exclusive node labels. contributed by wangda tan (cherry picked- from commit 0fefda645bca935b87b6bb8ca63e6f18340d59f5)--
+__label__Fixed fix pinch crash in touch-responsive views
+__label__Changed immutability helpers: ensure it supports `hasownproperty` as an object key
+__label__Changed [gscollect-1169] enhance performance test logging.
+__label__Fixed disable onkeypress logic when handler not defined
+__label__Changed improved performance for android
+__label__Fixed [alluxio-1322] fixed build failures
+__label__Changed "fixed issue 1145. super huge improvement in performance  even 90x! thanks fabrizio for the report an analysis!"
+__label__Fixed cloudstack-9002: vm deployment is successful even when dhcp entry command fails - fixed
+__label__Fixed [alluxio-2197] fixed checkstyle errors
+__label__Fixed cloudstack-8047: ui > zone wizard > add primary storage step: (zone-wide-primary-storage) fix a bug that failed to get cluster's hypervisor value if previous step (e.g. add host step) has ever failed.
+__label__Added resolve and reject promise for `pushnotificationios.requestpermissions`
+__label__Removed remove `proptypes` from touchablehighlight.
+__label__Changed flow type for `keyboardavoidingview`
+__label__Changed "improve writing performance: use nio  pre-create tmp directories etc"
+__label__Fixed volume upload: fixed the error message incase of wrong image format
+__label__Added refined new marking feature so old-style markings are unmarked as gracefully as possible.
+__label__Changed mahout-1045: committing patch with changes to unit tests. cdbw numbers still need user testing but clusterevaluater results are improved. all tests run
+__label__Fixed option parsing for `--non-strict-es6module`
+__label__Fixed **git:** :bug:fetch before check need push
+__label__Fixed do not mark error type  if the expression is- resolved to namespace  (expression_expected_namespace_found error)--
+__label__Fixed "fix a bug in new checksum mechanism that caused- for replicas not to retain the _checksums file. also  now that checksums are- widely used  consider files without checksums as ones that need to be- recovered--"
+__label__Fixed update volumes.path to fix stop/start vm error after
+__label__Fixed "fixing broken build... forgot to add- jvmclusterutil  etc.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@939848 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Changed "merge ""jersey-2606: ""monitoring statistics performance improvements"""""
+__label__Changed hdfs-8133. improve readability of deleted block check (daryn sharp via colin p. mccabe)
+__label__Fixed hadoop-2295 fix assigning a region to multiple- servers--git-svn-id: https://svn.apache.org/repos/asf/lucene/hadoop/trunk/src/contrib/hbase@599578 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed made the public window methods more generic via the- basic (lol) super/extends fluff; also simplified api by removing a few- useless super definitions (there's no super of opening and closing)--
+__label__Changed hbase-12740 improve performance of testhbasefsck
+__label__Changed "hbase-6529 with hfile v2  the region server will- always perform an extra copy of source files--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1372313 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Fixed "fail npe in the payload was causing the ssvm agent to not invalid  fix it and also make sure that template/volume sync are robust that exceptions do not cause ssvm agent disconnect issues."
+__label__Added add `yoganodeproperties` implementation based on `bytebuffer`
+__label__Fixed cloudstack-9299: fix test failures on ci
+__label__Added **history:** :sparkles:support history
+__label__Fixed fix crash when releasing rn views and removing root nodes
+__label__Fixed "new ui - template page  iso page - fix a bug that middle menu item doesn't get updated after right panel is updated."
+__label__Changed "add more action for socketservver  refactor messages to have concrete structure for the actions"
+__label__Fixed fix object-deep-assign bug
+__label__Fixed re-order json param for backwards compat.
+__label__Changed add yarn.lock.
+__label__Changed add deprecation notice to swipeablelistview
+__label__Changed replace `context.isinaparenttext` w/ `react.createcontext`
+__label__Added added interactionvalueencoder for encoding interaction of two categorical features into feature vectors
+__label__Changed enhance genericresultpoint and move some logic out of qrcode packages for reuse with datamatrix soon
+__label__Changed fallback should not remount every time a promise resolves.
+__label__Added adds `rctoverrideappearancepreference` to the ios `appearance` module
+__label__Added include component stack information in proptype validation warnings.
+__label__Changed use browser `focusin` and `focusout` for `onfocus` and `onblur`.
+__label__Changed cleaned up the redundant pom data and a bit of structure cleanup
+__label__Fixed the changelog action doesn't compile latest release
+__label__Changed minor performance improvement.
+__label__Added changeutil-encode/decodeinformation for groovy--
+__label__Added :sparkles: support run `gacp` in a git subdirectory
+__label__Changed improved odocumenthookabstract implementing filtering by name. this makes thing easier for developers
+__label__Changed switch mainactivity launchmode to singletask
+__label__Fixed gradle release config
+__label__Changed bump metro 0.47.0
+__label__Fixed a crash rendering into shadow root.
+__label__Changed warnings for deprecated methods in plain js classes
+__label__Deprecated `unstable_createportal`
+__label__Added removed c++ client from planned features
+__label__Fixed createparent option and bug fixes for parent directory creation
+__label__Fixed fixed issue 684 about strict mode--
+__label__Fixed fix performance monitor in dark appearance
+__label__Added "revert ""feature/master/portable enhancement"""
+__label__Added `<omnisearch />` search bar combined with `usealgolia()`
+__label__Fixed move accessibility props to uiview+react
+__label__Changed "statsproviders update - added resourcestatsprovider  changed whole structure (based on jennifers comments); needs to be tested and merged into 1.1.4-ea afterwards"
+__label__Changed readsection - extract arbitrary structure member data
+__label__Added an unstable api for testing asynchronous rendering.
+__label__Changed "spr-9056 make delegatingwebmvcconfiguration- config callbacks not final--it should be possible to progress from extending-webmvcconfigureradapter (w/ @enablewebmvc) to extending-webmvcconfigurationsupport directly  to extending-delegatingwebmvcconfigurationsupport. this change-makes that possible.-"
+__label__Added "how do i make a changelog?" section.
+__label__Added clientusercodedeployment feature development
+__label__Changed improve componenttesting and snapshottesting
+__label__Added added send barcode feature
+__label__Fixed reading context provided from the tree managed by react dom.
+__label__Changed removed debug traces.--
+__label__Security [security-225] fix failing tests
+__label__Removed don't freeze the `reactdomserver` public api.
+__label__Changed preparation for storing unfinished work when creating the new dig. obj. (tree structure of objects); refactoring (isserializable -> serializable)
+__label__Added generalized the 'protected' create feature so that it works for all modes.
+__label__Fixed improving modal `visible` prop check to handle undefined and null (#22072)
+__label__Fixed bug 10341: propagate fix for concurrentoperationexception from 2.2.8
+__label__Changed typos--
+__label__Fixed `should_bypass_proxies` now handles uris without hostnames (e.g. files).
+__label__Fixed host page - fix a bug that refresh button was not working in firefox (but was working in ie).
+__label__Added new `transformwithdetails` api which gives access to the raw sourcemap data
+__label__Fixed fixed issue 800 closing the socket on timeout--
+__label__Fixed new ui - corresponding ui change after bug 6955 is fixed.
+__label__Added make webserviceref feature complete
+__label__Changed index update operation performance was improved.
+__label__Added yarn-3853. add docker container runtime support to- linuxcontainterexecutor. contributed by sidharta seethana.--(cherry picked from commit 3e6fce91a471b4a5099de109582e7c6417e8a822)--conflicts:-    hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/java/org/apache/hadoop/yarn/server/nodemanager/linuxcontainerexecutor.java-
+__label__Deprecated `react.createfactory()`
+__label__Changed improve hive snippet testing.
+__label__Added support for the `key` prop, which allows for finer control over reconciliation. [read the docs for details...](https://reactjs.org/docs/multiple-components.html)
+__label__Added this changelog file to hopefully serve as an evolving example of a standardized open source project changelog.
+__label__Added create a silent mode
+__label__Changed weld-864 minor performance improvement
+__label__Changed upgrade react to v16.3.0-alpha.1
+__label__Fixed map textinput textcontenttype strings to objective-c constants (#22611)
+__label__Fixed "cluster page - fix a bug that showed wrong field (""vcenter datacenter""  ""vcenter datastore"") in add primary storage dialog."
+__label__Fixed resolve redirects now receives and forwards all of the original arguments to the adapter. (#2503)
+__label__Added poi - add logs for poi/poi-list attachment
+__label__Changed purerendermixin: a mixin which helps optimize "pure" components
+__label__Changed 1. refactored some part of the code to give it a better structure & give it more modularity.
+__label__Changed sonar-4518 improve performance of rule removal during server startup
+__label__Fixed [smallfix] fixed build error
+__label__Changed improve performance by preventing dead connection from being processed
+__label__Changed on integration tests, report _all_ errors
+__label__Fixed bz-1006481 - ui support for 'extends' rule keyword- broken--
+__label__Added "add ""noodles - to do list"" in featured implementations [deploy snapshot]"
+__label__Added remove dead letters feature
+__label__Changed removed the system out from the genericfile--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@752424 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fixed issue on empty links--
+__label__Fixed a regression in unstable exports used by react native web.
+__label__Fixed fix osx cannot due to wrongly declaim encapsulation_mode_udp_transport_rfc
+__label__Changed drop support for node.js <= 8.10
+__label__Fixed abort process when github response is not ok
+__label__Fixed fixed zipclienthelper test case.--
+__label__Changed hadoop-7353. cleanup fsshell and prevent masking of- rte stack traces. contributed by daryn sharp.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1132764 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed updated to scripturian 1.0rc3--
+__label__Fixed a recent `<iframe>` regression
+__label__Fixed cloudstack-8420: [hyper-v] fixed number format exception when untagged vlan is used for hyper-v setup change the vlan data type to string from int and handled the untagged vlan cases
+__label__Changed hdfs-8674. improve performance of postponed block scans. contributed by daryn sharp.
+__label__Fixed new ui - fix a bug that action info (succeed or fail) didn't show on top of right panel after action was finished.
+__label__Changed clean up experiment design page and css; add minor improvements to experiments table page
+__label__Changed don't offer to download source by maven for- artifact with 'system' scope--
+__label__Removed remove kotlin version from the default template
+__label__Changed use class canonical name for `partial_wake_lock` tag
+__label__Changed remove unused `packagerinstance` option and rename it to `server`
+__label__Fixed [fixed hudson-4272] don't add duplicate rootactions when reloading config from disk
+__label__Added `react-dom-server.js` to expose `rendertostring` and `rendertostaticmarkup` for usage in the browser
+__label__Fixed a crash in development mode in ie9 when printing a warning.
+__label__Fixed bug with `<option>` tags when using `dangerouslysetinnerhtml`
+__label__Fixed highlighting of `react.memo` updates in react devtools.
+__label__Changed improved the startup performance.
+__label__Changed  - moved sip test cases to test module--
+__label__Fixed cloudstack: 4635 - fixed test case issues due to wrong indentation
+__label__Changed [ispn-89] - improve configuration processing and maintenance
+__label__Fixed you can now `justifycontent` while you're `minwidth`ing and `marginleft`ing; before the justification wasn't honored
+__label__Fixed idea-81004 deadlock (softwrapappliancemanager)--breaking potentially endless loop and report an error-
+__label__Fixed cloudstack 3.0 new ui - instance wizard - fix a bug that isolated network didn't show in step 5.
+__label__Changed hbase-5001 improve the performance of block cache keys (lars h and j-d)
+__label__Added "jbrules-3200 support for dynamic typing (aka- ""traits"")--"
+__label__Added "updated the html ""what's new"" page with 3.0 features."
+__label__Changed #691 - performance enhancements
+__label__Changed clear additional fiber fields during unmount to save memory.
+__label__Fixed "fix outofboundexception on- memoryfilesystem.existsfile("""")--"
+__label__Removed "intorducing pluggable element wrappers. this should lead to a performance improvement for libraries that use blueprints - instead of wrapping elements as rawelement->neo4j2element->libraryspecificelement  we can do rawelement->libraryspecificelement directly  and improve memory usage. as part of this commit  some additional cast operations were removed (to  hopefully shave a few more milliseconds). note: the code passes the test suite  but still needs some minor cleanup."
+__label__Fixed unlock in finally block--
+__label__Changed packge structure refactor
+__label__Removed no need to set up the consumer twice. remove the duplicate code
+__label__Fixed new ui - restore vm - fix a bug that vm info doesn't get refreshed after action succeed.
+__label__Fixed fix view, text, and activityindicator's `displayname`
+__label__Added disabled unfinished link-upgrade-feature to avoid annoyance for cvs users.
+__label__Changed "bug 5147: improvements after testing the storage maintenance across multiple sp's  with sys vms scattered across multiple sps"
+__label__Changed "improved performance on vertex/edge type check  issue #4105"
+__label__Added issue -1404 write cache speed improvements.--
+__label__Added `$github_repo` falls back to local repo toplevel name
+__label__Changed hbase-6295  possible performance improvement in client batch operations: presplit and send in background - round 2
+__label__Fixed "it's not obvious to me if the race condition could ever occur  but rama and i experienced a very suspicious failure once  and we are hoping that this would fix it."
+__label__Fixed cloudstack-7143: fix a bug where a script file rename wasn't propagated to build.sh
+__label__Fixed packager-worker-for-buck: `transformcommand`: add missing test
+__label__Changed [drools-1560] simplify and improve performances of chainedproperties discovery (#1276)
+__label__Added support for `controllist` attribute to allowed dom properties
+__label__Added "added mark/unmark feature  osx adapter for mac compatibility. added seb wills' patch for pdf autodetection."
+__label__Changed avoid "member not found" exception in ie10 when calling `stoppropagation()` in synthetic events.
+__label__Changed improve weld se startup performance: use available jandex.idx files. thanks to stefan groãÿmann
+__label__Fixed compatibility with enzyme by exposing `batchedupdates` on shallow renderer.
+__label__Fixed `<virtualizedlist>` fix for jumpy content when `initialscrollindex` specified
+__label__Changed partial in-memory data structure refactoring.
+__label__Changed "removed groupid from pom.xml  refactored package structure accordingly"
+__label__Changed "with help of arnold lankamp  improved design of sets and relations once more  such that the implementation of sets do not have to know about the implementation of relations anymore. the equivalence between sets of tuples and relations is now implemented in all implementation of the ivaluefactory."
+__label__Fixed change signature: do not fail on unresolved- psimethod  -kt-9535 fixed--
+__label__Changed remove <module>. structure of the project should be refactored to have the possibility to generate a war or a bundle using a profile
+__label__Fixed "fix parsing of file based template loading--we support three different settings in templates--* ""settings"" : { ""index"" : { ""number_of_shards"" : 12 } }-* ""settings"" : { ""index.number_of_shards"" : 12 }-* ""settings"" : { ""number_of_shards"" : 12 }--the latter one was not supported by the fix in -4235--this commit fixes this issue and uses randomized testing to test any of the three cases above when running integration tests.--closes -4411-"
+__label__Fixed "bug 12381: fix a bug that opening another window to view console causes a javascript error ""invalid argument"""
+__label__Fixed fixing tests on windows
+__label__Fixed fixes required for regressions found running automated tests.  (1) method signatures that weren't properly refactored to new api framework (2) api request parameter types should always be specified lest they default to string which may or may not be desired (3) better exception handling with regard to queued commands and generic exceptions (4) fix eventing to pass the proper accountid where neccessary
+__label__Removed some methods that are available on `createclass`-based components are removed or deprecated from es6 classes (`getdomnode`, `replacestate`, `ismounted`, `setprops`, `replaceprops`).
+__label__Fixed jbrules-2375: fixing deadlock on queued actions--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@33500 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added a missing `package.json` dependency.
+__label__Changed method cache for classdescriptorserializer--
+__label__Fixed make `react-native run-ios` command play nicely with multiple xcode versions
+__label__Fixed "upgrade to use vsphere 5.1 sdk jar  fixed all compilation error with new"
+__label__Added swap grunt with gulp
+__label__Changed code cleanup to improve readability
+__label__Fixed hbase-11248-keyonlykeyvalue-tostring() passes- wrong offset to keytostring() (ram)--
+__label__Fixed jbrules-1820 exception: input stream is not- explicitly closed.--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@36154 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added backporting: aware of module feature causes openmrs to crash - trunk-2849 to the 1.9.x branch
+__label__Changed add rubocop performance
+__label__Fixed handle file-like object filenames that are not strings (#2379)
+__label__Changed fix typo in hunspell logging--
+__label__Changed sql: minor improved on performance on reading a number that already is a number
+__label__Changed improved parser performance.
+__label__Fixed new ui - vm reset password - fix a bug that spinning wheel don't disappear after action succeeds when it's multiple selection in middle menu.
+__label__Changed incorporate review suggestions.--- changes finally0 to finallydo.-- removes unnecessary subscription-wrapping.-- handle exceptions in oncompleted/onerror-
+__label__Fixed cookies are now properly managed when 401 authentication responses are received.
+__label__Added [wfly-4692] : configure the distributions in the dist modules instead of the feature packs.
+__label__Added "index-draft feature
+__label__Fixed fix overscroll behavior on virtualized lists; behavior is now consistent
+__label__Added secoauth-328: move pre approval features to userapprovalhandler
+__label__Changed builder - match recurring jobs cadence values as backend's
+__label__Changed dead avoid marking ips already in allocated as allocated again. use row lock to ensure that prev state is either allocating or free. this will inturn avoid logging duplicate events
+__label__Fixed fixed several issues with idna-encoding urls that are technically invalid but which are widely accepted. requests will now attempt to idna-encode a url if it can but, if it fails, and the host contains only ascii characters, it will be passed through optimistically. this will allow users to opt-in to using idna2003 themselves if they want to, and will also allow technically invalid but still common hostnames.
+__label__Removed hive-502. optimize rcfile's performance by removeing all synchronized modifiers. (yongqiang he via zshao)
+__label__Changed use `prepare` npm script instead of `prepublish`
+__label__Fixed fix hermes debugger being disabled by default
+__label__Changed improved performance on operation against mvrb-tree by storing temporary the searched values on thread local
+__label__Added type annotations supported in java elements--reflection-related implementations are pending-
+__label__Added mahout-163: new features for clusterdumper and add in clusterlabel capability for lucene index using log likelihood
+__label__Fixed groupby groupedobservables should not re-subscribe- to parent sequence--https://github.com/netflix/rxjava/issues/282--refactored to maintain a single subscription that propagates events to the correct child groupedobservables.-
+__label__Fixed fix crash when cameraroll is getting assets from icloud and no filename is provided
+__label__Changed one more test that fails; some more code moved- to common framework--
+__label__Added the ability to specify `proptypes` on a context provider component.
+__label__Changed oracle snapshot unique constraint performance improvements and better multi-schema support
+__label__Added "jbrules-340 core implementation for 'from' -the- from node is now added -reteoobuilder is added  but not unit tested.--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@5713 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-"
+__label__Added change homeasup() to require handler implementation of an interface to match the other optional features. update change log to reflect this as well as expand on the implementation requirements.
+__label__Fixed [test] stabelize morelikethisactiontests--the `testcomparemorelikethisdslwithapi` test compares results from query-and api which might query different shards. those shares might use-different doc ids internally to disambiguate. this commit resorts the-results and compares them after stable disambiguation.-
+__label__Changed on all events, `.currenttarget` is now properly set
+__label__Fixed typos in indonesian translation from [@ekojs](https://github.com/ekojs).
+__label__Added yarn-1757. nm recovery. auxiliary service support.- (jason lowe via kasha)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1585784 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed types transform updated with latest support
+__label__Changed breaking  - removed `okhttpclientprovider.replaceokhttpclient` method; please use `okhttpclientprovider.setokhttpclientfactory` from 0.54+
+__label__Changed we now bump the minor rather than major if version < 1.0.0; --release-as can be used to bump to 1.0.0.
+__label__Changed started refactoring base package functions structure in preparation for more complete support of generics
+__label__Fixed fix scrollview `centercontent` not work in some cases
+__label__Fixed fix regression in stylesheet `setstyleattributepreprocessor`
+__label__Changed "hive-16969: improvement performance of mapoperator for parquet (colin ma  reviewed by ferdinand xu)"
+__label__Changed bump metro@0.48.1
+__label__Removed maven: remove duplicate cloud-core dependency in server
+__label__Fixed cloudstack 3.0 ui - account page - fix a bug that happens when account name includes ampersand or other special characters. encode account name before it's being passed to api calls.
+__label__Added support item background color in dialog `picker`
+__label__Fixed cloudstack-7891 - fix failure in integration.component.test_escalations_instances.testinstances/test_15_revert_vm_to_snapshot
+__label__Changed implement open hash addressing in index leaf- page to avoid large moves--
+__label__Added add support for `package-lock.json`
+__label__Changed react will now warn if you call `setstate()` inside `getchildcontext()`.
+__label__Changed react dom now warns if you specify `onfocusin` or `onfocusout` handlers as they are unnecessary in react.
+__label__Fixed `gridarea` to be treated as a unitless css property
+__label__Changed avoid build the count array to improve performance.
+__label__Changed remove the flipper pod post install step
+__label__Fixed fixed a `nosuchkeyexception` when parsing js stack frames without line numbers
+__label__Fixed add support for connecting to the packager when running the ios app on device when using custom debug configuration
+__label__Fixed only pull fields once from the reader--
+__label__Changed [ispn-97] - improve configuration processing and maintenance
+__label__Changed minor refactoring to make monad structure more obvious
+__label__Changed yarn-6682. improve performance of assignmentinformation datastructures. contributed by daryn sharp.
+__label__Added enhancement: update string renderer to add empty lines only when commits are present.
+__label__Added remove some features from jwttokenstore
+__label__Changed improve performance by recycling dataoutput2 instances
+__label__Changed fixing 🤡 in rctsurfacerootshadowview
+__label__Fixed cloudstack-5154: fixed test script issue related to failure
+__label__Security mapreduce-3345. fixed a race condition in- resourcemanager that was causing testcontainermanagersecurity to fail- sometimes. contributed by hitesh shah. svn merge -c r1199144- --ignore-ancestry ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1199145 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed "change to the http server code  to simplify the structure of the interaction with a web server and to make the information requests more intuitive."
+__label__Fixed jbrules-737: fixing problem when inspecting classes- with static initializers--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@10190 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added more work on enabling non-namespace extensions of- xml parsing--
+__label__Removed removing duplicate method.
+__label__Added serverresource now supports empty post and put- requests.--
+__label__Fixed bug 6031: fixing the error msg when the deployment of a directly attached vm fails
+__label__Fixed "closes #2798  shaderprogram#setuniform supposed to throw an exception in case the program isn't bound. however  this may have side effects in existing code and add additional runtime overhead. fixed the javadocs to say that the program must be bound instead."
+__label__Fixed cs-6840: fix wrong path of check s2s vpn script
+__label__Fixed "cloudstack-7637: ui > fix a bug produced by 4.5 feature ""template accross multiple zones"" > fix it by including all properties to jsonobj."
+__label__Fixed [tachyon-1592] fix the compile error
+__label__Fixed experimental: attempted fix for rare arrayindexoutofboundsexception
+__label__Changed `key` and `ref` moved off props object, now accessible on the element directly
+__label__Changed suggest `git apply --reject` for failed upgrades
+__label__Added add possibility to change date format
+__label__Fixed "called the wrong method  fixing the same"
+__label__Added make packager location customizable in dev mode
+__label__Changed update .gitignore file.
+__label__Changed global refactor
+__label__Changed cleanup javadocs--
+__label__Changed moved duplicated code to runnotifier.testaborted()
+__label__Fixed volume upload: fixed build error from the commit b0a96c4c85f2d6dfe57ce3474ce95ebb3cec6d2a
+__label__Changed `react.addons.transitiongroup` was renamed to `react.addons.csstransitiongroup`
+__label__Changed ensure all void elements don’t insert a closing tag into the markup.
+__label__Security "cloudstack 3.0 ui - security group - ingress rule - fix a bug that account  security group failed to be translated."
+__label__Fixed bug 8514: instance page - volume tab - create template dialog - fix a bug that os dropdown was empty when 2nd time visiting instance page.
+__label__Fixed "resurrecting the original fix for hudson-5756  as i'm still worried that bugparade 6933067 is related to some sort of the hotspot optimization."
+__label__Changed update deps
+__label__Changed improved performance by avoiding unnecessary numberformatexception
+__label__Fixed change local fs underfsaddress to /; fix a bug in excluding prefix-matching paths
+__label__Added first release of the [new experimental package](https://github.com/facebook/react/blob/master/packages/react-reconciler/readme.md) for creating custom renderers.
+__label__Fixed sort tags by date before fetching release notes
+__label__Fixed fix npe in android switch during measure
+__label__Fixed bz-1039639 - gre doesn't recognize mvel inline- lists when opening rule--
+__label__Fixed "[tachyon-1092] fix failing tests  ufs address was set twice differently"
+__label__Fixed **deps:** update dependency yargs to v15
+__label__Fixed a crash when component defines a method called `isreactcomponent`.
+__label__Added **gtimojis:** :sparkles:update gitmojis
+__label__Fixed fix osx cannot to vpn due to wrongly declaim encapsulation_mode_udp_transport_rfc
+__label__Changed environment detection so it can be run in a non-browser environment.
+__label__Fixed "really  this is the fix for -154--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@3914 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-"
+__label__Fixed "add zone wizard - fix a js error ""server is undefined"""
+__label__Changed react uses `console.error` instead of `console.warn` for warnings so that browsers show a full stack trace in the console. (our warnings appear when you use patterns that will break in future releases and for code that is likely to behave unexpectedly, so we do consider our warnings to be “must-fix” errors.)
+__label__Fixed **deps:** update dependency cosmiconfig to v6
+__label__Changed avoid `<input>` validation warning from browsers when changing `type`.
+__label__Deprecated ruby 2.1 is now deprecated in order to use latest nokogiri with ruby 2.4
+__label__Fixed instance page - fix a bug that instance groups are duplicate when login as user-role and click instance menu more than once.
+__label__Changed - refactored to own package structure to avoid conflicting with released j2ssh builds.
+__label__Fixed [jaxrs-spec|resteasy|cxf] issue 4315 - fixed bug generating arrays of enums (#4582)
+__label__Changed clean-up long values--
+__label__Fixed cloudstack-9782: fix intermittent host-ha kvm test failures (#2256)
+__label__Changed search page design and functionality improved.
+__label__Changed improve readability of comparisonfailure
+__label__Fixed cloudstack-4338: fix npe if create volume failed
+__label__Fixed **babel:** :bug:fix babel rest spread arguments
+__label__Changed "removed dotest(char)  since it was erroneous.--if lookupstring and tailtext are both null  completionchar is ignored.-"
+__label__Fixed fix `rctdevloadingview` not showing up with `uiscene`
+__label__Fixed s2s vpn: cs-15998: fix wrong vpc id in site2sitevpngatewayresponse
+__label__Fixed remove duplicate code by using recursive_option. fix minor formatting.
+__label__Fixed fix for interpolatortype crash
+__label__Fixed [alluxio-1837] removed extra empty lines to fix the build failure
+__label__Fixed occasional test failures when react dom is used together with shallow renderer.
+__label__Changed minor refactoring of unit tests; adopt test structure to src structure
+__label__Added links to latest released version in previous versions.
+__label__Added use async/await to request commit infos concurrently.
+__label__Fixed "cloudstack-9470: fix for sshhelper - test_network_acl was failing on vmware due to a bug in sshexecute  in which value returned was null and there was still stdout to consume. this fix addresses this problem  consuming stdout peoperly to return expected value in sshexecute"
+__label__Fixed fixed errors when calculating cookie expiration dates in certain locales.
+__label__Changed hbase-1485  wrong or indeterminate behavior when there are duplicate versions of a column (pranav via jgray)
+__label__Changed performance improvement on restricted class check.
+__label__Fixed "fix test cases  fix warning in exceptionfactory  update"
+__label__Added add tag name header id for keep-a-changelog template
+__label__Fixed bug fixes for svg element creation.
+__label__Fixed `.netrc` no longer overrides explicit auth.
+__label__Changed make values optional in `viewproptypes`
+__label__Changed cloudstack-7575: improved performance of cleanstring method in stringutils
+__label__Changed "* refactored implementation and design of sets and relations. a relationtype is now a subclass of settype and irelation is an extended iset. this makes it possible to factor out common code  and to make the client of the api oblivious to whether something is a relation. also  i could now implement (type-safely) an implicit normalization of all sets of tuples to relations. this means that at run-time the implementation guarantees there are no sets of tuples  only relations. all and all another it also results in a reduction of code."
+__label__Removed "[java] remove duplicated model description in spring  jax-rs models (#3887)"
+__label__Changed upgrade jest to v22.2.1
+__label__Fixed cloudstack-9565: fix intermittent failure in test_oobm_zchange_password
+__label__Changed typos in comments and log messages
+__label__Changed hbase-3313 table name isn't checked in- istableenabled/istabledisabled--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1081431 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed bug 10496: fixed various problems in scandirectagenttoload code (1) case when loadsize=clustersize wasn't working 2) long value comparison was done incorrectly)
+__label__Fixed fix flow typing of text
+__label__Added hbase-6400 add getmasteradmin() and- getmastermonitor() to hconnection (enis)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1363009 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed android plugin is now at `v3.3.1`
+__label__Fixed remove js autofocus implementation
+__label__Fixed "nullable problems: disable warnings on- ""complex"" getters/setters (idea-63958)--"
+__label__Changed react is set to `16.6.3` now via sync for revisions 4773fdf...6bf5e85
+__label__Added calculator feature for clojure passing
+__label__Added use the issues as data source
+__label__Changed hbase-920 make region balancing sloppier--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@704781 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed the `onclick` event not working inside a portal on ios
+__label__Changed improve sql parser performance
+__label__Fixed fix by luca molino on schema and in-thread db--
+__label__Added more cucumber-features passing
+__label__Added `react-dom/profiling` entry point alias for profiling in production
+__label__Changed issue #2901 pool performance was improved up to 255 000 ins/s in benchmark.
+__label__Fixed fix responder logic in `text`
+__label__Added adds validation of code smells in case expressions. closes #259
+__label__Changed optimize `platformconstants.serverhost`, `platformconstants.istesting`, and `platformconstants.androidid` for performance
+__label__Fixed rn `picker`   - fix types in `androiddialogpickermanagerinterface`
+__label__Fixed cloudstack-6856 : fixed few data corruption and retries issues for failing cases
+__label__Fixed cloudstack-6893: fix enum valueof issue which causes systemvm fail to start
+__label__Added omit local file output
+__label__Changed put in first batch of devoxx 2010 data for spring/groovyandgrails related sessions; improved design of join row mapper and removed timezone hardcoding
+__label__Changed `babel-preset-react-native`: only require plugins once
+__label__Changed wfly-5494 fix infinispan subsystem cache store properties transformations and improve testing
+__label__Fixed cloudstack-5413: fixed bug cloudstack-5413
+__label__Changed core-2371 improve performance
+__label__Changed shallow renderer now returns the rendered output from `render()`.
+__label__Removed remove the old duplicate savepassword.sh
+__label__Fixed fix permission requests on pre-m android
+__label__Fixed fixed style in `textinputtestcase`
+__label__Changed effect clean-up functions must return either `undefined` or a function. all other values, including `null`, are not allowed. [@acdlite](https://github.com/acdlite) in [#14119](https://github.com/facebook/react/pull/14119)
+__label__Changed broadleafcommerce/qa#2082 - further refactoring to clean up logic and enhance readability.
+__label__Changed core-2371 improve oracle snapshot performance
+__label__Fixed [smallfix] fix a falling unit test masterclientauthenticationintegrationtest which is expecting a wrong exception type
+__label__Fixed update reactandroid build script to support gradle 2.3.0
+__label__Fixed delete fishhook
+__label__Fixed **err:** don't fail on stderr output, but print the output to stderr
+__label__Added to take into account changes in jabref features
+__label__Added `any`, `arrayof`, `component`, `oneoftype`, `renderable`, `shape` to `react.proptypes`
+__label__Fixed "textureatlas  ints didn't fix rounding problem after all. mind = lost."
+__label__Changed reorganize package structure and introduce maven.
+__label__Changed "major cleanup work  integration testing and persistence work  event hooks and other improvements"
+__label__Fixed [feature #1255] fix import problem pointed out during review.
+__label__Changed tfj-682 use byte array to improve http upload performance
+__label__Fixed cloudstack-5697 this patchset fixes a bug with the recently merged
+__label__Fixed `logbox`  - fix dependency cycle
+__label__Added yarn-254. update fair scheduler web ui for- hierarchical queues. (sandyr via tucu)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1423743 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed typos in czech translation.
+__label__Fixed hbase-7703 eventually all online snapshots fail- due to timeout at same regionserver.--online snapshot attempts would fail due to timeout because a rowlock could not be obtained.  prior to this a-cancellation occurred which likely grabbed the lock without cleaning it properly. the fix here is to use nice cancel-instead of interrupting cancel on failures.----git-svn-id: https://svn.apache.org/repos/asf/hbase/branches/hbase-7290@1445866 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added jax-rs-extension: - encoding of uribuilder- parameters implemented--
+__label__Added the `enterkeyhint` property for `input` elements.
+__label__Changed the return value of `transform` now contains `sourcemap` as a js object already, not an instance of `sourcemapgenerator`.
+__label__Changed performance improvements for the block constructor
+__label__Changed added some new test for java8--
+__label__Fixed add zone wizard - configure public - fix a bug that configureguesttraffic() was being called more than once when multiple public vlan ip ranges are entered in configure public screen.
+__label__Changed hbase-18884 coprocessor design improvements follow up of hbase-17732; minor amendment adding readme to design-doc dir
+__label__Added add support for `npm-shrinkwrap.json`
+__label__Removed hbase-7604 remove duplicated code from hfilelink (matteo bertozzi)
+__label__Changed cloudstack-6047: vr resource testing improvements
+__label__Removed dead-1631 - removing duplicate %doc declarations in -management
+__label__Added update featured app icons.
+__label__Added adding feature toggle in processengineconfigurationimpl to allow diagram creation on deploy to be disabled.
+__label__Fixed fixed resolving closest nested object when- sorting on a field inside nested object--
+__label__Added symlink support in vfs & soe protection--
+__label__Added add background trace feature
+__label__Fixed rendering of textarea placeholder in ie11.
+__label__Removed "solve issue #100  removed unused duplicate runtimesupport."
+__label__Added `playsinline` to supported html attributes.
+__label__Fixed [smallfix] removed duplicate junit dependency
+__label__Changed deleted duplicate eventcollector
+__label__Changed do not override activityindicator color when setting its size
+__label__Fixed cloudstack 3.0 ui - vpc - ip address page - configuration tab - fix a bug that root-admin was unable to see lb service of ip address owned by regular-user or domain-admin.
+__label__Changed bump metro 0.45.6
+__label__Removed deduplicate warning messages about invalid callback.
+__label__Fixed ruby: fix syntax error when pattern contains a single quote
+__label__Changed javadoc--
+__label__Removed don't set dom attributes to the string `"undefined"` on update when previously defined.
+__label__Added add `usecolorscheme` hook
+__label__Added updates docs with @configuration features
+__label__Changed when in a dev build, more robustly validate arguments for native methods
+__label__Deprecated the `react-tools` package and `jsxtransformer.js` browser file [have been deprecated](https://reactjs.org/blog/2015/06/12/deprecating-jstransform-and-react-tools.html). you can continue using version `0.13.3` of both, but we no longer support them and recommend migrating to [babel](https://babeljs.io), which has built-in support for react and jsx.
+__label__Fixed fixed an issue encountered when using `react-native-vector-icons`
+__label__Fixed cloudstack-7362: fix wrong uuid issue for resource tags
+__label__Added "timestamp is now automatically updated on a change of an entry (feature 799).
+__label__Fixed fix duplicate resource error in android build
+__label__Fixed "revert ""[alluxio-1819] fixed build failure"""
+__label__Removed remove duplicate email title findbugs
+__label__Fixed bug 12571: fixed error message in createsnapshotpolicy
+__label__Fixed new ui - fix a bug that dashboard doesn't get highlighted when being clicked.
+__label__Added "implement reading from null safe dereferences
+__label__Fixed cs-15836: cloudstack 3.0 ui - autoscale - existing lb - configure autoscale - fix a bug that root-admin was unable to see autoscale created by regular-user or domain-admin.
+__label__Changed warn when `<context>` is used instead of `<context.consumer>`.
+__label__Added update create build introduce functionality behavior modify modification
+__label__Added native modules can now reject a promise with an additional `writablemap` arg for extra properties (`userinfo`). see the interface defined in [`promise.java`](https://github.com/facebook/react-native/blob/60b3942/reactandroid/src/main/java/com/facebook/react/bridge/promise.java) for available methods. this is accessible in javascript as `error.userinfo`. this is to match ios's existing `error.userinfo` behavior. see pr for examples. (#20940 by @salakar)
+__label__Fixed bug 7106: fixing the account updating bug
+__label__Added builder - view details show v3 prices
+__label__Added **cli:** use conventional default commit message with version
+__label__Fixed merge -c 1235858 from trunk to branch-0.23 to fix- mapreduce-3683. fixed maxcapacity of queues to be product of parent- maxcapacities.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1235860 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed improve node buffer utilization readability
+__label__Changed a confusing error message
+__label__Added add the author in changelog lines
+__label__Added `notes` - `--skip, -s` multi-options to skip tags based on keywords (eg `-s alpha -s beta`)
+__label__Fixed [alluxio-1911] fix format and failing tests
+__label__Changed remove mountnode component
+__label__Changed - refactored structure for property files - all mvc config now in karboom-mvc.xml
+__label__Fixed api: fix test failure in cloud-server
+__label__Added added whitespace trimming to entry editor.  added deliminator-based autogrouping to group feature (like separate keywords by comma).
+__label__Fixed "fix a bug - if adding an item fails and appears in red  the next successfully added item appear in red  too. (after this fix  the next successfully added item will appear in green)."
+__label__Removed dead-504: remove duplicate cloud-set-guest-password script
+__label__Changed the `componentwillreceiveprops()` lifecycle method is now consistently called when `context` changes.
+__label__Added **commit:** check if a git tree is clean
+__label__Fixed a range input not updating in some cases.
+__label__Fixed 1) more fixes for the problems found by findbugs
+__label__Changed server-side rendering apis. `react.rendercomponenttostring(<component>, callback)` allows you to use react on the server and generate markup which can be sent down to the browser.
+__label__Removed wfly-5698 remove duplicate keys from clustering localdescriptions.properties; remove extraneous double spaces
+__label__Fixed fix `rctimageloader` not using decoders provided.
+__label__Added implement join and uuid changes related to the partial-start feature
+__label__Changed clarified the section on "is there a standard change log format?".
+__label__Added support for `integrity` attribute
+__label__Changed added some logs for debuging--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@757865 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added removed setfeature due to it is not supported in sax
+__label__Fixed "fixed profiles for pom  changed log4j back to .17  removed duplicate function in tachyonfile"
+__label__Changed improved performance for beantoarray
+__label__Fixed fixed test on other boxes--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@904741 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed "cs-15801: cloudstack 3.0 ui - vpc - create new tier - fix an error ""owner of vpc with specified vpcid is different from the network owner acct[2-admin]""."
+__label__Added new feature: click on a additional field's value to automatically search for it in a quickfilter #webinterface-30
+__label__Deprecated deprecated [maskedviewios](https://reactnative.dev/docs/maskedviewios) as it has now been moved to [react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
+__label__Fixed multiple `setstate()` calls in `componentwillmount()` in shallow renderer.
+__label__Fixed **tasks:** :bug:fix no traking remote
+__label__Changed remove the `xcshareddata` from .gitignore
+__label__Fixed "fix cluster state mapping informaton  return it- with the mapping name as key and source field--"
+__label__Changed flow type for `touchablehighlight`
+__label__Changed improve performance of list rendering
+__label__Fixed bug 14110: fix error message
+__label__Added added clear scroll api.--the clear scroll api allows clear all resources associated with a `scroll_id` by deleting the `scroll_id` and its associated searchcontext.--closes -3657-
+__label__Removed don't throw when rendering empty `<select>` elements
+__label__Fixed babel runtime is missing
+__label__Fixed fix crash that happens when a component throws an exception that contains a null message
+__label__Added `space-evenly` is now supported (sorry for the confusion with 0.52 notes)
+__label__Fixed networkmanager exception fix due to call to getdhcpserviceprovider()
+__label__Added include component stack into the `act()` warning.
+__label__Changed polish javadoc--
+__label__Changed various improvements and safeguards around path handling in faunusvertex. fixed an object reuse bug around paths as well.
+__label__Added removed very old feature branche
+__label__Changed added a stacktracelayout and improved testing of stacktrace message lines
+__label__Changed hive-5951 : improve performance of adding partitions from client (sergey shelukhin via ashutosh chauhan)
+__label__Added add the chance to override the latest release body
+__label__Changed update loading pre-bundled message
+__label__Fixed "fix nested @component annotation instantiation- bug--3.1 m2 introduced a regression that causes false positives during-@configuration class candidate checks. now performing a call to-annotationmetadata-isinterface in addition to checks for @component and-@bean annotations when determining whether a candidate is a 'lite'-configuration class. annotations are in the end interfaces  so both-are filtered out at once.--issue: spr-8761-"
+__label__Fixed add timeout async request handling to osiv- components--this change adds async web request timeout handling to osiv filters-and interceptors to ensure the session or entity manager is released.--issue: spr-10874-
+__label__Fixed "cloudstack 3.0 ui - (1) to distinguish between getupdateditem() and getupdateddata()  rename getupdateddata() to getupdateditemwhenasyncjobfails() since it's being called only when async job fails. (2) fix the space problem (tab size is not 2) from patch."
+__label__Added builder - list view status reflect lookalike push_seg status
+__label__Changed core-2985 mssql snapshot performance improvements
+__label__Changed handle case of popup blockers overriding `document.createevent`.
+__label__Fixed bump jetty; fix a remoteblockinstream bug; improve tests
+__label__Added format the code with auto format feature of eclipse.
+__label__Changed package structure refactored
+__label__Changed warning when using maps as children.
+__label__Added `notes` - include previous and current versions in output header and default file name
+__label__Security hadoop-6452 hadoop jsp pages don't work under a- security manager--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@893490 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fall-back to autodetected encoding for json when unicode detection fails.
+__label__Fixed **format:** :bug: fix wrap body or footer at the right width
+__label__Fixed fixed issue where we were getting the time of the wrong dir in path watch stacker runnable / performance improvements checking if directory has an __init__ inside it.
+__label__Changed patch on json to add algoliasearch as a peer dependency
+__label__Deprecated deprecated [imagestore](https://reactnative.dev/docs/imagestore) and directed users to `expo-file-system` and `react-native-fs`
+__label__Added add a metro configuration to the template with inline require/import options; read more about it [in the blog post](https://reactnative.dev/blog/2019/03/12/releasing-react-native-059)
+__label__Changed patch on json scripts
+__label__Changed add `complete_nullability = true` to compatible libraries
+__label__Added use external config file
+__label__Changed upgrade connect dependency
+__label__Fixed bumping up to 1.52 to pick up a bug fix in jexl expressionfactory handling
+__label__Changed allow jest globals in mocks directories
+__label__Fixed fix file handle leak in readblob method of- abstractfsblobcontainer--
+__label__Added ignore commits with keywords
+__label__Fixed support swift based libraries using xcode 12’s build system.
+__label__Changed ---
+__label__Changed upgrade create-react-class to v15.6.3
+__label__Changed mailconsumer and mailproducer now use the- endpoint reference from its super class and doesn'n manager its own instance- variable--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1054815 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed "new ui - volume page - fix a bug that js error ""$midmenuitem1 is null or not an object ""  ""jsonobj is null or not an object"" when switching between tabs on an empty page."
+__label__Removed don't use proxies for synthetic events in development
+__label__Changed remove `textinput`'s `inputview` prop
+__label__Changed yarn-632. changed containermanager api to throw- ioexception and yarnremoteexception. contributed by xuan gong. svn merge- --ignore-ancestry -c 1479740 ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1479741 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fix modal not disappearing when reloading
+__label__Changed normalize scheme for url on android
+__label__Fixed haste hotfix for `react-native-windows`
+__label__Changed added an event structure and optimize some patterns
+__label__Changed 📝 add docs for `isinspectable`
+__label__Changed adjusted to meet component/container structure conventions and simplify code
+__label__Fixed edge case where a hook update wasn't being memoized.
+__label__Deprecated ignore yellowbox warnings with `yellowbox.ignorewarnings `console.ignoredyellowbox = [...]`
+__label__Fixed upgraded dependencies, switched back to angular format (fixes
+__label__Fixed fixed rctanimation import for integrating with cocoapods
+__label__Added added support of the authentication-info header.--
+__label__Added export `layoutanimationconfig` flow type
+__label__Added mockhttpservletresponse supports multiple- includes (spr-    )--
+__label__Fixed hbase-4606  remove spam in hcm and fix a- list.size == 0--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1185326 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed [general][internal] fix incorrect `module.name_mapper` in template .flowconfig
+__label__Fixed some attributes incorrectly getting removed from custom element nodes.
+__label__Fixed bug 10516: cloudstack - volume page - create template dialog - fix a bug that appears on ie browser (not on firefox) - os tye dropdown is push down to next line.
+__label__Fixed typos in turkish translation.
+__label__Fixed [fixed hudson-2031] debug code crept into the trunk. this exception message is otherwise harmless. fixed in 1.233.
+__label__Fixed "bug 12964: fix a js error => ""args is undefined"""
+__label__Fixed tags not found
+__label__Changed locus notebook: added styled button that redirects to notebook link - replaced iframe with button
+__label__Fixed [alluxio-2426] fix failing tests
+__label__Changed `syntheticmouseevent.geteventmodifierstate` correctly renamed to `getmodifierstate`
+__label__Fixed cid-1114601/cid-1114602 fix ignored return values and remove duplicate code
+__label__Added expose hermes sampling profiler
+__label__Fixed cloudstack-6900: this fixes volume migration failing after that volume is downloaded.
+__label__Changed _[breaking]_ webviews now can only use https; do not use it for `file://`
+__label__Changed camel-4071 clean up the camel osgi integration- test and load the karaf spring feature first--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1133394 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added new feature: patternprocessor
+__label__Fixed fixed a bug where requests would not correctly correlate cookies set when using custom host headers if those host headers did not use the native string type for the platform.
+__label__Changed #101403760 make experiment page use react anatomogram - refactor `anatomogram` to its own react component ; refactor `internal-atlas-index.js` to mirror the structure of `index.js` ; simplify the logic to build the heatmap
+__label__Fixed py-16335 preserve formatting of converted- collection literals--
+__label__Changed docs clarifications
+__label__Changed measure time to create reactinstancemanager
+__label__Removed remove duplicate while-loop retries during ssh
+__label__Fixed comment about folder suffix and fix style error
+__label__Changed general structure of refactored org.amanzi.neo.loader.ui plugin
+__label__Changed the warning when accidentally returning an object from constructor.
+__label__Fixed grammar in the controlled input warning.
+__label__Added implemented push-to-emacs feature. improved isi importer. changed medlinefetcher.fetchmedline to static. added first version of toralf senger's key generator patch.
+__label__Changed made it possible to server render without react-related markup (`data-reactid`, `data-react-checksum`). this dom will not be mountable by react. [read the docs for `react.rendercomponenttostaticmarkup`](https://reactjs.org/docs/top-level-api.html#react.rendercomponenttostaticmarkup)
+__label__Fixed conditionals: fix all but 2 tests--
+__label__Fixed address comments. fix checkstyle error.
+__label__Added bundler server host can now be set using android system properties, making for easier debugging across multiple apps or app installs `adb shell setprop metro.host`
+__label__Changed yarn-7136. additional performance improvement for resource profile feature
+__label__Added explanation of the recommended reverse chronological release ordering.
+__label__Fixed **deps:** update dependency conventional-changelog-conventionalcommits to v4.3.0
+__label__Changed ispn-1725 improve performance of groupmanagerimpl#getmetadata
+__label__Fixed fixed issue where status_codes.py's `init` function failed trying to append to a `__doc__` value of `none`.
+__label__Fixed remove unused option user.name
+__label__Changed more code structure refactoring
+__label__Removed remove duplicate scripts and move the remaining items to the systemvm project
+__label__Changed upgraded to flow v0.114.0
+__label__Added yarn-3100. made yarn authorization pluggable.- contributed by jian he.--(cherry picked from commit 23bf6c72071782e3fd5a628e21495d6b974c7a9e)-
+__label__Changed suppress the new unknown tag warning for `<dialog>` element.
+__label__Changed db structure refactoring
+__label__Changed * improved the whole structure and prepare for first release
+__label__Added native modules now expose a `nativestackandroid` property to promises rejected with an exception/throwable    - making native error stacks available inside javascript: `error.nativestackandroid`. this is to match ios's existing `error.nativestackios` support. see pr for examples. (#20940 by @salakar)
+__label__Added an option argument to `transform` function. the only option supported is `harmony`, which behaves the same as `jsx --harmony` on the command line. this uses the es6 transforms from [jstransform](https://github.com/facebook/jstransform).
+__label__Changed deleted old structures in trunk in order to copy there modularized structure from the branch. the merge command failed miserably.
+__label__Fixed advanced search - fix a bug that clicking next page will lose advanced search parameters.
+__label__Fixed "cloudstack-5557: ui > network > guest network > ip address > fix a bug that sourcenat ip  vpc tier ip wrongly showed configuration tab(firewall/portforwarding/loadbalancing)."
+__label__Changed "improve low-level testing a bit  to guard against regression (like one that exists now)"
+__label__Fixed -added fixes for waltz to run waltz50--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@7071 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Changed enable the same `harmony` features available in the command line with `<script type="text/jsx;harmony=true">`
+__label__Added added news about windows installer features.
+__label__Changed "in progress - issue trunk-2874: improved error message when you try to install in testing mode  and the release testing support module is not installed"
+__label__Fixed check null values in `shouldanimate`
+__label__Removed dead-3004: remove duplicate ssvm-check.sh
+__label__Fixed fail fix the string formatting error in cloudstackconnection.py
+__label__Fixed s2s vpn: fix wrong response name
+__label__Fixed "new ui - ip address page - fix a bug that js error ""$midmenuitem1 is null or not an object ""  ""jsonobj is null or not an object"" when switching between tabs on an empty page."
+__label__Fixed if an attempt to `seek` file to find out its length fails, we now appropriately handle that by aborting our content-length calculations.
+__label__Fixed bug 10024: cloudstack ui - fix a bug that adding a pod from the resource page page didn't work.
+__label__Added new cli options, custom tags range and tests..
+__label__Added pass issue descriptions into templates
+__label__Removed remove wasteful duplicate method calls findbugs
+__label__Fixed [ui] bug fix: delete added acl lists is not available for domain admin and normal users
+__label__Changed "switch to testng  improve error handling  change package structure and group id"
+__label__Changed "auto-config performance & priority improvements  and make pypy discoverable."
+__label__Fixed bug 11555: fixed npe happening during lb rule cleanup in case when createlb fails
+__label__Changed rounding pixels is now done with an algorithm from yoga rather than react native, reducing debt and improving performance
+__label__Changed refactored overall code structure + improved journal batch implementation.
+__label__Fixed hbase-10606 bad timeout in- rpcretryingcaller-callwithretries w/o parameters--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1572124 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed adjust helloworld-tvostests/info.plist `cfbundleidentifier` to use `product_bundle_identifier`
+__label__Changed sonar-3086 improve usability of review forms
+__label__Changed improved bigdecimal property performance.
+__label__Added simplified setup and a bit more in the demo feature.
+__label__Changed previously, changing the `ref` to a component would always detach the ref before that component's render is called. now, we change the `ref` later, when applying the changes to the dom.
+__label__Changed code-dups cleanup--
+__label__Changed huge refactoring on graphdb: - changed class- names in vertex and edge - optimized memory consumption by removing nested- records - optimized speed in orecord.equals() and hashcode(): now avoid field- checks (experimental)--
+__label__Added changed file autoset features to use the optimized find routine.
+__label__Changed hbase-6634 rest api scannermodel's protobuf converter code duplicates the setbatch call
+__label__Fixed fix compatibility issue for android 16 device
+__label__Fixed fix invalid use of destructuring in jest preprocessor
+__label__Changed "optimized operformancestatisticmanager#getsessionperformancestatistic  about +3k ops on single-thread index/cluster insert"
+__label__Changed fix non-deterministic unit test--
+__label__Fixed idea-127075 ide hang on file structure--
+__label__Changed encapsulate authentications.
+__label__Changed make all `capture` events use the browser capture phase.
+__label__Changed whenever a prop is equal to `undefined`, the default value returned by `getdefaultprops` will now be used instead
+__label__Changed fix lint error/warnings that cause older android crashes
+__label__Fixed fixed problem with linkeset modified right after- query in remote configuration--
+__label__Added polish translation from [@amielucha](https://github.com/amielucha) & [@m-aciek](https://github.com/m-aciek).
+__label__Fixed fix `modal` + `flatlist` scrolling
+__label__Fixed "fixed issue849 using the fix suggested by treyy333  when calling setsize() and flip() together  the offsets were being used wrong  now they are divided by widthratio/heightratio before calling atlasregion.flip() inside atlassprite.flip() and they are multiplied again after the call."
+__label__Changed issue #5812 read cache #openfile performance was improved by pre-check that file is already opened.
+__label__Fixed [fixed hudson-2230] fixed illegalmonitorstateexception. in 1.249.
+__label__Fixed servlet/portletrequestdatabinder perform- unwrapping for multipartrequest as well (spr-7795)--
+__label__Changed builder - v2 using agency level customer id
+__label__Added `notes` - colorful output messages
+__label__Fixed #5649 fix filealreadyexistsexception when downloading file using jersey2 (#5654)
+__label__Fixed fix asset resolver url handling
+__label__Changed cache lookup method to improve observer performance
+__label__Fixed bug 10433: fix a bug that was caused by global zone name cache.
+__label__Fixed "reverted the camera fix  because it is wrong"
+__label__Fixed "bug 6662:  handle a null ip forwarding rule in the api response as 'the rule already exists' since other errors will result in thrown exceptions.  also  fix up detection of network conflicts and duplicate rules by adding a list of used protocols to the port mappings"
+__label__Added add --sign flag to sign git commit and tag
+__label__Changed compute logged duration only if needed.--
+__label__Fixed fix to announce accessibility state changes happening in the background
+__label__Changed treat invalid symbol and function values more consistently
+__label__Changed update `make-fetch-happen` to v4.0.1.
+__label__Added "added support for acknowledgements to update- cluster settings api--as a side note  the internal reroute call is now part of the ack mechanism. that means that if the response contains acknowledged flag  the internal reroute that was eventually issued was acknowledged too. also  even if the request is not acknowledged  the reroute is issued before returning  which means that there is no need to manually call reroute afterwards to make sure the new settings are immediately applied.--closes -3995-"
+__label__Added "draft project pages  project metadata  and rss feeds
+__label__Changed sonar-2084 improve usability
+__label__Fixed bugs with transitiongroup when children were undefined
+__label__Changed content structure converters added
+__label__Security security feature to go live on 1.164
+__label__Changed the names and paths to the single-file browser builds have changed to emphasize the difference between development and production builds. for example:
+__label__Added es-es translation from [@zeliosariex](https://github.com/zeliosariex).
+__label__Changed use centralized package for donotstrip annotation
+__label__Fixed "revert ""cloudstack-7762 -[automation] - fix test failure for test_02_revert_vm_snapshots in smoke/test_vm_snapshots.py"""
+__label__Fixed fixed connection of metro reload command to ios device
+__label__Fixed fixed issue on browsing of entire cluster/class--
+__label__Fixed "address comments  fix errors about punctuation"
+__label__Fixed **push:** :bug:fix push with --follow-tags
+__label__Added add the chance to rebuild the history of release notes
+__label__Added add feature to emit graphite metrics based on configuration
+__label__Added initial implementation of kt-6427 completion to- use java name suggestion to complete function parameters (+ filtered out- synthetic kotlin classes from completion)--
+__label__Fixed performance refactoring: operatorsubscribefunction--- migrated func1 to operatorsubscribefunction for internal operator implementations-- do not wrap with atomicobserver when it's a trusted operator--https://github.com/netflix/rxjava/issues/104-
+__label__Changed more runtime performance improvements
+__label__Removed bug 9259: removed some of the extra vpn statements duplicated from my change and chiradeep's change
+__label__Fixed bumped up to 0.8 to fix ie7 rendering problem
+__label__Added a new recommended `exhaustive-deps` rule.
+__label__Fixed dead-3803: fix duplicate label causing validation error
+__label__Added store: add basic feature bitmap
+__label__Fixed crash when `settimeout` is missing
+__label__Changed [test] re-add rebalance disable setting in- recoveryfromgatewaytests--
+__label__Changed jbrules-2817 make the knowledgeagent tests more- robust and faster--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@36213 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Fixed cloudstack-3166: ui - vpc section - configure vpc - tier - static nats - fix a bug that listview showed nothing.
+__label__Added add done for cookies in the feature list
+__label__Changed bump xcode@1.0.0
+__label__Fixed fix `isnuclidedebuggingavailable` on ios
+__label__Changed nodejs@8 is no longer supported. (#612)
+__label__Changed changes project structure and introduced apache buildr as buildtool
+__label__Changed add-ons: due to the dom node refs change mentioned above, `testutils.findallinrenderedtree` and related helpers are no longer able to take a dom component, only a custom component.
+__label__Added markdown links to version tags on release headings.
+__label__Changed more progress towards split bundle support
+__label__Changed "add comments describing methods (from http  webdav- rfc).--"
+__label__Added avro-extensions -- feature to specify avro reader schema inline in the task json for all events (#3249)
+__label__Changed `bundler` to version 2 (@anthony-robin)
+__label__Removed remove duplicate attribute declaration. closes #102.
+__label__Changed in the cli, don't override `metro.config.js` settings
+__label__Fixed [fixed hudson-1958] fixed a typo in the error message.
+__label__Fixed gray overlay on ios safari.
+__label__Changed improve replication performance and memory usage.
+__label__Fixed "bug 10222: fixed issue with associate ip introduced more than one nic.  the problem is that associate ip automatically creates a nic but doesn't have sufficient information to properly creates so it uses what it knows for sure is the naming pattern to do it.  however  we changed the naming pattern and it broke.  i fixed it by passing all of the information in the ipaddressto object."
+__label__Fixed when an accessibilitylabel can't be discerned, return `nil` instead of `@""`
+__label__Added added content protection and scaling features
+__label__Changed ensure `replacestate(obj)` retains prototype of `obj`
+__label__Changed minimally support iframes (nested browsing contexts) in selection event handling
+__label__Changed upgraded to hermes 0.5.0
+__label__Added "largely completed  uber-cool federation feature."
+__label__Changed improve typeutils performance
+__label__Added "import the new n-gram tokenizers and filters from lucene.
+__label__Changed sql: improved performance when between is used. thanks to fabrizio fortino for the tip
+__label__Fixed fix react-native cli's debugger ui path and metro host/port arg usage
+__label__Fixed fixed issue where the `all_proxy` environment variable would be preferred over scheme-specific variables like `http_proxy`.
+__label__Removed don't emit `autofocus={false}` attribute on the server.
+__label__Fixed "new ui - instance page - router tab - related ui change after bug 6787(""rebootrouter api should return an embedded object on success"") is fixed."
+__label__Changed bump gradle to 5.4.1 & android gradle plugin to 3.4.0
+__label__Fixed fix text alpha bug
+__label__Changed textinput now uses `forwardref` allowing it to be used directly by new apis requiring a host component.
+__label__Added carve out ec2api/ec2asyncapi for new features
+__label__Changed renamed  `react.unmountandreleasereactrootnode` to `react.unmountcomponentatnode`.
+__label__Fixed erroneous proptypes access warning.
+__label__Changed delete long press error in touchable
+__label__Fixed "cloudstack-537: cloudstack ui - advanced sg-enabled zone - network menu - guest network section - fix an js error ""advsgdisabledzones is undefined""."
+__label__Changed hbase-2180 bad random read performance from synchronizing hfile.fddatainputstream -- putting this as improvement in changes because thats what j-d wants though i think it a bug because our perf. was so bad
+__label__Added implement `adjustsfontsizetofit` on android
+__label__Fixed kt-3639 can't find sources of abstractiterator- when navigating from stack strace-- -     fixed-
+__label__Fixed bug resulting in disabled buttons responding to mouse events in ie.
+__label__Fixed minor fix on the error message.
+__label__Changed react dom now warns if an input switches between being controlled and uncontrolled.
+__label__Changed #691 - performance improvements
+__label__Changed update `fs-extra` to v6.0.1.
+__label__Fixed cloudstack-6379: ui > fix a bug that domain admin failed to be created when current login doesn't have visibility to root domain object.
+__label__Fixed **deps:** update dependency figures to v3
+__label__Changed bpmspl-165 - improve rest query infrastructure and capabilities: delete query maintenance
+__label__Changed dry-ing out some duplicate code
+__label__Added hi-density cache added to new features.
+__label__Fixed [alluxio-1856] fix more failing unit tests
+__label__Fixed fixed tests using released version.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@991460 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed merge pull request #3798 from mateuszmackowiak/objc/fix/remove_interface_method_duplicate
+__label__Fixed [alluxio-2691] fix failing tests
+__label__Fixed fix double call to onendreached in virtualizedlist
+__label__Added rename feature.nonpublicfieldsupport to supportnonpublicfield
+__label__Deprecated `linkedstatemixin` and `valuelink` are now deprecated due to very low popularity. if you need this, you can use a wrapper component that implements the same behavior: [react-linked-input](https://www.npmjs.com/package/react-linked-input).
+__label__Changed react no longer depends on es5 *shams* for `object.create` and `object.freeze` in older environments. it still, however, requires es5 *shims* in those environments.
+__label__Changed worked on create link command to improve performance reducing memory used.
+__label__Fixed cloudstack-7894 : fixed the script test_vm_passwdenabled.py - test cases failing on simulator as testcases try to ssh to the vms
+__label__Changed hbase-10194 [usability]: instructions in- compactiontool no longer accurate because of namespaces--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1552229 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed "hive-16912 improve table validator's performance against oracle (naveen gangam  reviewed by aihua xu)"
+__label__Added add a benchmarks module to do quick experiments to improve performance.
+__label__Added hadoop-7001.  configuration changes can occur via- the reconfigurable interface. (patrick kline via dhruba)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1038480 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed merge pull request #759 from pveentjer/fix/3.maintenance/645-log-improvement-for-client-reconnect
+__label__Removed `reactdom.createroot()` callback params and added warnings on usage
+__label__Added add back ability to customise okhttp client
+__label__Changed minor: additional logging when failing to read- file in virtualfilekotlinclass--
+__label__Changed css property values no longer have `px` appended for the unitless properties `columncount`, `flex`, `flexgrow`, `flexshrink`, `lineclamp`, `order`, `widows`
+__label__Changed 1.0 beta 9 (not released yet)  - merged restlet and- uniforminterface interfaces into a single restlet interface for- simplification purpose.  - moved connectors handling from originserver upto- component as other components like proxies need them.  - renamed uniformcall- and related methods into restletcall.  - renamed restletcall.gethandler*()- methods into getrestlet*().  - updated jetty 6 to version 6.0 beta 14.  -- fixed issue with servletcall.getrequesturi returning a trailing '?'. reported- by yuri de wit.  - renamed nre implementation classes handlertarget and- handlermapping to restlettarget and restletmapping.  - added a new extension- to nre to support apache commons fileupload to facilitate the processing of- multipart forms. suggested by yuri de wit.  - removed restletcontainer and- restletserver interfaces.  - renamed defaultrestletcontainer and- defautrestletserver to restletcontainer and restletserver for simplification- purpose.  - the parent of all restlets is now a simple component and not- necessarily a restletcontainer.  - factory and manager were refactored for- clarification and simplification purpose.  - added getinitparameters() to- component to allow external code to pass init params in a standard way (for- example a main method or the serverservlet).--
+__label__Changed jpa package structure refactoring
+__label__Fixed fix symbolication for redbox and yellowbox when using delta bundling
+__label__Fixed fix runtime crash in xcode 10.2 when using `rct_extern_module` for swift classes
+__label__Fixed redirections over https
+__label__Added hbase-11920 add cp hooks for replicationendpoint--
+__label__Fixed passive effects (`useeffect`) not being fired in a multi-root app.
+__label__Changed improved performance on iteration
+__label__Changed improve readability of jenkins.gettarget()
+__label__Changed use `object.is` algorithm for comparing `usestate` and `usereducer` values.
+__label__Added support reading feature paths from the rerun formatter file
+__label__Fixed a false positive warning when using suspense.
+__label__Removed remove (duplicated) object_to_http_body and object_to_hash from swagger.rb findbugs
+__label__Added "added new feature (tools -> scan database... -> resolve duplicate bibtex keys) to search for duplicate keys and offer to generate new keys to resolve the duplicates. works  but needs some more polish."
+__label__Changed improved create link performance when the destination field is a @rid
+__label__Changed add recognition of `news` as a changelog name (@mattmenefee)
+__label__Fixed prevent crash due to unsupported ellipsize mode
+__label__Added support for use in ie8
+__label__Fixed fix statusbar overwriting previously set `systemuivisibility` flags
+__label__Changed no need to duplicate close method as it's already inherited from closeable
+__label__Fixed allow `;` characters in merge commit messages
+__label__Changed additions to tests--
+__label__Added add initial version of save actions feature
+__label__Fixed add missing `onchange` event definition to `datepickerios`
+__label__Changed hbase-18884 (addendum) add more javadoc comment. coprocessor design improvements follow up of hbase-17732.
+__label__Added trunk-3780 searching for patient with patient name/new feature
+__label__Fixed typos in recent readme changes.
+__label__Changed upgrade jest to 23.4.1
+__label__Changed prevent duplicates on fields
+__label__Added query collections & arrays feature - code coverage supplemented
+__label__Changed hbase-5638 readability improvements on hbase-5633: npe reading zk config in hbase (matteo bertozzi)
+__label__Fixed merging 2.1.8 fix to master : bug 8801 - reserve some space for snapshots
+__label__Fixed rename scripts and fix a null point bug in inoderawtable.java
+__label__Changed [ispn-97] - improve configuration processing and maintenance
+__label__Changed improve performance when selecting against multiple roots
+__label__Changed add operator factory + update tree structure + refactor
+__label__Fixed "[fixed hudson-1882] if ""svn update"" fails because a local file is colliding with newly added files  revert to check out. this fix is in 1.228."
+__label__Changed major refactoring after a spike to back out some bad design for multiple replacements. the replacer context took on too much and so did token replacer. unfortunately the unit tests became largely obsolete and need rewriting.
+__label__Changed optimized for encode performance
+__label__Fixed yarn-3379. fixed missing data in localitytable and- resourcerequests table in rm webui. contributed by xuan gong (cherry picked- from commit 4e886eb9cbd2dcb128bbfd17309c734083093a4c)--
+__label__Deprecated ruby 2.2 is now deprecated
+__label__Fixed adding a potential fix for http://www.nabble.com/master-slave-problem-tt14710987.html
+__label__Removed remove overflow hidden killswitch
+__label__Removed remove tests skipping
+__label__Added status bar style is now correctly changed in multi-window ipados 13 apps if you use `rctrootviewcontroller` and set `uiviewcontrollerbasedstatusbarappearance=yes`
+__label__Changed upgrade ndk toolchain to 4.9
+__label__Changed hdfs-1330 and hadoop-6889. added additional unit- tests. contributed by john george.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1163464 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fix blob response parsing for empty body
+__label__Fixed fix crash in readablenativearray.gettype when size of readablenativearray's length > 512
+__label__Changed "further testing improvements  fixes  for datainput source"
+__label__Added adds support for `header` (--header) configuration based on the spec.
+__label__Fixed secondary storage - fix a bug that newly created secondary storage has duplicate copy.
+__label__Changed react dom: when specifying a unit-less css value as a string, a future version will not add `px` automatically. this version now warns in this case (ex: writing `style={{width: '300'}}`. unitless *number* values like `width: 300` are unchanged.
+__label__Changed react now never rethrows errors, so stack traces are more accurate and chrome's purple break-on-error stop sign now works properly
+__label__Deprecated patterns that warned in 0.12 no longer work: most prominently, calling component classes without using jsx or react.createelement and using non-component functions with jsx or createelement
+__label__Fixed new ui - resources page - fix a bug that clicking zone arrow icon didn't show pod and systemvm in ie7.
+__label__Changed revised webapplicationcontext lookup--
+__label__Fixed fix issue with when all are `flexgrow` and `flexshrink` set to 0 except for one
+__label__Added support for additional svg properties (`rx`, `ry`).
+__label__Fixed yarn-1734. fixed resourcemanager to update the- configurations when it transits from standby to active mode so as to- assimilate any changes that happened while it was in standby mode.- contributed by xuan gong. svn merge --ignore-ancestry -c 1571539 ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1571540 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed "alter structure of database  improved view of registration  alter gui for creating a procedure"
+__label__Fixed issue -1607 fix blueprints tests and tx npes.--
+__label__Fixed cloudstack-747: internal lb in vpc - fix a bug that source ip address column was not filled after add internal lb action was complete.
+__label__Added add --tag-filter-pattern flag.
+__label__Changed improve serialize performance
+__label__Added add jackson2objectmapperbeanfactory--issue: spr-9739-
+__label__Fixed android scrollview fix for pagingenabled
+__label__Changed "fixed most of synchronization problems with topics/queues  improved performance and increase concurrency (no more thread pool!)  supported hot-cfg of servers in configuration file  always use node name rather than id"
+__label__Fixed "junit ui redesign  part 4: ""rerun failed tests""- button moved to proper place--"
+__label__Changed move react error message formatting into exceptionsmanager
+__label__Fixed "[fixed jenkins-9009] fixed a bug in handling ' and "" in matrix build"
+__label__Fixed cloudstack 3.0 new ui - naas - fix a bug that network service provider status was wrong in zone chart.
+__label__Changed robustness of `document.documentmode` checks to handle google tag manager.
+__label__Added support for `ontransition`
+__label__Fixed [lwjgl3] fix lifecyclelistener related problems (#4011)
+__label__Fixed working to fix corrupted data in sockets--
+__label__Changed camel-2180: do not use copy of exchange when- processing in docatch.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@881175 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed bug 7744: tab action - delete duplicate code that has existed in handlemidmenuitemafterdetailstabaction().
+__label__Fixed add flow declaration for metro module
+__label__Changed hdfs-6606. optimize hdfs encrypted transport performance. (yliu)
+__label__Changed project structure refactoring. created separate converters directory for date-time
+__label__Changed helper class to adjust visibilities in structure refactorings
+__label__Changed report hook calls at the top level as a violation. ([gaearon](https://github.com/gaearon) in [#16455](https://github.com/facebook/react/pull/16455))
+__label__Fixed an issue where an invalid token error was thrown after a jsx closing tag
+__label__Fixed hbase-4169 fsutils leaserecovery for non hdfs- filesystems; added 4169-correction.txt  correction--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1155441 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed [fixed jenkins-30569] historywidget: fix js syntax error
+__label__Changed support string command arguments
+__label__Changed add context to redbox report api
+__label__Changed "added performance metric for concurrentlongpriorityqueue  not much of a speed improvement"
+__label__Fixed cloudstack-2981: ui - create network offering - fix a bug that provider dropdown always bounced back to the first enabled option. it should only bounce back to the first enabled option when the selected option is disabled.
+__label__Fixed jbrules-393 xml dump with illegal characters -fixed- by javier prieto--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@5949 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Changed "hive-15617: improve the avg performance for range based window (aihua xu  reviewed by yongzhi chen)"
+__label__Fixed cloudstack-4089: ui > zone wizard > hypervisor vmware > multiple physical networks > edit public/guest traffic type > fix a bug that vswitch type dropdown selection didn't remain after public/guest traffic type is dragged to another physical network.
+__label__Fixed prevent duplicate headers from being added
+__label__Changed sonar-6959 performance improvements
+__label__Changed this experiment was deleted because it was affecting the bundle size and the api wasn't good enough. it's likely to come back in the future in some other form.
+__label__Fixed `crossorigin` attribute to work in svg `image` elements.
+__label__Added hbase-13863 multi-wal feature breaks reported number and size of hlogs (abhilash)
+__label__Changed improved odocumenthookabstract implementing filtering by name. this makes thing easier for developers
+__label__Changed dead-7828.avoid marking ips already in allocated as allocated again. use row lock to ensure that prev state is either allocating or free. this will inturn avoid logging duplicate events
+__label__Changed if the inspector tries to handle a wrapped event but there is no connection, log a warning rather than a redbox
+__label__Fixed cloudstack-2577: fix exception handling for listportforwarding api
+__label__Added initial check in for forward to feature.
+__label__Fixed new ui - fix a bug: curly brackets was missing.
+__label__Changed improved message handling. minor text modifications and design improvements.
+__label__Changed "jersey-2606: ""monitoring statistics performance improvements"""
+__label__Changed "saved the urn design config before merge the trial  because of"
+__label__Changed updated project structure to be inline with maven standards
+__label__Fixed bug 12688: fix a bug in listview widget that didn't pass correct filterby object to loadbody().
+__label__Added add support for homebrew-installed node
+__label__Fixed cloudstack-6893: fix enum valueof issue which causes systemvm fail to start
+__label__Changed interface for deleting duplicates
+__label__Changed bump dependencies
+__label__Changed improve performance of expand for radioblock button.
+__label__Fixed fix `revert` of template created by initializer
+__label__Fixed updaed the mail component so that mail headers- are correctly copied over from message to message.  this highlighted the fact- that th to: should always be what is specified on the outbound endpoint- instead of the to: in the message. added a test the validates headers are- preserved.--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@537937 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed ensure we're using the latest `object-assign`, which has protection against a non-spec-compliant native `object.assign`.
+__label__Changed cache performance improvements.
+__label__Changed bump cli to ^2.6.0
+__label__Changed bug 10538: avoid duplicated config values insertion when multiple management servers start at the same time
+__label__Added add config normalize process
+__label__Fixed  fixing code issues found by findbugs.
+__label__Changed "switch to atomicintegerfieldupdater and volatile- int  instead of atomicboolean--"
+__label__Changed "this version of winstone has a fix in the concurrent session access  plus a performance improvement in the file submission handling."
+__label__Added support for bitbucket tag comparison
+__label__Added "deprecate provisionlistener.provisioninvocation.getdependencychain()
+__label__Fixed publican errors in the release notes fixed
+__label__Added **format-commit-message:** support multiple %s in the message
+__label__Changed remove invariant on nested sibling virtualizedlists without unique listkey props; they now trigger a redbox
+__label__Fixed bug 12316: install wizard error handling fixes
+__label__Changed added first cut of layout and build process for new website with an improved structure using jekyll
+__label__Added trying to extend the scheduler interface according- to the comments at -19.--
+__label__Fixed generate ip.txt before skip_bundling check (#20554)
+__label__Fixed prefetch images using a lower download priority
+__label__Fixed regression in custom elements support.
+__label__Changed issue #2901 pool performance was improved up to 255 000 ins/s in benchmark.
+__label__Changed "change order of generics for func from r  t to t  r- to match c- rx--"
+__label__Changed touchables now play a sound on press
+__label__Fixed fixed a bug with positioning of nested views inside text
+__label__Fixed bug with required text fields in firefox.
+__label__Changed [updated] minor performance enhancement for earclippingtriangulator
+__label__Added new `ref` style, allowing a callback to be used in place of a name: `<photo ref={(c) => this._photo = c} />` allows you to reference the component with `this._photo` (as opposed to `ref="photo"` which gives `this.refs.photo`).
+__label__Changed yarn-7374. improve performance of drf comparisons for resource types in fair scheduler
+__label__Fixed cloudstack-274: fix duplicate error code.
+__label__Changed many public components were converted to es6 classes
+__label__Changed projects structure refactoring
+__label__Changed ui: use setter--
+__label__Changed minor performance improvements
+__label__Added "[cloud-azure] split azure plugin in 3 plugins
+__label__Changed improved performance on type checking on alter property
+__label__Changed performance improvement in disklrucache.readjournalline().
+__label__Fixed hbase-2365 double-assignment around split--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@929856 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Removed broken google closure compiler annotation from `create-react-class`.
+__label__Changed sonar-3537 improve performances of the treemap filter
+__label__Changed big refactoring to improve performance at n levels:
+__label__Changed improve rtl support
+__label__Changed "search work  integration testing  improvements for the search apis  other cleanup work"
+__label__Fixed fix node 8 compatibility issue
+__label__Fixed fix `react-native init --help` so that it doesn't return `undefined`
+__label__Deprecated "(1) 'gpt' has a new option '-x' (clear tile cache after row write) (2) 'gpt' option '-c' now accepts also zero (= no tile cache at all) (3) writeop refactoring: deprecation of ""static utility method"" and ""parameter list explosion"" code smells."
+__label__Added tfj-335s upport feature-specific rate limit information
+__label__Changed `targetsdkversion` is 26
+__label__Fixed fix issue with imagepickerios's inconsistent image when using the front-facing camera
+__label__Fixed pax-britannica: fix ship collisioncenter calculation position error.
+__label__Added first release of the [new package](https://github.com/facebook/react/tree/master/packages/create-subscription) to subscribe to external data sources safely for async rendering.
+__label__Added "added button to crossref entry editor field to select parent entry (#1563)
+__label__Changed test runner usability improvements
+__label__Deprecated `react.createdescriptor` has been deprecated as a result
+__label__Removed removed duplicate code from filehandle
+__label__Changed remove optimize after each experiment design update
+__label__Changed unit tests for covariance--- refactoring so not everything for the entire observable ends up in a single class-
+__label__Fixed cloudstack-932: fix incorrect param that caused casting error while processing api
+__label__Removed remove duplicate apiclienttest
+__label__Added `<react.profiler>` api for gathering performance measurements programmatically.
+__label__Fixed update `_scrollanimatedvalue` offset of scrollview
+__label__Fixed fixed a bug on reusing of graph instance in thread local. improved performance by avoiding creating a new graph+db instance in the case the kind of graph doesn't really matter (idempotent functions)
+__label__Fixed hbase-9227 restserver should handle the loginuser- correctly--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1514440 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed improved performance on management of collections
+__label__Fixed new ui - fix a bug that host and primary storage appear more than once when clicking between different left menu.
+__label__Added heartbeat for java client feature explanation
+__label__Changed unify upc-a reader into ean-13 reader since ean-13 is a superset and we can take advantage of the commonality to improve performance.
+__label__Fixed dns resolution in proxy bypass no longer includes the username and password in the request. this also fixes the issue of dns queries failing on macos.
+__label__Fixed python: fix model maxlength validation error message
+__label__Added added attribute feature to request and filter example on how to use it
+__label__Fixed fix listemptycomponent is rendered upside down when using inverted flag. (#21496)
+__label__Changed unify and encapsulate deployment flow methods and params
+__label__Changed bump gradle to 6.0.1
+__label__Changed avro-1260. ruby: improve read performance.  contributed by martin kleppmann.
+__label__Changed intellilang avoid costly service lookups--
+__label__Fixed the dismayed person emoticon (`/o\\`) no longer has a big head. i'm sure this is what you were all worrying about most.
+__label__Fixed incorrect output for camelcase custom css property names.
+__label__Changed update to jest 23.
+__label__Changed broadleafcommerce/qa#2208 - refactor if conditions to enhance readability
+__label__Added secoauth-68: use @mvc features in sparklr2
+__label__Changed this new classes represent the improved data structure used in the synchcall package.
+__label__Changed minor internal changes for better compatibility with react native
+__label__Changed remove `textinput`'s `selectionstate` prop
+__label__Changed "if the port in the servent structure is negative  convert to unsigned int"
+__label__Added update create build introduce functionality behavior
+__label__Changed broadleafcommerce/qa#2760 : cherry pick merge commit - 767fc1ed8698cc395d4c7de320eacc79bf4d4499 (moving 2760 performance enhancements from 5.0 to 5.1)
+__label__Changed ispn-1276 improve batching and transactional performance after profiling
+__label__Changed dataoutput2: small performance improvement
+__label__Added add decimal pad to android
+__label__Changed if you use a minified copy of the _development_ build, react dom kindly encourages you to use the faster production build instead.
+__label__Removed "jclouds-31. remove malformed  duplicate  or unnecessary headers"
+__label__Fixed fix indexed ram bundle
+__label__Changed began laying down work for refined performance analysis.
+__label__Fixed bug 8246: remove temporary ui fix since api bug 7410 has been fixed.
+__label__Fixed camel fails if oncompletion has been mis- configured from java dsl.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1040143 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed initial public release
+__label__Added `--source-map-inline` option to the `jsx` executable
+__label__Changed improved mvrb-tree search algorithm by reusing last search. this is really useful on indexing because the put() reuses the entry node found by the previous search.
+__label__Fixed cut over stringscriptdatacomparator to use- bytesref instead of strings--closes -2920-
+__label__Changed merge "why can’t people just use a git log diff?" with "commit log diffs"
+__label__Added make preview feature more generic
+__label__Fixed cs-15803: cloudstack 3.0 ui - vpc - fix a bug that root-admin failed to create a vm in a tier that belonged to regular-user or domain-admin.
+__label__Fixed if there is no name, just print the username.
+__label__Changed introduce a surprising performance improvement in defaultrobomodule
+__label__Removed stop using `fb.me` for redirects.
+__label__Added an experimental `unstable_starttransition` api.
+__label__Added setup github ci
+__label__Fixed bug fixes for controlled form components.
+__label__Fixed fixed issue -255 about hooks: wasn't called- during tx - added new test cases - check of recursive call for the same- record in hook.--
+__label__Changed 1) refactored siri structure to more closely resemble existing
+__label__Added add static settransformer feature.
+__label__Fixed unicode url improvements for python 2.
+__label__Changed [jbosgi-526] duplicate org.jboss.osgi.metadata types in repository and resolver
+__label__Fixed fix re-render case on swipeablerow
+__label__Changed declare node version support (6+).
+__label__Fixed cloudstack-8537 test for the sake of testing the fix seems so trivial but no testing is available for it at all. when bugs arise test extension should be the start point here.
+__label__Fixed "unspecified error" in ie11.
+__label__Added create a --help section
+__label__Changed `rows` & `cols` for `<textarea>`
+__label__Added introducing platformos – it looks a lot like platform, but with a simplified api
+__label__Fixed [jenkins-32765] fix failing tests
+__label__Changed when replacing `<a />` with `<b />`,  `b.componentwillmount` now always happens before  `a.componentwillunmount`. previously, `a.componentwillunmount` could fire first in some cases.
+__label__Fixed bug 7822: fixing the storage maintenance failures centered around domr stop/start
+__label__Fixed fallback to `settimeout` in testing environments.
+__label__Changed add tls 1.3 support to all android versions using conscrypt; to use this, you must add `implementation('org.conscrypt:conscrypt-android:2.0.0')` to `build.gradle`
+__label__Changed flatlist has `removeclippedsubviews` default to `true` on android
+__label__Changed unneeded index flush was removed--
+__label__Fixed fix animated gifs incorrectly looping
+__label__Changed improve readability and completeness of printmodelprocessor output
+__label__Fixed recommend `--tag` prerelease for npm publish of prereleases
+__label__Fixed cloudstack-5674: cls.fail does not work in setupclass fixed it with assert.
+__label__Fixed fix for jersey-2002: performance improvements
+__label__Changed `getmodifierstate` correctly returns a `boolean`
+__label__Changed marketplace/components - extract breadcrumb as a component
+__label__Changed camel-1370 caching the streamsource by caching- the inputstream or reader--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@746872 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed skip package heading for single package repos.
+__label__Fixed miscellaneous small python 3 text encoding bugs.
+__label__Changed extract "markdownrenderer" class.
+__label__Changed add multithreading
+__label__Fixed timing issue with `null` node.
+__label__Changed "mahout-767 improve rowsimilarityjob performance  fixed typos"
+__label__Changed delete some duplicate codes
+__label__Changed improve typeutils performance
+__label__Fixed cloudstack-3255: ui > vpc section - ip address - load balancing - autoscale - fix a bug that failed to get zoneid for createautoscalevmprofile api.
+__label__Changed drop jetclassobject element and its usages--as class objects are now represented by jetobjectdeclaration element-
+__label__Changed "clean up spring-expression tests warnings--clean up compiler warnings in the tests of spring-expression. this-commit adds type parameters to some of the types (mostly `list` and-`map`). some of them can't be cleaned up  some tests are even-specifically for raw types.-"
+__label__Changed add-ons: reactperf no longer instruments adding or removing an event listener because they don’t really touch the dom due to event delegation.
+__label__Changed hadoop-6467. improve the performance on harfilesystem.liststatus(..).  contributed by mahadev
+__label__Fixed camel-3203: fixed adding routes with quartz- endpoints to already started camel should add jobs to scheduler.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1005489 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added [vcs-log] idea-125276 support regular- expressions in branch filter--
+__label__Changed show component stacks in more warnings
+__label__Fixed "new advanced search dialog - fix a bug that search word is still ""on"" when visiting another page without closing the dialog first."
+__label__Fixed "assetmanager  fixed up some exception messages."
+__label__Added remove image options feature.
+__label__Fixed new ui - fix a bug that action list get duplicate actions
+__label__Added remove fields filtering feature
+__label__Changed "use java subject<t  r> as contravariant in t and- covariant in r--"
+__label__Fixed ios-simulator: change default iphone version
+__label__Changed hive-4858: sort 'show grant' result to improve usability and testability (xuefu zhang via brock noland)
+__label__Changed remove "reload on js change" from rn android
+__label__Added implement partition lost listener feature
+__label__Added ability to finish upgrade process on every step
+__label__Fixed fix localization crash in devsettingsactivity
+__label__Added add support for `overflow` style property
+__label__Removed migrated berkeleyje based integration test into respective index backend modules. removed duplicate max_result_set_size configuration option from solrindex.
+__label__Changed numerous refactors around bundle handling and the `devserverhelper`
+__label__Changed implemented better rendering for parameters with- default values in decompiler and descriptor renderer.-- -kt-1582 fixed-
+__label__Fixed "[hudson-5827  hudson-5756] this approach fixes both bugs in one fell swoop"
+__label__Fixed idea-78863 live templates are not accessible in- read-only file (e.g. versioned in perforce or tfs)--
+__label__Added "add ""extreme fitness tracker free"" to featured list"
+__label__Changed you can now assign `proptypes` to components returned by `react.forwardref`.
+__label__Added removed 'messages around' feature for now #es
+__label__Changed further improve tag testing.
+__label__Changed tidied up some of the default jms configurations;- for more detail see http://cwiki.apache.org/camel/jms.html--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@545124 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed bug 7573: zone page - add pod dialog - fix a bug that duplicate newly pod node appears when zone node is close after add pod action succeeds.
+__label__Fixed "cloudstack 3.0 new ui - system vm page - migrate system vm - fix a js error ""args.data.id is undefined"""
+__label__Changed shallow renderer should filter legacy context according to `contexttypes`.
+__label__Added a new officially supported context api.
+__label__Fixed fix js errors during bundle load were reported as `unknowncppexception`
+__label__Fixed fix or mark enum conversions surfaced by `-wenum-conversion`
+__label__Added ✨ blobs now can be: made from strings, loaded by file using a filereader api, uploaded and downloaded via `xmlhttprequest#fetch`, and fetched on files to a local blob consistently
+__label__Changed "introduced common test methods in- matchedqueriestests (e.g. createindex  ensuregreen  refresh  asserthitcount)--"
+__label__Added added new preferences tab for entry editor preferences. added preference settings for autocompletion feature.
+__label__Changed "make finding of paths to multiple leaf projects more efficient by doing only one traversal  improve error handling on version parsing  and improve versatility of the structure printer along with a new deptree-style relationship printer that includes artifact/scope information in the printed tree."
+__label__Changed add converter support for structure and table parameters
+__label__Added hdfs-4733. make httpfs username pattern- configurable. contributed by alejandro abdelnur.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1477241 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed better enable cross-platform support of websocket.js
+__label__Added `planned features` removed and `ee only` changed to `e only`
+__label__Fixed remove wrapper around listemptycomponent
+__label__Changed improved performance by avoiding unnecessary numberformatexception
+__label__Fixed [alluxio-2576] fix misleading error msg
+__label__Added "new tablelayout for libgdx feature  round size and position."
+__label__Fixed fixed double initial prop applying for newly created views
+__label__Added usealgolia custom hook to communicate with algolia api
+__label__Changed avro-1332. c#: improve datumreader performance. contributed by david mcintosh.
+__label__Removed as7-4547 removed the setting of -xx:+tieredcompilation from the standalone.sh file to improve throughput on performance benchmarks.
+__label__Changed various improvements to rctsurface and rctshadowview
+__label__Fixed do not throw if `context` & `trigger` are missing
+__label__Fixed don't endlessly collect websockets when not connected to the packager (dev memory leak)
+__label__Changed suppress yellow box about missing export for native modules
+__label__Fixed fix `inputaccessoryview` safe area conformance
+__label__Removed `react.autobind` - this was deprecated in v0.4 and now properly removed.
+__label__Added login - common login component integration - import from common-login repo - change authenticated-app from class to functional component to use hooks
+__label__Fixed "bug 7185: the tags logic in the update disk service offerings was wrong. once a tag is created  it should not be modified. we should only append to the existing list of tags  adding more tags. fixing the same"
+__label__Added add remaining features to support the abstraction
+__label__Removed removed recursive record search for improve performance.
+__label__Fixed false positive warning about hydrating mixed case svg tags.
+__label__Fixed fixed several bugs in windows
+__label__Fixed "hbase-8355:- baseregionobserver-pre(compact|flush|store)scanneropen returns null (andrew- purtell  jesse yates)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1483094 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Changed added tests for usage job. some refactoring to package structure for core jobs. (v1 tk-11257)
+__label__Fixed fixed issue -417--
+__label__Changed children are now transformed directly into arguments instead of being wrapped in an array
+__label__Added moved hp storage container metadata parsing to swift since it's a standard swift feature.
+__label__Fixed prevent `'use strict'` from leaking in the umd bundles.
+__label__Fixed lazy resolve: package-level objects are handled- properly--
+__label__Fixed bug 13461: deployvm wizard - select iso step - fix a bug that hypervisor div didn't get removed if iso in another tab is selected (select iso step has 3 tabs now).
+__label__Fixed switched to a default scheduler that actually works- together with this operator.--
+__label__Fixed cloudstack-5457: dbha features is broken due to runtimeexception thrown from underlying layer. fixed my catching in clustermanagerimpl
+__label__Fixed resolve localization warnings in template
+__label__Fixed partial fix to #1052. the problem is that the descriptorimpl class was not public.
+__label__Fixed wi-31168 unable to save settings after upgrade- to 2016.1 (cherry picked from commit 5b98073)--
+__label__Fixed cloudstack-7865: fixed pep8 errors and errors in wrong references
+__label__Fixed cloudstack-7811: fixed the script 'test_persistent_networks.py' - test cases failing on simulator due to hardware resources requirement for test execution
+__label__Added support some missing japic features
+__label__Changed some slight design improvements
+__label__Fixed fix modal not disappearing when navigating from inside a modal to another activity
+__label__Fixed detail view: fix error on refresh from async action
+__label__Changed update `chalk` to v2.4.1.
+__label__Changed "started moving to the type system. design is really ugly  going to refactor it"
+__label__Changed create flow props for `image`
+__label__Fixed cloudstack:8018: fix test_redundant_router.test_redundantvr_internals - the ssh to router was being done from wrong host
+__label__Changed update `esprima` and `jstransform` for correctness fixes
+__label__Fixed **critical bugfix:** update the version of `prop-types` to fix critical bug.
+__label__Changed use default methods to eliminate duplicate enum logic.
+__label__Changed warn when defining a non-existent `componentdidreceiveprops` method.
+__label__Fixed multipartform: fixing syntax error
+__label__Changed sonar-3104 improve the usability of the project 'history'
+__label__Changed rf# improved product structure tree
+__label__Fixed       - the simplified logging formatter (one line)- is now available only in         the java se edition as it could cause- troubles with java ee container         and potentially gae/android as we- reconfigure the default log manager         programmatically. reported by- kristoffer gronowski and bo xing.--
+__label__Fixed adding a test case and fixed off-by-one bug
+__label__Changed improve streams count performance
+__label__Changed "performance enhancement of critical method  when running in server jvm."
+__label__Added remove alerting feature from embedded agent
+__label__Added improved marking feature. added :abbr modifier for key generator.
+__label__Changed add changelog file, move cli to /bin.
+__label__Added added support for an update on load feature for plugins. thanks raphfrk!
+__label__Added add a simple duplicate method to maintain consistency with fragmentactivity.
+__label__Fixed fixes animated gifs incorrectly looping/not stopping on last frame (#21999)
+__label__Changed reduce the wait time to improve performance
+__label__Fixed bug resulting in `children` prop being coerced to a string for custom elements, which was not the desired behavior
+__label__Removed removed load check from recordstore.reset() and improved testing
+__label__Changed code refactoring - class structure simplification.
+__label__Fixed cloudstack-6316: fixes for bvt failures
+__label__Changed improved performance of dijkstra and shortest path algorithms
+__label__Changed update gradle wrapper to 6.2
+__label__Added the `envify` transform to the package.
+__label__Fixed correct fishhook import
+__label__Added segments - adapt react-labs/table, add level column
+__label__Changed ispn-2689 new pom structure to have lucene-v3 and lucene-v4 merged into a single unit with the same original name
+__label__Changed material public member encapsulation. array of atributes still need to be encapsulated little better.
+__label__Fixed **remove:** :fire: remove lib/index.js
+__label__Removed deduplicate warning messages about `<option selected>`.
+__label__Fixed radio buttons not getting checked when using multiple lists of radios.
+__label__Changed upgrade prettier to v1.13.6
+__label__Fixed new ui - resource page - fix a bug that nothing happened when clicking add zone button after splitting resource.jsp into 7 jsp file.
+__label__Changed performance improvements: scan all classes just once
+__label__Fixed new ui - fix a bug - instances page's middle menu action list is empty.
+__label__Changed `click` events now work on mobile safari.
+__label__Changed refs #15 - user identification design concept introduced
+__label__Changed init dockerfile
+__label__Changed  - added metadate-getparent() method.  - added- better variant-tostring() implementation.--
+__label__Changed "reformat code  optimize imports--"
+__label__Changed  - initial code for enhanced internal http- connectors.--
+__label__Fixed fix robinengineintegrationtest - missed to- explicitly create the index--
+__label__Changed big refactoring to improve performance at n levels:
+__label__Changed "moved the show parent link to outside of the main structure browse view panel  added an icon.  restyled path below folder name in result list.  sort icons converted to a sprite."
+__label__Changed improved performance of indexing matchers by lazily creating helper objects
+__label__Changed the warning when calling `setstate()` in constructor.
+__label__Fixed "updating to use parent pom 1.14 (with hardcoding of maven-hpi-plugin 1.64) and to explicitly use maven-hpi-plugin 1.64  to fix requiredcore missing problem with plugins."
+__label__Added read "changelog" config key from "package.json" too.
+__label__Fixed "fix issue -853--defaultsslcontextfactory would ignore enabledciphersuites unless you also specified enabledprotocols  due to a copy-paste error.-"
+__label__Fixed **deps:** update dependency yargs to v14.2.1
+__label__Changed this patch improves data structure of graphjobmessage.
+__label__Added support for `statics` on component spec for static component methods
+__label__Fixed bug 11664: fixed regression bug in listvms introduced by performance changes
+__label__Changed oracle snapshot index performance improvements and better multi-schema support
+__label__Added added account features to cloudstack
+__label__Changed warn if a class doesn't extend `react.component`.
+__label__Changed upgraded our dependencies on commoner and recast so they use a different directory for their cache.
+__label__Changed **improved svg support.** all svg tags are now fully supported. (uncommon svg tags are not present on the `react.dom` element helper, but jsx and `react.createelement` work on all tag names.) all svg attributes that are implemented by the browsers should be supported too. if you find any attributes that we have missed, please [let us know in this issue](https://github.com/facebook/react/issues/1657).
+__label__Added revised links approach for deltacloud so that we can determine which features a collection supports
+__label__Changed make animation endcallback type allow any return value
+__label__Changed hdfs-9768. reuse objectmapper instance in hdfs to improve the performance. contributed by lin yiqun.
+__label__Added jclouds-200: consolidate all feature-specific in the aws provider
+__label__Fixed issue with `<textarea>` placeholders.
+__label__Fixed hbase-2781  zkw.createunassignedregion doesn't- make sure existing znode is             in the right state (karthik- ranganathan via jd)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@963910 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fix `nextversion` config handling
+__label__Added support for more html attributes: `formaction`, `formenctype`, `formmethod`, `formtarget`, `marginheight`, `marginwidth`
+__label__Fixed just one more dndenabler little fix :)--
+__label__Changed error messages for invalid element types.
+__label__Changed #poulpe-6 1) structure of component classes was improved 2) merge branch
+__label__Changed mahout-767 improve rowsimilarityjob performance
+__label__Fixed cloudstack-4998 additional bug fixed
+__label__Changed avro-1348. java: improve utf-8 to string conversion performance in java 6.
+__label__Fixed "new ui - template page - fix a bug ""id is not found"" after creating a template for all zones and click one of them in middle menu."
+__label__Changed improved performance for beantoarray
+__label__Changed starting to improve the structure of the tutorial modules.
+__label__Changed new class structure introduced
+__label__Added completed implementation of apispark extension.--
+__label__Fixed fix bugs with bits.nextclearbit(int). fixes #3198.
+__label__Added umd production+profiling entry points
+__label__Changed minor performance improvement for bulk gets.
+__label__Changed improve processmonitor readability
+__label__Changed `forwardref()` components are now discoverable by the test renderer traversal methods.
+__label__Fixed cloudstack-9208: assertion error in vm_power_state handler- fixed
+__label__Changed sonar-6229 improve performance of es indexing at startup
+__label__Changed trunk-4692 | performance improvement in locationservice getlocationshavingalltags.
+__label__Changed refs #100707 convert from ccnr_handle * to void * in syncbase structure for sync library usage.
+__label__Fixed added xalan to see if it fixes the problem for jonathan giles
+__label__Added add back cucumber-features. work in progress for #45
+__label__Fixed cloudstack-6789: ui > user page > fix a bug that a domain-admin was unable to delete other domain-admin in the same domain.
+__label__Added new [emojify action](https://github.com/pajapro/fastlane-plugin-changelog/blob/master/readme.md#-emojify_changelog)
+__label__Added `react.addons.batchedupdates` added to api for hooking into update cycle
+__label__Security bug 10884: fixed a bug where the security group keeps processing a vm that has been removed
+__label__Added textinput now has prop `rejectrespondertermination` to enable textinputs inside swipeables to function properly
+__label__Added merge r1503933 from trunk to branch-2 for yarn-513.- create common proxy client for communicating with rm (xuan gong & jian he via- bikas)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1503935 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added **commit types:** :sparkles:select commit types with order
+__label__Changed first-class support for declaratively rendering a subtree into another dom node with `reactdom.createportal()`. (docs coming soon!)
+
+__label__Fixed fixed bug on objectdatabase method discovering and optimized it for performance
+__label__Changed made logger static to improve performance. fixed logger name.
+__label__Fixed re-rendering of components using `forwardref()` on a deeper `setstate()`.
+__label__Fixed when running `react-native-git-upgrade`, don't execute git's hooks
+__label__Changed android support library is now at `v28.0.0`
+__label__Changed camel-2470: adding test for sending back a reply- to jmsreplyto based on a temporary queue.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@949117 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed fix various reactinstancemanager deadlocks and race conditions
+__label__Added responseentity's headersbuilder allows for- specifying existing httpheaders--issue: spr-12324-
+__label__Added platform.select now supports native as an option.
+__label__Removed remove three properties: `textcolor`, `font` and `textalignment` from `rctbackedtextinputviewprotocol`, unifying the usage into `defaulttextattributes`.
+__label__Fixed `react-addons-create-fragment` package to include `loose-envify` transform for browserify users.
+__label__Added "as7-5897 introduced a feature to allow user application specific ""container-interceptors"" which gets applied before certain jboss specific server side interceptors get applied"
+__label__Changed volume: small performance improvement by replacing divide operation with bite shift.
+__label__Fixed **deps:** update dependency conventional-recommended-bump to v6
+__label__Fixed cloudstack-7862: fixed the script 'maint/test_high_availability.py' - test cases failing on simulator as testcases try to ssh to the vms
+__label__Fixed typos in italian translation from [@lorenzo-arena](https://github.com/lorenzo-arena).
+__label__Added support for [composition events](https://developer.mozilla.org/en-us/docs/web/api/compositionevent).
+__label__Changed java class dir structure cleanup
+__label__Fixed fix activity recreation on theme change
+__label__Fixed fix aria-invalid on error false
+__label__Changed `defer` & `async` for `<script>`
+__label__Changed make `reactperf.start()` work properly during lifecycle methods.
+__label__Fixed cloudstack 3.0 new ui - zone chart - public network - ip range tab - fix a bug that vlan value didn't show.
+__label__Fixed jbrules-659: fixing the problem of multidimentional- arrays--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@9457 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Changed add `changelog` to the list of common changelog files
+__label__Changed more cleanup on partition lookup tree structure ...
+__label__Changed switch from tslint to eslint
+__label__Changed replace instanceof template variable with- variable segment--
+__label__Fixed fixed missing selection indicator lines on `<pickerios>`
+__label__Added disclose that line filters are applied to all feature paths
+__label__Fixed parsing urls with `x-oauth-token`
+__label__Fixed [fixed hudson-4058] integrating a newer version of winp that fixes memory leak problems.
+__label__Fixed handle unicodedecodeerrors when trying to deal with a unicode url that cannot be encoded in ascii. (#2540)
+__label__Fixed disable delta bundles on the first app run
+__label__Changed article structure cleanup
+__label__Changed a couple quick performance improvements
+__label__Changed rename engine-seacher() into- engine-acquiresearcher()--the name should reflect that the caller is responsible for-releaseing the searcher again.-
+__label__Changed warn about `reactdom.createportal` usage within the test renderer
+__label__Changed start using "changelog" over "change log" since it's the common usage.
+__label__Changed delegate events to roots instead of `document`.
+__label__Fixed crucial bug fix in remote->local copy.
+__label__Added `usefuse` custom hook for search
+__label__Changed hadoop-2519 performance improvements: customized rpc serialization
+__label__Changed `bundler` to version 2 (@anthony-robin)
+__label__Changed [drools-1560] simplify and improve performances of chainedproperties â€¦ (#844)
+__label__Fixed hbase-8703 [windows] timed-out processes exit- with non-zero code causing healthchecker to report incorrectly. addendum- patch to fix flaky test--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1499047 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Removed don't add `px` to custom css property values.
+__label__Fixed fix an issue where cameraroll wasn't showing the front-facing camera consistently during capture and preview
+__label__Fixed fix xiaomi textinput crash in native
+__label__Changed nested virtualized lists should receive recordinteration events
+__label__Changed nos-554 refactor the current fastlocalcacheprovider with new design and partyline
+__label__Fixed [smallfix] fixed some problems for adding javadoc for filesystemrenameintegrationtest.java
+__label__Added pick up 1.36 for an improvement in the export feature.
+__label__Added [wfly-4872] add the elytron subsystem to the main wildfly feature pack.
+__label__Changed hadoop-6987. use junit rule to optionally fail test- cases that run more than 10 seconds.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1005977 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed stanbol-227 refactored package structure to org.apache.stanbol.commons.jsonld
+__label__Added support for array buffers in the javascriptcore implementation of jsi
+__label__Removed hbase-14466 remove duplicated code from mob snapshot tests
+__label__Changed refer to a "change log" instead of a "changelog" throughout the site to differentiate between the file and the purpose of the file — the logging of changes.
+__label__Changed don't wrap `listemptycomponent` in an extra view
+__label__Changed githubapi class refactorings.
+__label__Fixed enforced thread safety on uiimplementation methods that mutate the shadownoderegistry
+__label__Added **commitlint config:** :sparkles: format commit message with local com
+__label__Added allow the installed languages to be browsed- restfully for camel-1355--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@752938 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Changed use textlegend example in android as well
+__label__Changed minor: slightly improved performance of common methods
+__label__Changed moved all of the files to a new package structure to facilitate further refactoring.
+__label__Added feature to be able to specify limit on tags for the changelog
+__label__Fixed cloudstack-3467: fixing the unit tests for implicit dedication planner. when fix for bug 2662
+__label__Changed click events are handled by react dom more reliably in mobile browsers, particularly in mobile safari.
+__label__Removed remove duplicate utils getters
+__label__Changed merge pull request #5049 from jerrinot/improvements/query-performance-single-thread/master
+__label__Changed [bz-1200383] when a dependency cannot be found log- the complete stack trace only in debug mode--
+__label__Fixed fix by andrey to get working test cases even on- linux (windows seems to eat anything)--
+__label__Added update `babelhelpers` with babel 7 support
+__label__Added implement tag/tagexists for the offline database feature
+__label__Fixed "jbrules-3343 property specific -added fix for- bypassmodifytolefttuplesink  which was not working for lianodes--"
+__label__Fixed cloudstack-2080: fix error handling for multi-edit actions
+__label__Changed correctly detect required language features across browsers
+__label__Fixed an ie crash in development when using `<strictmode>`.
+__label__Changed flow dependency is now at `v0.85.0`
+__label__Changed performance improvements on preconditions
+__label__Fixed android: close websocket properly when remote server initiates close (#22248)
+__label__Changed cache result of iscasesensitive() method to improve performance
+__label__Fixed update repository urls in package.json.
+__label__Changed merge commits are now included in the changelog
+__label__Fixed [tachyon-1072] fix test wrong method names in tachyon.conf.tachyonconftest
+__label__Changed a warning about invalid textarea usage
+__label__Fixed fix touchable long-press
+__label__Added hbase-1766 add advanced features to hfile.main() to be able to analyze storefile problems
+__label__Changed builder - data date buffer time from 44 hours to 96 hours
+__label__Added [jbas-8363] resuscitate virtual host feature for ws components - includes non bc api changes
+__label__Fixed improved streaming behaviour, particularly for compressed data.
+__label__Changed subscribe methods with typed action arguments--
+__label__Fixed bug where suspense keeps showing fallback even after everything finishes loading.
+__label__Changed mountnode): deprecate component
+__label__Changed test design layout improvements
+__label__Changed extracted error messages from- defaultdiagnosticrenderer to special defaulterrormessages class.--
+__label__Changed javadoc interlinkings and other javadoc- improvements--
+__label__Changed "improve performance  don't calculate known values (#4630)"
+__label__Changed bug 10790: cloudstack - volume page - hide storage for normal user. show storage for root admin and domain admin.
+__label__Added "hadoop-6148. implement a fast  pure java crc32- calculator which outperforms java.util.zip.crc32.  contributed by todd lipcon- and scott carey--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@794944 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Changed react now uses `loose-envify` instead of `envify` so it installs fewer transitive dependencies.
+__label__Changed nodejs@8 is no longer supported.
+__label__Fixed stop suggesting npm publish if package.json was not updated
+__label__Changed made method call final to improve performance since this is a very frequently invoked method
+__label__Fixed jbrules-85--git-svn-id: https://svn.jboss.org/repos/labs/trunk/labs/jbossrules@3162 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Changed in cli, fix issue with `isinstalled` check for android and references to unregister
+__label__Added "netty: support to bind on multiple host/port pairs
+__label__Fixed new ui - fix a bug - clicking ip address on left menu didn't work.
+__label__Changed [jenkins-28446] - introduce new api method in queue to optimize the performance of unlabeledloadstatistics
+__label__Changed hdfs-9260. improve the performance and gc friendliness of namenode startup and full block reports (staffan friberg via cmccabe)
+__label__Changed mapreduce-3238. small cleanup in schedulerapp.- (todd lipcon via mahadev) - merging r1206921 from trunk--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1206924 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Fixed idea-35738 cannot drag around label with empty- text--
+__label__Fixed fix horizontal `<scrollview>`'s scroll position during layout changes with rtl content
+__label__Changed "improved test  printed out potential shard- failures--"
+__label__Changed "revert ""opla: improved performance with variable management (avoiding copy for most of the cases)"""
+__label__Added add `placeholder_line` param to `stamp_changelog` action
+__label__Changed improve readability of language selection on the profiles page
+__label__Fixed datasourceutils lets timeout exceptions through- even for setreadonly calls (revised; spr-7226)--
+__label__Added "add feature ""allowing user to control the order of fields in saved
+__label__Changed sonar-3104 improve the usability of the project 'history' page
+__label__Removed removing inherited background color optimization from _rcttext_ to reduce code complexity – please give feedback if you find performance differences!
+__label__Changed console: fixed jdk6 problem in more elegant way- (thanks to andrey's suggestion)--
+__label__Changed improved performance of tree map
+__label__Changed cleanup--
+__label__Changed hive-7691 - improve maintainability of testconfiguration.properties (reviewed by szehon via brock)
+__label__Fixed corrected stylesheet's transformation perspective to match ios's behavior, regardless of screen density
+__label__Fixed cloudstack 3.0 new ui - instance wizard - select network step - fix a bug that network container was empty when trying to deploy 2nd vm.
+__label__Added content server: add a new setting to allow un-authenticated users from specific ip addresses to make changes to the calibre library
+__label__Added viewer: allow displaying the current page / total pages in the header/footer. useful in paged mode to see exactly how many pages are left.
+__label__Added quick view: double click in a column to show that column in the main book list
+__label__Added viewer: ctrl+, to show preferences
+__label__Added viewer: allow also jumping to book positions in goto->location
+__label__Added edit book: allow customizing the base background/foreground and link colors for the preview window.
+__label__Added viewer toolbar: add button to easily change color schemes
+__label__Added open with: allow renaming open with applications.
+__label__Added kobo driver: support for new firmware
+__label__Added viewer: the --open-at command line argument now allows matching on toc hrefs as well as titles
+__label__Added viewer: if the book has no toc try to generate one from headings, if any.
+__label__Added browse annotations: add a check box to restrict the displayed annotations to only the books currently selected in the calibre library.
+__label__Added can be controlled via an option in preferences->look & feel->tag browser to combine 'first letters' together if there are a small number of items under adjacent letters
+__label__Added viewer: add a preference under miscellaneous to allow only a single instance of the viewer
+__label__Added dark mode support for the content server and e-book viewer user interfaces
+__label__Added viewer: in flow mode, implement drag scrolling.
+__label__Added template language: add functions to perform math operations to convert fractional numbers to integers
+__label__Added bulk metadata download review dialog: when clicking cancel ask for confirmation if some books have already been reviewed
+__label__Added add a workaround for amazon destroying cover thumbnails on e-ink kindles.
+__label__Added viewer: add a keyboard shortcut ; to go to a book location or position
+__label__Added content server: when adding books and a duplicate is suspected provide more information about what books match the duplicate
+__label__Added viewer: don't generate covers for books that don't have a cover. note that because of this all previously opened books will again be prepared for first time reading.
+__label__Added viewer: add a keyboard shortcut (ctrl+w) to toggle the scrollbar.
+__label__Added polish books tool: add a setting to add or remove soft hyphens from the book text
+__label__Added viewer: add an option to have a scrollbar (under scrolling in the viewer preferences)
+__label__Added fb2 metadata: add support for setting publisher and publish year
+__label__Added for books sent with this release of calibre, reconnecting the kindle to calibre after the cover has been destroyed will restore it automatically
+__label__Added edit book: spell check: ignore soft hyphens in words
+__label__Added viewer: search panel: add a button to return to the position the book was at before doing a search.
+__label__Added tag browser: add an option in preferences->look & feel->tag browser to allow the tag browser to get keyboard focus
+__label__Added viewer: add a control to quit the viewer useful on touchscreens.
+__label__Added allow selecting individual items to delete in the check library dialog.
+__label__Added content server: make the book size useable in custom book list templates.
+__label__Fixed fix import errors with some third party plugin on windows
+__label__Fixed viewer: fix toolbar show controls button not working when no book is open.
+__label__Fixed viewer: fix incorrect positioning of context menu for viewer toolbar.
+__label__Fixed mobi input: fix regression that broke reading of some documents
+__label__Fixed bulk metadata search and replace: fix some regular expression causing errors with the new regex engine
+__label__Fixed fix a regression that broke application of plugboards when sending by e-mail
+__label__Fixed odt input: fix a regression that broke conversion of odt files with footnotes.
+__label__Fixed viewer: fix mouse wheel not working while selection bar is visible
+__label__Fixed viewer: fix selection popup bar not always close to mouse when ending select-to-drag
+__label__Fixed fix calibre-server not exiting on ctrl+c on windows
+__label__Fixed content server opds feeds: fix error if the metadata for a book contains particular unicode characters.
+__label__Fixed edit book: reports tool: fix a regression that broke sorting.
+__label__Fixed htmlz output: fix an error when converting a document that has svg images
+__label__Fixed toc editor: fix bulk rename of entries not working
+__label__Fixed linux: fix right clicking on system tray icon not working
+__label__Fixed fix user category based searches unreliable dues to caching issues
+__label__Fixed pdf output: don't fail if the input document has an html file identified as the cover
+__label__Fixed catalog generation: fix a regression that broke generating catalogs if books with no comments are present.
+__label__Fixed windows: fix error on first run of calibre after install/upgrade
+__label__Fixed viewer: fix copy to clipboard button in toolbar not working
+__label__Fixed viewer: fix copy to clipboard not copying text as html to clipboard in addition to plain text
+__label__Fixed macos: fix some drop down menus such as in the toc editor and cover generation in the edit metadata dialog not working
+__label__Fixed version 5.0.1 fixes a bug in 5.0.0 that broke connecting to devices on macos
+__label__Fixed content server: fix esc key not working in several views.
+__label__Fixed fix unable to delete default value for custom columns of boolean type, once set
+__label__Fixed epub output: when splitting don't consider files with only a single character empty
+__label__Fixed comments editor: fix syntax coloring for html view in dark mode
+__label__Fixed book list: when a series column is not wide enough, elide text in the middle so that the series number is visible
+__label__Fixed fix a regression in 5.0 that caused performance of dialogs that contain title/series/tags edit fields to be very poor with large libraries.
+__label__Fixed fix a regression in 5.0 that caused some pop-up menus to appear on the wrong monitor in multi-monitor setups
+__label__Fixed macos: fix a long standing bug that prevented drag and drop of multiple items
+__label__Fixed windows: fix a regression that broke scanning for default programs for the open with action
+__label__Fixed windows: fix a regression in 5.0 causing some mobi files with non-bmp characters not being processed correctly.
+__label__Fixed e-book viewer: fix scrolling past the end of chapter boundaries not working in books that have negative margins
+__label__Fixed edit metadata dialog: fix incorrect rendering of custom column names that start with emoji.
+__label__Fixed quickview: fix nothing shown after clearing the search.
+__label__Fixed dark mode: fix radio buttons having no outline.
+__label__Fixed annotations browser: when showing a book in the calibre library that is not currently visible, display an error.
+__label__Fixed viewer: fix jumping to search result not always working in flow mode.
+__label__Fixed get books: update google and gutenberg plugins for website changes
+__label__Fixed viewer: fix keyboard shortcuts using ctrl+alt+letter key not working on windows.
+__label__Fixed viewer: fix keyboard shortcuts to shrink/grow selection not working.
+__label__Fixed viewer: fix keyboard shortcut to toggle highlights panel not working when the highlights panel is itself focused.
+__label__Fixed viewer: handle editing of missing highlights more gracefully
+__label__Fixed drivers: fix regression in calibre 5 that broke connecting to sony devices
+__label__Fixed open with: on linux when reading names from .desktop files, use the first matching language
+__label__Fixed conversion: fix a regression in calibre 5 that broke conversion of some malformed css stylesheets.
+__label__Fixed conversion: fix a regression in calibre 5 that broke processing of some pdb files with images.
+__label__Fixed conversion: fix regression in calibre 5 in the handling of @import() rules in stylesheets that import from directories above themselves.
+__label__Fixed content server: fix various controls on the book details page not working when viewing a random book.
+__label__Fixed tag browser: fix a crash when renaming a saved search to a value that already exists.
+__label__Fixed tag browser: fix renaming of custom column with fixed set of values not working.
+__label__Fixed fix a regression in calibre 5 that broke auto-sync of generated catalogs to devices.
+__label__Fixed fix setting rating via ebook-meta command line tool broken in calibre 5.
+__label__Fixed : when boolean columns are set to bistate, checking "show checkmarks" results in all non-boolean values being shown as false
+__label__Added deutsche welle by vohe
+__label__Added linuxnews.de and t3n.de by volker heggemann

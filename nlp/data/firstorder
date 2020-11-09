@@ -1,0 +1,500 @@
+builder - recurring job step.start/end to retain special values
+builder - enable v3.5 for scheduled and recurring jobs
+ML/Views - Meta optional in listViews payload
+builder/export - revert extraction of unpackFields() since unused elsewhere
+ml/filters - support operator type for HAVING filters
+ml/alias - fix alias spacing error
+builder/export - XWI report endpoint GET /requests/export/xwi
+ml/filters - support basic HAVING filters for aggregate columns
+market/get - separate top-items from list-items
+activity/popular-times - ensure response in JSON
+smaug - fix nested Payload.body JSON.parse
+smaug - handle double JSON encoded response
+smaug - change rate limit error messages to be 429 spec
+billing - reflect upstream (smaug) config change
+segments/hh - smaug billing log integration
+activity/popular-times - smaug rate limit 750/min
+initial load - modify get /ml route to load view columns by view name
+reports - delete report.js and report-vwi.js
+reports/vwi - apend aoi data when available
+reports/wi - append aoi columns if available
+reports/xwi - refactor to filter with report type instead of layer type
+reports/vwi - refactor to filter by report type instead of layer type
+reports/wi - refactor to filter by report type instead of layer type
+poi/editPOI - escape single quotes for query
+market/mysubs - getSubscription fetches layer/segment info
+market/subscribe - adjust return to 'res.sendStatus'
+reports/xwi - subview for xwi reports
+reports/wi - fix listView error on no layer access
+reports/vwi - subview for vwi reports
+reports/wi - allow optional "any" layer_id for listView
+reports - subview for wi reports
+market/topItems - refactor and combine query
+ market/topItems - get image and replace NULL with eqworks logo
+market/topItems - most popular and most recent
+ML/Logs - Access: customer/internal columns
+ML/Logs - Add JSDoc for helpers
+ML - New GET ml/<id> route + deploy perms + bugs
+ML/Logs - Add API support for athena logs
+devops - automate release notes updating process
+POI List - prevent SQL injection in creation
+audit log - use native Node HTTP response 'finish' event
+audit log - insertion retry logic
+audit log - explicit client connect/release
+audit log - fix reference to the API stage env var
+audit log - no explicit end to the pg pool
+audit log - redo with HTTP req/res lifecycle mechanisms
+market/bundles - new endpoint & bundle manipulation
+builder - add data source avail date endpoint
+builder/export - fix AOI by POI weekly, incl start/end date cols
+finance - open financial_log to all
+market/bundles - separate bundles without interfere in the structure of current marketplace data
+popular times - open for opta wl
+activity/popular-times - faster query backend through dynamodb (50 to 100x)
+lotame - new env vars
+segment sharing - lotame new auth api
+ml - more economical ext connections loading query
+hub - fix connection get query with available data records
+hub - fix listing query with available data rows
+segments - Adding more robustness to hh_segments call
+segment - Updating location parameter for hh-segments to make it uniform with other API endpoints (popular times)
+activity/popular-times - easier ?coords query format
+segment - simplifying hh.js module
+segment - hh_segments PR fixes
+segment - Fixing auth function call
+segment - Adding route for hh segment queries
+locus_log - select timestamp at timezone utc
+home - add endpoint to fetch marketplace item
+activity - fix popular times response as JSON
+segments - rewire data table back to ATOM db amid sync of segment.levels column
+segments - source segment.levels as segment level/tier where applicable
+recentLogs - include wlID in query
+builder - enrich requests with airflow tasks info
+activity - adapt multi-coords capability for popular-times data fetch
+hub - include number of records in get single connection
+hub - include number of records in connections list
+activity - add /activity/popular-times endpoint
+poi - place geometry (country, state, (CA only - city, postal, fsa)
+GeoQuery - support per-poi AOI query
+GeoQuery - Support for Report Level Query - add option to aggregate the entire report or keep per-poi resolution - keep poi_id for api response
+wl-cu - improve error handling to eventual error handler
+whitelabel - end point for fetch names of whitelabel and customer
+whitelabel - move whitelabel query into routes
+customer - refactor customer query into routes
+ML - patch to filter layers without valid layer_categories
+home - endpoint for fetching activity logs based on email, action, time
+beacon - insert logs for campaign creation
+beacon - insert logs for beacon creation
+poi - insert logs for poi list info edit
+poi - add logs for poi/poi-list attachment
+auth - product option
+Segments - Facebook: Added stage when saving FB credentials - facebook token query function created - added stage to all fb queries
+auth - add locus product param for user verification
+builder/export - VWI national to include all POIs even without stats
+builder/export - VWI local to include all POIs even without stats
+builder/export - VWI report with simpler source of poi_list_id
+xwi - eliminate false doubling of SQL query results
+devops - deployment with portunus print-env managed env vars
+Segments - Facebook: Added version env var to serverless.yml
+Segments - Facebook: added default param for fb API version
+Segments - Facebook: Used env variable for FB API Version
+app - fix error handler audit log res object (regression #305)
+segments - marketplace subscription with customer context
+marketplace - fix subscription regression caused by #390
+finance - builder job v3.5 compatibility
+builder - updating submitBuilderJob payload to include author
+builder - submitting correct payload to submitBuilderJob function
+builder - add schedule_frequency=once condition on airflow jobs
+builder - add option to submit v3.5 jobs to the airflow builder
+Segments - Facebook Sharing: reflecting change made to functions used for sharing
+builder - getRequests split report and poi steps JOINs
+builder - fix VWI export report_id not found caused by #392
+builder - get request duration fix for recurring jobs
+builder - get push_seg_status for lookalike jobs
+builder - simplify getRequests (:tremendously:)
+deps - remove unused dependencies
+deps - upgrade node-pg to v8
+Segments - Auditlogging: modified audit log function for unsharing purpose - included check for body params, if none, use query params - segment unsharing uses query params so want to store in log
+Segments - Auditlogging: Added audit logging to all sharing & unsharing routes
+db - max 1 pool size, usage cleanup
+builder - source approvers from data_pipeline_approvers table
+Map - Fix - change map query to account for maps created through UI
+Segments - FB Credentials: Removed unnecessary columns for cred table - removed whitelabel and customers since receive email
+Segments - FB Bug Fix: Handling businesses & ad accs when not found - added conditions to check if present, if not, send empty array
+Segments - Facebook integration - changed API version from v4.0 to v6.0
+Ad Accs with Locus Segments: Changed query param to match client-side - business_name to business_id
+Shared Segments Table with FB: Include connector payload & response - for facebook, need connector_payload and response for client-side - connector_response includes audience name
+Facebook Permissions: Changed POST req to GET req
+Facebook Permissions: Endpoint name change for consistency
+Facebook Permissions: Route for checking permissions in token
+maps - filter out ones without a FINISHED pipeline job
+devops - upgrade to node 12
+finance - remove pipeline jobs status condition and show status
+finance - pipeline job query with greatest instead CTE for max(schedule, run)
+finance - fix pipeline jobs datetime values local/remote inconsistency
+finance - fix duplicate pipeline jobs
+finance - pipeline job to use max(schedule_start, run_time) for range condition
+finance - pipeline jobs to take schedule_start as date range condition
+poi - return error message when no CUID passed in an uploading job
+Map - include subscribed layer in updateLayers - split export haveLayerAccess function - use to check for access to subscribed layers in map layer saving
+Update README.md
+Update README.md
+Update README.md
+builder - fix missing job_io due to unnecessary transformations
+layer - add comments on deprecated end points
+Segment Export to FB: Error handling to use apiError & Query/BodyParams util
+layer - improve error handler
+layer - clean console log
+layer - refactor layer and change getLayers to customer level
+layer - refactor layer in router
+Segment Export to FB: Decoupled Res & next from Fb connector function
+Segment Export to FB: Created Lambda to check if Segment Exists
+Segment Export to FB: Fixed Promise to use aws sdk promise
+Segment Export to FB: Invoke Chunk & Export Lambda and create records - Invoke chunking lambda which will invoke exporting to fb lambda - Save into db table segment_facebook & segment_share
+Segment Export to FB: Create facebook audience - obtain user token & initialize bizSdk API with token - using ad account id, create empty facebook audience
+Segment Export to FB: Create filtered segment and/or get segment s3 key - check if segment file exists in s3, if not invoke lambda for creation - after getting s3 key, get user token from db table
+Segment Export to FB: Created Facebook Connector Function - created empty function for connecting facebook - improved else statement for other connector_names to send error
+Segment Export to FB: Created conditions to include facebook connector - connector_name condition between facebook, lotame & any other ones - moved lotame functions under lotame condition
+where()-conditions - refactored conditional AND/OR where statements to parse through parseExpressions function
+map - improve error handler
+fix - return map with customer id
+where()-conditions - nest conditional where statements - stores .orWhere() and .andWhere() as arrays inside where array - nested conditional where statements cannot support operator value at this stage
+map - router and query refactor
+Facebook Restrictions: Disable Ad Accounts already shared - check for all ad accs under business that have shared segment as audience
+fix - remove console log and keep naming consistent
+devops - fix reference of GITHUB_ env vars in github actions run
+locusML - supports basic andWhere/orWhere statements
+rebase - rebase with master to fix conflicts
+log - remove console log - make return message consist - small fix based on comments
+log - write response into log - changed POI related endpoints createPOIList, CreatePOIByAddress, CreatePOIByCoordinate, CreatePOIFromPolygon, EditPOI
+log - pass logid down to endpoint
+poi - refactor poi into routes
+log - add response into log for marketplace subscribe and unsubscribe
+log - write response into log - changed POI related endpoints createPOIList, CreatePOIByAddress, CreatePOIByCoordinate, CreatePOIFromPolygon, EditPOI
+log - pass logid down to endpoint
+devops - add deployment notifications back
+report_vwi - add has_aoi query logic to vwi reports
+has_aoi - add query to check if each poi could be found in aoi report table - if yes/no: response will include has_aoi flag indicating true/false
+deps - add back sls domain manager plugin
+deps - remove sls plugins
+devops - follow-up fix to only deploy on prod-* tags
+devops - simplify env vars and reduce unnecessary transformations
+devops - move CI/CD to github actions
+devops - bump up node engine version to 10.x
+builder: updating path for bell segment folder
+builder/export - VWI local/national enforce customer check
+builder/export - add beacon_id to VWI natinal report
+segments - share to GAM
+fix - LocusML - error when geoJoining
+builder - export lookalike query typo (albeit result non-impacting)
+builder - get requests defensive query patch
+builder - export lookalike stats fix escapes
+builder - export, lookalike stats (init for bell)
+feature - LocusML - small typo fix
+feature - LocusML - added SQL bindings to raw expression
+Layer - Incorrect /get Filter - layer query did not account for customer account being the agency - results in produced report layers being inaccessible in the map
+feature/locusML - handle multiple where statements using .andWhere
+feature - LocusML - handles complex nested join statements
+feature - LocusML - supports case statement
+feature - LocusML - supports 'between and 'not between' expressions
+feature - LocusML - support ORDER BY expression
+segment combine - add push to atom flag
+finance - add creation_time and approval_time (greatest of ops/fin approval)
+finance - finance log inclusiveness improvements
+finance - add job_ver and steps for pipeline log
+builder - fix time formt for bell related jobs
+Export - AOI Report - added date + 1 day check as short term fix for incorrect reports
+builder - safeguard against empty job_type query
+builder - update permission to read s3 path
+LocusML - Fix - correct destructure of categoryKey
+builder/v3 - safeguard against empty steps of given report
+builder - VWI reports code refactor
+builder - VWI national report unwind hod and dow outputs
+builder - VWI local/national reports output start/end as ISO timestamps
+builder - VWI local report add address_city, remove hod/dow
+builder - VWI local/national report include poi_address
+builder - VWI local/national report include empty vendor/camp
+builder - VWI local/national report attachment response
+builder - VWI national report default content and term
+builder - internal API endpoints for VWI local/national exports
+builder - export interfaces for VWI local/national reports
+builder - add API for getting lift segments from s3
+Bump knex from 0.16.5 to 0.19.5
+LocusML - Layer view - added Layer in the same format we currently use on the map - added support for querying locus-maps in LocusML
+builder - add compatible name for builder steps
+builder - still show poi list if no report step
+XWI - Fix - xwi query returning incorrect results
+Facebook .env: Variables added to serverless.yml
+builder - fix bug now show view page when no report step
+builder/v3 - get steps from the oldest job ref to report_id
+builder/v3 - get steps by report_id
+customer - removed convertAgency2Advertiser
+report - updated outdated function to get customerid
+Facebook Credentials: Change in authorization for creating FB Record - authorization includes checking for internal and comparing arrays - api error included for unauthorized post requests to create fb record
+VWI Report - Fix Default Vendor and Campaign Values - default case of '' should give all results
+Facebook Credentials: Sensitive info removed & Flatter code structure - created .env variables for facebook app info - added Cryptr pkg to encrypt and decrypt user tokens for FB API calls - authorization for POST request by checking with req.access - for GET routes, utilized query strings instead of params - removed nested promises, multiple catches & console.logs
+Facebook Credentials: Error handling - added next param for all catch expressions in API calls and DB calls - removed error message being sent to client
+Facebook Credentials: GET Routes for FB data & POST route for token update - 2 GET routes for retrieving businesses and ad accounts - GET route for checking token validity - POST route now includes checking for existing record - if record exists for POST Route, update token with incoming data - Routes created for FB businesses and ad accounts to avoid CORS error
+Facebook Credentials: Creation, Deletion and Retrieval Route created - POST, DELETE and GET route for facebook credentials - email & type (fb) used to filter for record in DELETE & GET route
+Facebook Credentials: Route created - new credentials folder created in routes folder - added post route to receive credential information
+GeoQuery - Add persona_name to query
+builder - use agency level customer id
+builder - fix report_id in v3
+POI - fix list info incorrect group by shape_type
+POI - list info add back error on inhomogeneous shape_type
+POI - port POI list shape_type meta improvement to existing /info endpoint
+add new api to return poi type in a list
+Fix - Map - Correct customer name & ID on map list when  selected in create/edit
+finance - add vendor_id/wl for data provider report
+finance - add detailed info of subs of each data provider report entry
+finance - show all data providers without WL selection
+Fix - GeoQuery - Promise Resolution - treated 'resolve' like a 'return' so would x2 resolve in some cases
+builder - fix v3 job config
+builder - fix v3 job config
+make use of apiError()
+GeoQuery - convert all routes to use new middleware
+GeoQuery - convert queryParams and sourceParams to middleware, new geoQueryHandler
+GeoQuery - extract mapbox-isochrone, '/demographic' route changed from '/'
+GeoQuery - file structure refactor
+GeoQuery - reconfigure routes and api documentation
+GeoQuery - refactor file structure, grouping out potential modules
+GeoQuery - added report source to Interaction
+GeoQuery - add Persona for AOI and Interaction query areas
+GeoQuery - geoQueryInteraction, further refactoring
+GeoQuery - geoQueryAOI and further abstraction
+GeoQuery - geoQueryIsochrone abstraction
+GeoQuery - refactored geoQueryProximity to use Report, AOI and Persona sources
+GeoQuery - convert geoQueryPolygon to common util
+GeoQuery - geoQueryProximity abstraction
+GeoQuery - persona query and added to Polygon end point
+GeoQuery - Refactored Polygon to use new Report and AOI source queries. Added /aoi and /report end points. Basic Isochrone functions added as comment.
+segment - fix marketplace segment sharing
+builder - add v3 aoi
+hub - list connection created with public datasets in connection edit screen
+Auth - Add AgencyID to LayerAuth - LEFT JOIN customers to account for report-based propensity layers
+more strict connection filter
+hub - support public datasets and list them by default, and:
+Added: Target name to XWI report endpoint
+have log for market sub and unsub action
+log - add log middleware - add log when create poi by address and edit poi
+builder - v3 using agency level customer id
+builder - v2 using agency level customer id
+Changed: Modified xwi endpoint to return all xwi records for report
+Layer - AOI MVT Access - Layer - changed /mvtData/aoi to use listLayers instead of layer() middleware, to be consistent with /report
+fix dev access check
+builder - throw error if build failed
+open up locus ml access
+XWI report - add /xwi endpoint access control
+XWI report - simplify query function and colocate it with route handler
+Added: Endpoint to get xwi data for a poi
+builder - add propensity type
+typo of 'customer', saw redundant check of 'reportLayer' in geo query which caused an uncaught error
+redundant report_layer_id usage and function parameters
+Auth - Fix WL/CU Access Filters - updated jwtAuth logic to correctly assign CU/WL "overrides" when 'isInternal' is false - updated geoquery end points to check for report layer access using listLayers - updated listLayers to check for agencyid and customer to account for their difference
+Report - Cohort Data Formatting - handled 'total = 0' division error - no longer round 'pct' field, leaving it to front end
+builder - add xwi audience creation
+builder - add eric as dataops
+add cohort step
+remove unnecessary try/catch
+use new 'total' column to calculate pct
+move get-report-cohort to /routes/report/interface.js
+Report - Cohort Data Endpoint - added /cohort to process new 'cohort_report' table
+builder - add config for xwi job
+add view filters and weather views
+AOI MVT min and max endpoint console logs removed
+AOI MVT min and max endpoint
+builder - fix up parameters in pipeline
+fix is null, array values; ggid geo view; min max function for dates
+support for vwi report and return more report meta data
+column validation; expression restructuered; more proper error handling
+locus ml view develop guide
+view restructure
+geo views, JSON operators, LIMIT and DISTINCT
+add request/submit endpoint
+add request/audience endpoints
+allow wl and cu filter
+hub - properly handle Event type lambda invocation
+hub - load connections with is_syncing status
+hub - manual connection sync invocation PUT /connections/:id/sync
+fix marketplace finance report ts timezone
+fix vwi vendor and campaign filter
+auth - clean up, deprecation, along with pg based equsers transition
+auth - add missing read access
+Finance - data pipeline log details parse fix
+Bulder - AOI export aoi_id to postalcode to conform to original report
+Builder - AOI export streamed attachment response
+builder - AOI report export (as a job), y:
+Financial - AOI report export fin logs i/o, y:
+devops - remove orphaned csv-writer dep
+builder - AOI by POI report export query, y:
+locus ml initial stage
+fix data provider wl perspective
+POI - Imporve query indentation and format, and use destructure properly
+POI - moving blukAttachPOI from query to /route/poilist
+POI - add conditional query for supporting older version of Snoke
+Bump lodash from 4.17.11 to 4.17.13
+POI - change bulkAttachPOI for fetching target radius
+Redis - Fix URL Config - incorrectly supplied port to createClient when REDIS_URL already does
+data provider finance report
+fix finance endpoint global dedup bug
+update readme with redis install command
+added redis .rdb to gitignore
+Widget Template API - Widgets - basic CRD for widget templates, in /widgets - Widgets - "active" schema and API included to move Slate and Card config away from map.config
+Hub - allow direct dataset creation
+Builder Propensity Layer Responses - was not correctly picking up Builder layers because they had a report_id - fix to properly detect weighted_sample - changed return variable names to x_y - fix responses to all use apiError util
+Market List Query Fix - GROUP BY clause hardcoded number of columns
+add redis aws config
+basic redis caching for isochrone shape as well as isochrone and proximity responses, function abstraction, queries set up to handle multiple polygons, region aggregation queries
+polygon abstraction, handle queries separately for async efficiency
+Revert GQ Propensity Response -changed response back to include weighted_value and weighted_sample -was a breaking change for some card configs
+show region for met
+chance query for metropolitan level competitor data
+Added metropolitan level end point
+geoQueryDemo params changed to RORO
+Geo Query Response - added a unique description for use in graphing - calculated propensity value/sample instead of sending both - cast report '/stats' aggregates as ::int for ease of use in Recharts frontend
+Hub - move stage to connections.dest column
+add competitor for cannabis
+fix report vendor and campaign filter
+Geo Query Propensity Layer Fix
+Send back API stage in /connections/upload response
+Zero change refactor
+403 changed to 400 for some responses
+reverted isochrone to return one contour, added support for AOI metric filtering in geo queries
+For WI and VWI reports: Added a field for the name of the data point for both day of week and hour of day stat results.
+cannabis/tea&coffee combined as common endpoint
+cannabis endpoint added
+change getting region id
+Changed the vwi query to just return WI data if no vwi data is present
+add layer upgrade for new request
+add new endpoint for loyalty index to show competitor exposure data
+update report/layer type for new request
+Safeguard on bundle_items for market.getFinanceReport()
+account for summary_data>percent being 0 in query
+changed to early returns and converted query parameters to use lowercase and _
+Better error handling for geo-query interfaces
+basic implementation for demographic layer geo queries
+Deprecate `GET /report/list` for `GET /report`
+Remove unused POST '/report' route and its handler
+Refactor: zero feature change
+proper status code and general code improvements
+Added routes to get report stats
+sell layer to market endpoint
+market finance report endpoint
+market switch to agency level advertiser id
+market subscribe and unsubscribe endpoints
+market category and subscription endpoints adapt segment and layer endpoints to new market tables
+new get all market items endpoint
+Remove /insights series of endpoints and underlying queries (#244)
+fix bug on return two layers from same report id
+Fix ambiguous condition on customer filtered connection list
+[G2M] Patch/display combined segments fix (#233)
+supporting routes for dataset management
+Conditionally inserts new dataset
+temp exclude set_id on connection update to avoid unexpectations
+dataset on insertion
+basic mapbox isochrone end points (#231)
+check maintenance (#228)
+[G2M] submit segment combine (#224)
+return latest brand data (#226)
+fix hardcode rename (#225)
+hardcode visitor class rename (#223)
+adding control flag (#222)
+[G2M] loyalty telco endpoints (#218)
+deployment with simplified branch and commit logic (#221)
+[G2M] gitlab in, travis out. also removed husky (#215)
+[G2M] fix date range selector not working (#220)
+[G2M]Request/pipeline update (#217)
+presigned s3 post URL to support for upload CSV workflow for new connection creation (#219)
+[G2M] new endpoint to get loyalty history stats (#216)
+[G2M] allow-negative-choropleth-interval (#214)
+load map_id along with job request (#213)
+patch incorrect import of db pool in auth middleware module (#212)
+[G2M] Feature/ext connector (#211)
+[G2M] query geometry from geo tables (#210)
+40 sec (or way more depending on zoom level) down to ~0.3 sec (~constant). credit to @eq-ianecc :lance: (#209)
+add time zone to wi and vwi report for table view as well (progressive refactor in porgress) (#208)
+[G2M] time_zone added in POI report (#205)
+[G2M] exclude hided poi from report endpoint (#204)
+[G2M] Fix edit POI List endpoint (#202)
+go yarn or go home (#203)
+ignore manual shared seg (#201)
+[G2M] Improve the management of POI's raidus (#199)
+[G2M] Feature/loyalty index (#198)
+[G2M] Feature/segment marketplace (#200)
+[G2M] AOI MVT data endpoint and single AOI POI report endpoint (#197)
+[G2M] Request/job component (#196)
+[G2M] endpoint for serving data for tegola layers (#190)
+[G2M] set io as mandatory for request (#194)
+[G2M] update to show log only to internals (#193)
+fix aoi query for wi report (#195)
+[G2M] Pass more poi information (#184)
+use default price for missing entries in whitelabel_expense
+[G2M] one extra field for segment object (#191)
+[G2M] update data type for unit_price and final_cost (#187)
+spelling
+seg share - lotame adding behaviour alias
+[G2M] request/financial report (#185)
+[G2M] Bug/save map with no layer bug (#186)
+[G2M] Request/update filter (#179)
+more fildes (#182)
+add back missing $ for env var (#181)
+[G2M] Data marketplace endpoints (#175)
+[G2M] Add address for polygon (#180)
+[G2M] Edit poi (#171)
+[G2M] Request/bug in area file (#176)
+Update serverless.yml (#173)
+bug fix when addres_label is empty in poi
+[G2M] Enhancement/attach layer access control (#170)
+segment rename (#168)
+safe check for params, tweak beacon camps list (#169)
+support layer disable column
+show last uploaded
+fix syndicate hook
+api integration
+api integration
+[G2M] update slack token (#166)
+bug fix (#165)
+[G2M] Request/query cost (#160)
+only get all vendor and all campaign for lifetime poi stats (#164)
+[G2M] import csv and status tracking (#148)
+segment - share external writes to table
+configure 60s timeout (#163)
+bug fix for select
+custom selection
+more progress
+[G2M] remove internal restriction for aoi layers (#161)
+supporting routes for external segment share
+[G2M] Feature/create by addresses (#153)
+optimize get segments (#158)
+[G2M] fix for pull 149, which broke add report functionality (#157)
+[G2M] Requests/open access + more info returned from /poilist/info endpoint (#156)
+[G2M] AOI report by FSA (#154)
+lint
+fix dates check
+[G2M] data pipeline job log (#146)
+less boilerplate
+unused type
+beacon restructure insights
+[G2M] AOI GeoJSON related fix and enhancements (#149)
+[G2M] POI get list info endpoint (#150)
+[G2M] Enhacement/return agency level cuid (#147)
+[G2M] Request/poi file poiid (#145)
+[G2M] AOI report with GeoJSON response (#144)
+refactor api.js into multiple files and apply jwt check for endpoints (#142)
+Have to remember the last line cannot have a comma (#140)
+[G2M] Return more polygon information (#135)
+fix incorrect query condition on listing requests with date range filters (#139)
+[G2M] reverse lat lon for polygon (#136)
+[G2M] Requests/date range (#132)
+[G2M] Request/new polygon file (#133)
+list empty beacon camps
+select customers (agency) based on user permissions (#129)
+[G2M] bug for fixging using agency id to create report (#130)
+bug fix (#128)
+clean up
+update query for agency id
+[G2M] permission based results; segment sharing cost (#127)
+update to use advertiser id
+[G2M] API for polygon upload in locus (#122)
+remove double linting check as well as install (#125)
+[G2M] Feature/segments share atom (#124)
