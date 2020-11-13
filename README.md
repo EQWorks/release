@@ -1,6 +1,6 @@
 # release
 
-A CLI for release notes generation based on tags and commit history.
+A CLI for changelog and release notes generation based on tags and commit history.
 
 ## Installation
 
@@ -15,64 +15,78 @@ npm i -g @eqworks/release
 In any git repo (suppose the tagging pattern is `v*`, you can use `--pattern` option to fit yours), run:
 
 ```shell
-release notes --print --skip alpha
+release changelog --print --skip alpha
 ```
 
 Which would give you a markdown such as:
 
 ```md
-## Release Notes: from v1.4.0 to v1.5.0
+## Changelog: from v2.1.1 to v3.0.0
 
-### devops
+### CHANGED
 
-* [CORRECTIVE, FEATURES] dogfood github release notes after npm publish (f5718f8 by Runzhou Li (woozyking))
+* version - v3.0.0 (b2156bd by Tamires)
 
-### notes
+### FIXED
 
-* [FEATURES, PERFECTIVE] `--fetch` flag to control whether to run git fetch (28550c9 by Runzhou Li (woozyking))
-* [FEATURES, CORRECTIVE] `--github` flag to update the head ref associated GitHub release (21d6278 by Runzhou Li (woozyking))
-	* omit local file output
-	* factor out `utils.exec` to perform `execSync` and `log`
-	* requires `$GITHUB_TOKEN`, `$GITHUB_OWNER`, and `$GITHUB_REPO` env vars
-	* `$GITHUB_REPO` falls back to local repo toplevel name
+* lib/parse-subject - fix t2 when no match by default it to 'others' (3593397 by Tamires Lowande)
+* lib/baseHandler - cover single tag and no tag cases (281c4c0 by Runzhou Li (woozyking))
+
+### ADDED
+
+* nlp - add model training process as a jupyter notebook (1c57956 by Runzhou Li (woozyking))
+* lib/parseCommits - update to the newly trained sub-1MB NLP model (d7c4a1e by Runzhou Li (woozyking))
 ```
 
-Since v2.0.0, a new command `changelog` with NLP based auto labelling intended for changelog-like formatting is added:
+Since v2.0.0, an NLP based auto labelling mechanism has been added, along with the sub-command `changelog` intended for changelog-like formatting (as shown above).
+
+Since v3.0.0, the NLP model has been [retrained](https://github.com/EQWorks/release/pull/20) to adhere to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) conventions.
+
+The original sub-command `notes` can be used for a more "feature" oriented formatting:
 
 ```shell
-release changelog --print --skip alpha
+% release notes --print --skip alpha
 ```
 
 Which gives:
 
 ```md
-## Changelog: from v1.4.0 to v1.5.0
+## Release Notes: from v2.1.1 to v3.0.0
 
-### CORRECTIVE
+### version
 
-* devops - dogfood github release notes after npm publish (f5718f8 by Runzhou Li (woozyking))
+  * [CHANGED, ADDED] v3.0.0 (b2156bd by Tamires)
 
-### FEATURES
+### lib
 
-* notes - `--fetch` flag to control whether to run git fetch (28550c9 by Runzhou Li (woozyking))
-* notes - `--github` flag to update the head ref associated GitHub release (21d6278 by Runzhou Li (woozyking))
-	* omit local file output
-	* factor out `utils.exec` to perform `execSync` and `log`
-	* requires `$GITHUB_TOKEN`, `$GITHUB_OWNER`, and `$GITHUB_REPO` env vars
-	* `$GITHUB_REPO` falls back to local repo toplevel name
+* #### parse-subject
+
+  * [FIXED, CHANGED] fix t2 when no match by default it to 'others' (3593397 by Tamires Lowande)
+
+* #### parseCommits
+
+  * [ADDED, CHANGED] update to the newly trained sub-1MB NLP model (d7c4a1e by Runzhou Li (woozyking))
+
+* #### baseHandler
+
+  * [FIXED, CHANGED] cover single tag and no tag cases (281c4c0 by Runzhou Li (woozyking))
+
+### nlp
+
+  * [ADDED, CHANGED] add model training process as a jupyter notebook (1c57956 by Runzhou Li (woozyking))
 ```
 
 You can learn more about the CLI by typing `release` or `release <command> --help`.
 
 ### Tips
 
-The following convention should be applied on your commit messages for ideal parsing:
+The following convention should be applied on your commit message's subject for ideal parsing:
 
 > category - message
 
-where `category` can contain a secondary portion such as
+where `category` can have a `sub-category` following a forward slash `/`
 
-> category/sub category.
+> main-category/sub-category - message
 
 For example:
 
