@@ -80,14 +80,3 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npx depcheck
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Bump version and push tag
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-      uses: anothrNick/github-tag-action@1.26.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CUSTOM_TAG: v*

@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    name: Trigger a release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      # This step will retry until required check passes
+      # and will fail the whole workflow if the check conclusion is not a success
+      # https://github.com/marketplace/actions/wait-on-check
+      - name: Wait on checks
+        uses: lewagon/wait-on-check-action@v0.1
+        with:
+          ref: master
+          check-name: depcheck # name of the last existing check for push
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 20 # seconds
+      - name: Create tag
+        if: ${{ success() }}
+        run: node ../index.js tag --github -v
