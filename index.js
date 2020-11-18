@@ -19,7 +19,7 @@ if (require.main === module) {
     .command(
       tag.command,
       tag.description,
-      // changelog.options,
+      tag.options,
       tag.handler,
     )
     .demandCommand()

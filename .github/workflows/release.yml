@@ -29,4 +29,4 @@ jobs:
           wait-interval: 20 # seconds
       - name: Create tag
         if: ${{ success() }}
-        run: node ../index.js tag --github -v
+        run: node index.js tag --github -v
