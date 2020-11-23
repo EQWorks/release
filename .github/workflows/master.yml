@@ -80,3 +80,20 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npx depcheck
+
+  release:
+    - name: Trigger a release
+      runs-on: ubuntu-latest
+      needs: [lint, depcheck]
+      if: contains(github.event_name, 'push')
+      steps:
+        - name: checkout
+          uses: actions/checkout@v2
+          with:
+            ref: master
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 12.x
+        - name: Create tag
+          if: ${{ success() }}
+          run: node index.js tag --github -v
