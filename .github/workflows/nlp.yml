@@ -1,0 +1,49 @@
+name: NLP model retrain
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'nlp/train.py'
+      - 'nlp/data/*'
+  schedule:
+    - cron: '0 0 * * *'
+
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: nlp
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set Python version
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+
+      - run: python -m pip install --upgrade pip setuptools
+      - run: python -m pip install pipenv
+      - run: pipenv install
+      - run: pipenv run python train.py  # this fails if no better update found
+
+      - name: Get update timestamp
+        if: ${{ success() }}
+        # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions#setting-an-output-parameter
+        run: echo "::set-output name=TIMESTAMP::$(date '+%Y-%m-%d %H:%M')"
+        id: get-timestamp
+
+      - name: Create pull request
+        if: ${{ success() }}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: "[G2M] nlp - update model ${{ steps.get-timestamp.outputs.TIMESTAMP }}"
+          commit-message: nlp - update model ${{ steps.get-timestamp.outputs.TIMESTAMP }}
+          delete-branch: true
+          branch: nlp/auto-update
