@@ -94,6 +94,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
+      - run: yarn install
       - name: Create tag
         if: ${{ success() }}
         run: node index.js tag --github -v
