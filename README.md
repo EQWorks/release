@@ -12,6 +12,7 @@ npm i -g @eqworks/release
 
 ## Usage
 
+### Changelog
 In any git repo (suppose the tagging pattern is `v*`, you can use `--pattern` option to fit yours), run:
 
 ```shell
@@ -41,6 +42,8 @@ Which would give you a markdown such as:
 Since v2.0.0, an NLP based auto labelling mechanism has been added, along with the sub-command `changelog` intended for changelog-like formatting (as shown above).
 
 Since v3.0.0, the NLP model has been [retrained](https://github.com/EQWorks/release/pull/20) to adhere to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) conventions.
+
+### Notes
 
 The original sub-command `notes` can be used for a more "feature" oriented formatting:
 
@@ -75,6 +78,16 @@ Which gives:
 
   * [ADDED, CHANGED] add model training process as a jupyter notebook (1c57956 by Runzhou Li (woozyking))
 ```
+
+
+### Tag
+
+Since v3.1.0, the sub-command `tag` identifies the version inside the commit messages and can either create a local tag with the commit version as its name or make a github release using the `--github` flag
+```shell
+% release tag --github
+```
+Reads from the latest 3 commits (default) and can be changed with the `-n` flag
+
 
 You can learn more about the CLI by typing `release` or `release <command> --help`.
 
