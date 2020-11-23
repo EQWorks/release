@@ -1,0 +1,1673 @@
+__label__Added `movementx` and `movementy` fields to mouse events
+__label__Added cloudstack: added virtualmachine and asyncjob features
+__label__Added add support for bitbucket repositories
+__label__Added reflection support--
+__label__Added common - --print flag to redirect file output to stdout (print)
+__label__Added support for `onload` and `onerror` events on the `<link>` tag.
+__label__Added "use new jarjar ""keep"" feature instead of manual zapping
+__label__Added "add a page to generate and view a full thread dump
+__label__Added "i have implemented 2 features requested in ticket #841.
+__label__Added camel-5370: added direct-vm component to act as- synchronous direct calls between multiple camel contexts in the same jvm (eg- like direct + vm together). can be used to support transactions spanning- multiple camel contextes / bundles.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1350591 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added support for more attributes:
+__label__Added hbase-7197. add multi get to remotehtable- (elliott clark)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1422143 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add support for old versions of composer (at least v1.0.0-alpha8)
+__label__Added added jcache near cache feature explanation.
+__label__Added external system: add clickable link to log- folder to the project import failure message--
+__label__Added #394 one more spring boot example demo adavanced feature
+__label__Added **options:** add --silent flag and option for squelching output
+__label__Added configuration: derive repo from package.json and use default labels.
+__label__Added no need now to get version from parent and best not to for feature branches
+__label__Added add prop type `accessibilitytraits` to `text`
+__label__Added add feature.disablefieldsmartmatch
+__label__Added support assume feature with junit 4.12.
+__label__Added answer "should you ever rewrite a change log?".
+__label__Added yarn-45. add protocol for schedulers to request- containers back from applicationmasters. contributed by carlo curino and- chris douglas.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1479773 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added ensure that resolvedependencyjar works for netbeans compile-on-save (and possibly other ide‰ûªs similar features) even when plugin dependencies are snapshots (possibly in the reactor).
+__label__Added adds the spinner background hack to the featuretoggles demo activity
+__label__Added "added some debugging features to the m3 android client. you can now press 'c' to capture a photo  'u' to decode only upc/1d barcodes  and 'q' to decode only qr codes."
+__label__Added yarn-2502. changed distributedshell to support node- labels. contributed by wangda tan (cherry picked from commit- f6b963fdfc517429149165e4bb6fb947be6e3c99)--
+__label__Added allow to enable/disable dead letter feature. graylog2/graylog2-web-interface#653
+__label__Added **changelog:** :memo:test emoji on cz
+__label__Added new intro screen
+__label__Added implementing support to incremental updates on- kcontainers--
+__label__Added hbase-3070 add to hbaseadmin means of shutting- down a regionserver--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1003702 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added  - initial code for new default http connector and- sip connector.--
+__label__Added add missing accessibility props on touchables
+__label__Added check the network
+__label__Added [drools-389] improve support for @traitable pojos- and @trait interfaces--
+__label__Added introduce `children` function to shorthands
+__label__Added camel-870: added transferexchange option to- camel-jms.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@756685 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added "decompiler: introduce deserializerfordecompiler--component which can ""resolve"" descriptors without project-it builds dummy descriptors for dependencies which are enough to build decompiled text-"
+__label__Added option to open module's homepage or changelog during update process.
+__label__Added "first cut of guice servlet 2.0. contains regex dispatching  improved binding dsl  and almost the full gamut of features short of per-servlet filtering.
+__label__Added "added ""boolean isregisteredwithdestination()""- method (spr-7065)--"
+__label__Added support priority levels, continuations, and wrapped callbacks.
+__label__Added secoauth-139: refactor tokenendpoint and related xml features
+__label__Added had to change the text we look for in the webdriver search features
+__label__Added manage issues with multiple labels
+__label__Added allow configuring custom threadpooltaskexecutor--issue: spr-12272-
+__label__Added lib/parsecommits - t1-categories to be normalized
+__label__Added jbrules-2439--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@31842 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added support for comment nodes `<div>{/* this is a comment and won't be rendered */}</div>`
+__label__Added update create build introduce functionality behavior
+__label__Added body lines that start with `- ` and `* ` are standardized as `- `
+__label__Added support for additional dom properties (`charset`, `content`, `form`, `httpequiv`, `rowspan`, `autocapitalize`).
+__label__Added feature for saving complexobs data while saving encounter
+__label__Added support `removeclippedsubviews` for horizontal scrollviews
+__label__Added :sparkles:update gitmoji list; use yarn; sort gitmoji by usage count
+__label__Added hbase-1200 add bloomfilters--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@946464 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added map entry processor (executeonkey feature)
+__label__Added auto commit (@oelmekki)
+__label__Added include various types of commit messages
+__label__Added `onload` handling to `<link>` element.
+__label__Added yarn-3361. capacityscheduler side changes to- support non-exclusive node labels. contributed by wangda tan (cherry picked- from commit 0fefda645bca935b87b6bb8ca63e6f18340d59f5)--
+__label__Added resolve and reject promise for `pushnotificationios.requestpermissions`
+__label__Added refined new marking feature so old-style markings are unmarked as gracefully as possible.
+__label__Added add `yoganodeproperties` implementation based on `bytebuffer`
+__label__Added **history:** :sparkles:support history
+__label__Added added interactionvalueencoder for encoding interaction of two categorical features into feature vectors
+__label__Added adds `rctoverrideappearancepreference` to the ios `appearance` module
+__label__Added include component stack information in proptype validation warnings.
+__label__Added changeutil-encode/decodeinformation for groovy--
+__label__Added :sparkles: support run `gacp` in a git subdirectory
+__label__Added removed c++ client from planned features
+__label__Added "revert ""feature/master/portable enhancement"""
+__label__Added `<omnisearch />` search bar combined with `usealgolia()`
+__label__Added an unstable api for testing asynchronous rendering.
+__label__Added "how do i make a changelog?" section.
+__label__Added clientusercodedeployment feature development
+__label__Added added send barcode feature
+__label__Added generalized the 'protected' create feature so that it works for all modes.
+__label__Added new `transformwithdetails` api which gives access to the raw sourcemap data
+__label__Added make webserviceref feature complete
+__label__Added yarn-3853. add docker container runtime support to- linuxcontainterexecutor. contributed by sidharta seethana.--(cherry picked from commit 3e6fce91a471b4a5099de109582e7c6417e8a822)--conflicts:-    hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/java/org/apache/hadoop/yarn/server/nodemanager/linuxcontainerexecutor.java-
+__label__Added support for the `key` prop, which allows for finer control over reconciliation. [read the docs for details...](https://reactjs.org/docs/multiple-components.html)
+__label__Added this changelog file to hopefully serve as an evolving example of a standardized open source project changelog.
+__label__Added create a silent mode
+__label__Added poi - add logs for poi/poi-list attachment
+__label__Added "add ""noodles - to do list"" in featured implementations [deploy snapshot]"
+__label__Added remove dead letters feature
+__label__Added `react-dom-server.js` to expose `rendertostring` and `rendertostaticmarkup` for usage in the browser
+__label__Added "jbrules-3200 support for dynamic typing (aka- ""traits"")--"
+__label__Added "updated the html ""what's new"" page with 3.0 features."
+__label__Added disabled unfinished link-upgrade-feature to avoid annoyance for cvs users.
+__label__Added issue -1404 write cache speed improvements.--
+__label__Added `$github_repo` falls back to local repo toplevel name
+__label__Added support for `controllist` attribute to allowed dom properties
+__label__Added "added mark/unmark feature  osx adapter for mac compatibility. added seb wills' patch for pdf autodetection."
+__label__Added a missing `package.json` dependency.
+__label__Added swap grunt with gulp
+__label__Added backporting: aware of module feature causes openmrs to crash - trunk-2849 to the 1.9.x branch
+__label__Added [wfly-4692] : configure the distributions in the dist modules instead of the feature packs.
+__label__Added "index-draft feature
+__label__Added secoauth-328: move pre approval features to userapprovalhandler
+__label__Added type annotations supported in java elements--reflection-related implementations are pending-
+__label__Added mahout-163: new features for clusterdumper and add in clusterlabel capability for lucene index using log likelihood
+__label__Added the ability to specify `proptypes` on a context provider component.
+__label__Added "jbrules-340 core implementation for 'from' -the- from node is now added -reteoobuilder is added  but not unit tested.--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@5713 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-"
+__label__Added change homeasup() to require handler implementation of an interface to match the other optional features. update change log to reflect this as well as expand on the implementation requirements.
+__label__Added yarn-1757. nm recovery. auxiliary service support.- (jason lowe via kasha)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1585784 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added support item background color in dialog `picker`
+__label__Added add support for `package-lock.json`
+__label__Added enhancement: update string renderer to add empty lines only when commits are present.
+__label__Added remove some features from jwttokenstore
+__label__Added more work on enabling non-namespace extensions of- xml parsing--
+__label__Added serverresource now supports empty post and put- requests.--
+__label__Added add possibility to change date format
+__label__Added make packager location customizable in dev mode
+__label__Added first release of the [new experimental package](https://github.com/facebook/react/blob/master/packages/react-reconciler/readme.md) for creating custom renderers.
+__label__Added **gtimojis:** :sparkles:update gitmojis
+__label__Added links to latest released version in previous versions.
+__label__Added use async/await to request commit infos concurrently.
+__label__Added add tag name header id for keep-a-changelog template
+__label__Added hbase-6400 add getmasteradmin() and- getmastermonitor() to hconnection (enis)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1363009 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added calculator feature for clojure passing
+__label__Added use the issues as data source
+__label__Added more cucumber-features passing
+__label__Added `react-dom/profiling` entry point alias for profiling in production
+__label__Added adds validation of code smells in case expressions. closes #259
+__label__Added omit local file output
+__label__Added to take into account changes in jabref features
+__label__Added `any`, `arrayof`, `component`, `oneoftype`, `renderable`, `shape` to `react.proptypes`
+__label__Added yarn-254. update fair scheduler web ui for- hierarchical queues. (sandyr via tucu)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1423743 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added jax-rs-extension: - encoding of uribuilder- parameters implemented--
+__label__Added the `enterkeyhint` property for `input` elements.
+__label__Added add support for `npm-shrinkwrap.json`
+__label__Added update featured app icons.
+__label__Added adding feature toggle in processengineconfigurationimpl to allow diagram creation on deploy to be disabled.
+__label__Added symlink support in vfs & soe protection--
+__label__Added add background trace feature
+__label__Added `playsinline` to supported html attributes.
+__label__Added add `usecolorscheme` hook
+__label__Added updates docs with @configuration features
+__label__Added "timestamp is now automatically updated on a change of an entry (feature 799).
+__label__Added "implement reading from null safe dereferences
+__label__Added update create build introduce functionality behavior modify modification
+__label__Added native modules can now reject a promise with an additional `writablemap` arg for extra properties (`userinfo`). see the interface defined in [`promise.java`](https://github.com/facebook/react-native/blob/60b3942/reactandroid/src/main/java/com/facebook/react/bridge/promise.java) for available methods. this is accessible in javascript as `error.userinfo`. this is to match ios's existing `error.userinfo` behavior. see pr for examples. (#20940 by @salakar)
+__label__Added builder - view details show v3 prices
+__label__Added **cli:** use conventional default commit message with version
+__label__Added add the author in changelog lines
+__label__Added `notes` - `--skip, -s` multi-options to skip tags based on keywords (eg `-s alpha -s beta`)
+__label__Added added whitespace trimming to entry editor.  added deliminator-based autogrouping to group feature (like separate keywords by comma).
+__label__Added **commit:** check if a git tree is clean
+__label__Added implement join and uuid changes related to the partial-start feature
+__label__Added support for `integrity` attribute
+__label__Added removed setfeature due to it is not supported in sax
+__label__Added new feature: click on a additional field's value to automatically search for it in a quickfilter #webinterface-30
+__label__Added added clear scroll api.--the clear scroll api allows clear all resources associated with a `scroll_id` by deleting the `scroll_id` and its associated searchcontext.--closes -3657-
+__label__Added `space-evenly` is now supported (sorry for the confusion with 0.52 notes)
+__label__Added include component stack into the `act()` warning.
+__label__Added removed very old feature branche
+__label__Added add the chance to override the latest release body
+__label__Added builder - list view status reflect lookalike push_seg status
+__label__Added format the code with auto format feature of eclipse.
+__label__Added `notes` - include previous and current versions in output header and default file name
+__label__Added add a metro configuration to the template with inline require/import options; read more about it [in the blog post](https://reactnative.dev/blog/2019/03/12/releasing-react-native-059)
+__label__Added use external config file
+__label__Added ignore commits with keywords
+__label__Added added support of the authentication-info header.--
+__label__Added export `layoutanimationconfig` flow type
+__label__Added mockhttpservletresponse supports multiple- includes (spr-    )--
+__label__Added expose hermes sampling profiler
+__label__Added new feature: patternprocessor
+__label__Added implemented push-to-emacs feature. improved isi importer. changed medlinefetcher.fetchmedline to static. added first version of toralf senger's key generator patch.
+__label__Added bundler server host can now be set using android system properties, making for easier debugging across multiple apps or app installs `adb shell setprop metro.host`
+__label__Added explanation of the recommended reverse chronological release ordering.
+__label__Added yarn-3100. made yarn authorization pluggable.- contributed by jian he.--(cherry picked from commit 23bf6c72071782e3fd5a628e21495d6b974c7a9e)-
+__label__Added native modules now expose a `nativestackandroid` property to promises rejected with an exception/throwable    - making native error stacks available inside javascript: `error.nativestackandroid`. this is to match ios's existing `error.nativestackios` support. see pr for examples. (#20940 by @salakar)
+__label__Added an option argument to `transform` function. the only option supported is `harmony`, which behaves the same as `jsx --harmony` on the command line. this uses the es6 transforms from [jstransform](https://github.com/facebook/jstransform).
+__label__Added added news about windows installer features.
+__label__Added new cli options, custom tags range and tests..
+__label__Added pass issue descriptions into templates
+__label__Added simplified setup and a bit more in the demo feature.
+__label__Added changed file autoset features to use the optimized find routine.
+__label__Added polish translation from [@amielucha](https://github.com/amielucha) & [@m-aciek](https://github.com/m-aciek).
+__label__Added `notes` - colorful output messages
+__label__Added add --sign flag to sign git commit and tag
+__label__Added "added support for acknowledgements to update- cluster settings api--as a side note  the internal reroute call is now part of the ack mechanism. that means that if the response contains acknowledged flag  the internal reroute that was eventually issued was acknowledged too. also  even if the request is not acknowledged  the reroute is issued before returning  which means that there is no need to manually call reroute afterwards to make sure the new settings are immediately applied.--closes -3995-"
+__label__Added "draft project pages  project metadata  and rss feeds
+__label__Added es-es translation from [@zeliosariex](https://github.com/zeliosariex).
+__label__Added add the chance to rebuild the history of release notes
+__label__Added add feature to emit graphite metrics based on configuration
+__label__Added initial implementation of kt-6427 completion to- use java name suggestion to complete function parameters (+ filtered out- synthetic kotlin classes from completion)--
+__label__Added a new recommended `exhaustive-deps` rule.
+__label__Added store: add basic feature bitmap
+__label__Added add done for cookies in the feature list
+__label__Added markdown links to version tags on release headings.
+__label__Added avro-extensions -- feature to specify avro reader schema inline in the task json for all events (#3249)
+__label__Added added content protection and scaling features
+__label__Added "largely completed  uber-cool federation feature."
+__label__Added "import the new n-gram tokenizers and filters from lucene.
+__label__Added carve out ec2api/ec2asyncapi for new features
+__label__Added implement `adjustsfontsizetofit` on android
+__label__Added hi-density cache added to new features.
+__label__Added rename feature.nonpublicfieldsupport to supportnonpublicfield
+__label__Added add a benchmarks module to do quick experiments to improve performance.
+__label__Added hadoop-7001.  configuration changes can occur via- the reconfigurable interface. (patrick kline via dhruba)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1038480 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add back ability to customise okhttp client
+__label__Added hbase-11920 add cp hooks for replicationendpoint--
+__label__Added support reading feature paths from the rerun formatter file
+__label__Added "added new feature (tools -> scan database... -> resolve duplicate bibtex keys) to search for duplicate keys and offer to generate new keys to resolve the duplicates. works  but needs some more polish."
+__label__Added support for use in ie8
+__label__Added add initial version of save actions feature
+__label__Added trunk-3780 searching for patient with patient name/new feature
+__label__Added query collections & arrays feature - code coverage supplemented
+__label__Added status bar style is now correctly changed in multi-window ipados 13 apps if you use `rctrootviewcontroller` and set `uiviewcontrollerbasedstatusbarappearance=yes`
+__label__Added adds support for `header` (--header) configuration based on the spec.
+__label__Added support for additional svg properties (`rx`, `ry`).
+__label__Added add --tag-filter-pattern flag.
+__label__Added add jackson2objectmapperbeanfactory--issue: spr-9739-
+__label__Added support for `ontransition`
+__label__Added hbase-13863 multi-wal feature breaks reported number and size of hlogs (abhilash)
+__label__Added initial check in for forward to feature.
+__label__Added add support for homebrew-installed node
+__label__Added add config normalize process
+__label__Added support for bitbucket tag comparison
+__label__Added "deprecate provisionlistener.provisioninvocation.getdependencychain()
+__label__Added **format-commit-message:** support multiple %s in the message
+__label__Added trying to extend the scheduler interface according- to the comments at -19.--
+__label__Added new `ref` style, allowing a callback to be used in place of a name: `<photo ref={(c) => this._photo = c} />` allows you to reference the component with `this._photo` (as opposed to `ref="photo"` which gives `this.refs.photo`).
+__label__Added "[cloud-azure] split azure plugin in 3 plugins
+__label__Added tfj-335s upport feature-specific rate limit information
+__label__Added first release of the [new package](https://github.com/facebook/react/tree/master/packages/create-subscription) to subscribe to external data sources safely for async rendering.
+__label__Added "added button to crossref entry editor field to select parent entry (#1563)
+__label__Added `<react.profiler>` api for gathering performance measurements programmatically.
+__label__Added heartbeat for java client feature explanation
+__label__Added added attribute feature to request and filter example on how to use it
+__label__Added secoauth-68: use @mvc features in sparklr2
+__label__Added update create build introduce functionality behavior
+__label__Added add decimal pad to android
+__label__Added `--source-map-inline` option to the `jsx` executable
+__label__Added make preview feature more generic
+__label__Added an experimental `unstable_starttransition` api.
+__label__Added setup github ci
+__label__Added add static settransformer feature.
+__label__Added create a --help section
+__label__Added introducing platformos – it looks a lot like platform, but with a simplified api
+__label__Added [vcs-log] idea-125276 support regular- expressions in branch filter--
+__label__Added remove image options feature.
+__label__Added remove fields filtering feature
+__label__Added implement partition lost listener feature
+__label__Added ability to finish upgrade process on every step
+__label__Added add support for `overflow` style property
+__label__Added "add ""extreme fitness tracker free"" to featured list"
+__label__Added removed 'messages around' feature for now #es
+__label__Added a new officially supported context api.
+__label__Added ✨ blobs now can be: made from strings, loaded by file using a filereader api, uploaded and downloaded via `xmlhttprequest#fetch`, and fetched on files to a local blob consistently
+__label__Added added new preferences tab for entry editor preferences. added preference settings for autocompletion feature.
+__label__Added hdfs-4733. make httpfs username pattern- configurable. contributed by alejandro abdelnur.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1477241 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added `planned features` removed and `ee only` changed to `e only`
+__label__Added "new tablelayout for libgdx feature  round size and position."
+__label__Added usealgolia custom hook to communicate with algolia api
+__label__Added login - common login component integration - import from common-login repo - change authenticated-app from class to functional component to use hooks
+__label__Added add remaining features to support the abstraction
+__label__Added moved hp storage container metadata parsing to swift since it's a standard swift feature.
+__label__Added support some missing japic features
+__label__Added remove alerting feature from embedded agent
+__label__Added improved marking feature. added :abbr modifier for key generator.
+__label__Added added support for an update on load feature for plugins. thanks raphfrk!
+__label__Added add a simple duplicate method to maintain consistency with fragmentactivity.
+__label__Added the `envify` transform to the package.
+__label__Added segments - adapt react-labs/table, add level column
+__label__Added read "changelog" config key from "package.json" too.
+__label__Added support for `statics` on component spec for static component methods
+__label__Added added account features to cloudstack
+__label__Added revised links approach for deltacloud so that we can determine which features a collection supports
+__label__Added jclouds-200: consolidate all feature-specific in the aws provider
+__label__Added support for more html attributes: `formaction`, `formenctype`, `formmethod`, `formtarget`, `marginheight`, `marginwidth`
+__label__Added completed implementation of apispark extension.--
+__label__Added umd production+profiling entry points
+__label__Added add back cucumber-features. work in progress for #45
+__label__Added new [emojify action](https://github.com/pajapro/fastlane-plugin-changelog/blob/master/readme.md#-emojify_changelog)
+__label__Added `react.addons.batchedupdates` added to api for hooking into update cycle
+__label__Added textinput now has prop `rejectrespondertermination` to enable textinputs inside swipeables to function properly
+__label__Added merge r1503933 from trunk to branch-2 for yarn-513.- create common proxy client for communicating with rm (xuan gong & jian he via- bikas)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1503935 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added **commit types:** :sparkles:select commit types with order
+__label__Added responseentity's headersbuilder allows for- specifying existing httpheaders--issue: spr-12324-
+__label__Added platform.select now supports native as an option.
+__label__Added "as7-5897 introduced a feature to allow user application specific ""container-interceptors"" which gets applied before certain jboss specific server side interceptors get applied"
+__label__Added support for [composition events](https://developer.mozilla.org/en-us/docs/web/api/compositionevent).
+__label__Added disclose that line filters are applied to all feature paths
+__label__Added `usefuse` custom hook for search
+__label__Added pick up 1.36 for an improvement in the export feature.
+__label__Added [wfly-4872] add the elytron subsystem to the main wildfly feature pack.
+__label__Added support for array buffers in the javascriptcore implementation of jsi
+__label__Added **commitlint config:** :sparkles: format commit message with local com
+__label__Added allow the installed languages to be browsed- restfully for camel-1355--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@752938 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added feature to be able to specify limit on tags for the changelog
+__label__Added update `babelhelpers` with babel 7 support
+__label__Added implement tag/tagexists for the offline database feature
+__label__Added hbase-1766 add advanced features to hfile.main() to be able to analyze storefile problems
+__label__Added [jbas-8363] resuscitate virtual host feature for ws components - includes non bc api changes
+__label__Added "hadoop-6148. implement a fast  pure java crc32- calculator which outperforms java.util.zip.crc32.  contributed by todd lipcon- and scott carey--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@794944 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added "netty: support to bind on multiple host/port pairs
+__label__Added add `placeholder_line` param to `stamp_changelog` action
+__label__Added "add feature ""allowing user to control the order of fields in saved
+__label__Added content server: add a new setting to allow un-authenticated users from specific ip addresses to make changes to the calibre library
+__label__Added viewer: allow displaying the current page / total pages in the header/footer. useful in paged mode to see exactly how many pages are left.
+__label__Added quick view: double click in a column to show that column in the main book list
+__label__Added viewer: ctrl+, to show preferences
+__label__Added viewer: allow also jumping to book positions in goto->location
+__label__Added edit book: allow customizing the base background/foreground and link colors for the preview window.
+__label__Added viewer toolbar: add button to easily change color schemes
+__label__Added open with: allow renaming open with applications.
+__label__Added kobo driver: support for new firmware
+__label__Added viewer: the --open-at command line argument now allows matching on toc hrefs as well as titles
+__label__Added viewer: if the book has no toc try to generate one from headings, if any.
+__label__Added browse annotations: add a check box to restrict the displayed annotations to only the books currently selected in the calibre library.
+__label__Added can be controlled via an option in preferences->look & feel->tag browser to combine 'first letters' together if there are a small number of items under adjacent letters
+__label__Added viewer: add a preference under miscellaneous to allow only a single instance of the viewer
+__label__Added dark mode support for the content server and e-book viewer user interfaces
+__label__Added viewer: in flow mode, implement drag scrolling.
+__label__Added template language: add functions to perform math operations to convert fractional numbers to integers
+__label__Added bulk metadata download review dialog: when clicking cancel ask for confirmation if some books have already been reviewed
+__label__Added add a workaround for amazon destroying cover thumbnails on e-ink kindles.
+__label__Added viewer: add a keyboard shortcut ; to go to a book location or position
+__label__Added content server: when adding books and a duplicate is suspected provide more information about what books match the duplicate
+__label__Added viewer: don't generate covers for books that don't have a cover. note that because of this all previously opened books will again be prepared for first time reading.
+__label__Added viewer: add a keyboard shortcut (ctrl+w) to toggle the scrollbar.
+__label__Added polish books tool: add a setting to add or remove soft hyphens from the book text
+__label__Added viewer: add an option to have a scrollbar (under scrolling in the viewer preferences)
+__label__Added fb2 metadata: add support for setting publisher and publish year
+__label__Added for books sent with this release of calibre, reconnecting the kindle to calibre after the cover has been destroyed will restore it automatically
+__label__Added edit book: spell check: ignore soft hyphens in words
+__label__Added viewer: search panel: add a button to return to the position the book was at before doing a search.
+__label__Added tag browser: add an option in preferences->look & feel->tag browser to allow the tag browser to get keyboard focus
+__label__Added viewer: add a control to quit the viewer useful on touchscreens.
+__label__Added allow selecting individual items to delete in the check library dialog.
+__label__Added content server: make the book size useable in custom book list templates.
+__label__Added deutsche welle by vohe
+__label__Added linuxnews.de and t3n.de by volker heggemann
+__label__Added add support for flipper by default
+__label__Added ideadev-11483 ie conditional comments support- [in progress]--
+__label__Added italian translation from [@azkidenz](https://github.com/azkidenz).
+__label__Added demonstrate spring 3.2 features
+__label__Added "1) adjust singlesegmentloader to allow for storing segments on multiple different mount points.  the specification language is really janky right now  so this is remaining a stealth feature for the time being."
+__label__Added "added public ""validatedatabaseschema"" method to- hibernate localsessionfactorybean (spr-    )--"
+__label__Added `strokedashoffset`, `flexpositive`, `flexnegative` to the list of unitless css properties
+__label__Added "index-draft feature
+__label__Added make tag prefix configurable
+__label__Added "created an html help system  which is hooked up to the menu/help button. it also runs automatically the first time a new version of the app is run on a particular device. i wrote up a bunch of pages  which feature great art by joseph  including a what's new page that we can edit for every release."
+__label__Added support for more html attributes: `acceptcharset`, `classid`, `manifest`
+__label__Added added an experimental feature that avoids cpu starvation of larger jobs.
+__label__Added add a --no-verify option to prevent git hooks from being verified
+__label__Added "feature: when using ldapuserservice one can configure gitblit to fetch all users from ldap that can possibly login. this allows to see newly generated ldap users instantly in gitblit. by now an ldap user had to log in once to appear in gitblit.
+__label__Added "add ""androidpit"" to featured list [ci skip]"
+__label__Added added missing deps for react-coremodules
+__label__Added address feature#105:implement support for player_animation hook/event.
+__label__Added added attribute feature to request and filter example on how to use it
+__label__Added add single.doafterterminate()--
+__label__Added readme section on "yanked" releases.
+__label__Added "[drools-383] support for switch over string-- * eclipse compiler has a least known documented configuration-   property ""org.eclipse.jdt.core.compiler.compliance"" which-   needs to be set along with the 'org.eclipse.jdt.core.compiler.source'-   and 'org.eclipse.jdt.core.compiler.codegen.targetplatform' properties.-- * this is going to work only when the underlaying jvm is 7+-"
+__label__Added implement `image.defaultsource`
+__label__Added mac compatibility. more lines in translation files. added marking feature.
+__label__Added "add highlighting support for suggester.
+__label__Added added support of the dataservices extension in- android.--
+__label__Added add support for dev versions
+__label__Added "add binary protocol backwards compatibility for suggest highlights
+__label__Added expose allowfileaccess property in webview
+__label__Added specify which tag to build
+__label__Added added flick feature to scrollpane.
+__label__Added "run scenarios/features by name. closes #233  #323"
+__label__Added added missing `console` polyfills in release builds.
+__label__Added add `unreleased` field to `renderdata`
+__label__Added support for more html attributes (`coords`, `crossorigin`, `download`, `hreflang`, `mediagroup`, `muted`, `scrolling`, `shape`, `srcset`, `start`, `usemap`)
+__label__Added add back reuse bitmap feature.
+__label__Added "introduce logout feature  upgrade to 1.0.2.final of console"
+__label__Added an experimental `unstable_useopaqueidentifier` hook.
+__label__Added hbase-1537 intra-row scanning; apply limit over- multiple families--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@951682 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added provide alternative message code resolver styles--introduce new 'style' property to defaultmessagecodesresolver allowing-for alternative message styles. current styles are prefix_error_code-and postfix_error_code. the default style retains existing behavior.--issue: spr-9707-
+__label__Added yarn-2493. added node-labels page on rm web ui.- contributed by wangda tan (cherry picked from commit- b7442bf92eb6e1ae64a0f9644ffc2eee4597aad5)--
+__label__Added add keycolumnvaluetest for hazelcastkeycolumnvaluestore (+ performance improvements)
+__label__Added :sparkles: support `--no-add`
+__label__Added jbrules-2934 add newregisterworkitemhandlercommand- to commandfactory with unit test--
+__label__Added remove java 7 specific language features
+__label__Added added dev cli utility to easily add module's changelog url to the database (`tools/addmodulechangelogurltodb.js`).
+__label__Added also added the same feature to the trigger.
+__label__Added add jitpack repository to template
+__label__Added jbrules-935 - update drldumper to handle with the new language features
+__label__Added carve out ec2api/ec2asyncapi for new features
+__label__Added add apache taglibs as dependency of feature-pack
+__label__Added support hooks in the shallow renderer.
+__label__Added camel-1789 let the camel route support to lookup- the service which is exported from the osgi bundle--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@792398 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added [drools-114] support defeasible rules--
+__label__Added impliment dimmer shorthand
+__label__Added add userdefinelibrary.loadlibrary features
+__label__Added "revert ""contextsuggester""
+__label__Added "hbase-7006 [mttr] improve region server recovery time - distributed log replay  addendum disables the feature by default"
+__label__Added add support for comparison across forks and better detect dev versions
+__label__Added "further improvements for camel-133  a client can- now create an exchange on an endpoint specifying the exchangepattern it wants- to use for an exchange via endpoint.createexchange(pattern)--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@572625 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added diff: allow to highlight changes without border--
+__label__Added major part to make this feature happen
+__label__Added add template for `keep a changelog` to the `--init` option
+__label__Added `version` property to reactdom
+__label__Added checksums to detect and correct cases where server-side rendering markup mismatches what react expects client-side.
+__label__Added "springjunit4classrunnerappctxtests now verifies- seamless support for using @inject in addition to @autowired  etc.--"
+__label__Added dynamic node_module dependencies are now supported
+__label__Added "reindex from remote
+__label__Added `notes` - author name per commit
+__label__Added initial integration of the quick silver feature.
+__label__Added a peer dependency on react 16.3+.
+__label__Added colorize new/old module versions diff.
+__label__Added `act(async () => ...)` for testing asynchronous state updates.
+__label__Added add preview to the commit message format of `--init` option
+__label__Added adding new features to 3.5-snapshot reference manual
+__label__Added add progress bar feature and samples.
+__label__Added marketplace/bundle-detail - grid divider inserted
+__label__Added `react/jsx-runtime` and `react/jsx-dev-runtime` for the [new jsx transform](https://babeljs.io/blog/2020/03/16/7.9.0#a-new-jsx-transform-11154-https-githubcom-babel-babel-pull-11154).
+__label__Added add showsoftinputonfocus to textinput
+__label__Added proxy config change tracking; plaintext password warning; improvements for feature #388
+__label__Added hbase-1722 add support for exporting hbase- metrics via jmx--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@813229 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added further work or traverse: - supported new- osqlpredicate to specify a predicate using sql language--
+__label__Added :sparkles:
+__label__Added support releasing a custom version, including pre-releases
+__label__Added jbrules-527: adding primitive support to indexing--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@7158 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added introducing `reactcallercontextfactory` interface
+__label__Added added a default prettier config for new projects
+__label__Added a new `getderivedstatefromprops()` lifecycle and `unsafe_` aliases for the legacy lifecycles.
+__label__Added [`git.md`](git.md) `on tags` section.
+__label__Added datepickerios now takes locale 🌍
+__label__Added introduce renderingcontext and add as parameter- to diagnosticparameterrenderer-render--renderingcontext holds data about the whole diagnostics allowing to adjust rendering of its parameters-
+__label__Added java-helloworld: correct the indentation of helloworld.feature
+__label__Added `unstable_expectedloadtime` to suspense for cpu-bound trees.
+__label__Added "remove back compat for the `path` option.
+__label__Added `displayname` is now added in more cases, improving error messages and names in the react dev tools
+__label__Added add `accessibilityelementshidden` prop
+__label__Added add search timeout feature.
+__label__Added add wildfly-clustering-common and wildfly-clustering-service as dependency of feature-pack
+__label__Added "added ""overloaded varargs method"" inspection--"
+__label__Added "modified the golf example to be clearer  and use features from drools 4"
+__label__Added yarn-2830. add backwords compatible- containerid.newinstance constructor. contributed by jonathan eagles.--(cherry picked from commit 43cd07b408c6613d2c9aa89203cfa3110d830538)-
+__label__Added methods for debugging.
+__label__Added **cli:** print error and don't run with node <4, closes
+__label__Added improve progress reporting
+__label__Added use `cli-highlight` to syntax highlight markdown output.
+__label__Added readme - update with latest big changes
+__label__Added camel-2206: added new sampler eip. thanks to- stephen gargan for the contribution.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@883614 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added camel-1933: overhaul of jmx. routes can now be- started/stopped.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@808328 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added fix for- https://issues.apache.org/activemq/browse/camel-347 to enable juel to invoke- methods in expressions--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@631503 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added "allow for plugins to register rest filter (better- support with async execution and some renaming)  closes -1658.--"
+__label__Added "add virtual column types  holder serde  and safety features. (#3823)"
+__label__Added add mergecommits and revertcommits
+__label__Added added parsing of rdf xml.--
+__label__Added ✨ keyboard events now include `easing` and `duration`
+__label__Added **changelogstream:** use more default opts
+__label__Added implemented near cache pre-loader feature.
+__label__Added new warning when modifying `this.props.children`.
+__label__Added "added help button and help file for openoffice integration. started adapting the help file from the plugin web page  to fit the new integrated feature."
+__label__Added added features which provides meta-data about the graph implementation.
+__label__Added added another example that shows off features a little more
+__label__Added update add now possible with subdocuments fields--
+__label__Added jedis add sharding feature
+__label__Added "treat mappings at an index-level feature.
+__label__Added py-996--
+__label__Added servlet-feature-pack-licenses.xml - fill in license info
+__label__Added [wfly-6201] add the other-server-group configuration to the servlet-feature-pack template.
+__label__Added locus ml initial stage
+__label__Added added scrollview support
+__label__Added "added accessrestrictionfilter and simplified authentication.
+__label__Added patch by luca molino about the management of json- with document type not only as first attribute--
+__label__Added `react.addons.testutils` was added to help write unit tests
+__label__Added "hive-13313: tablesample rows feature broken for vectorization (matt mccline  sergey shelukhin)"
+__label__Added "deprecate omitting terms lookup index name in 5.6 (#25755)
+__label__Added extend validation feature with provided validator
+__label__Added changelog inconsistency section in bad practices
+__label__Added pass in window features since we can't check them pre-3.0
+__label__Added add styling to current features and add nicknames and priorities to pages
+__label__Added update explicit feature path (but keep it commented out)
+__label__Added changed ios launchscreen from `xib` to `storyboard`
+__label__Added add support for springdamping in `springinterpolator`
+__label__Added change default_generate_feature
+__label__Added **config:** :sparkles: support .rc files
+__label__Added add `resizemode` prop support on `textinlineview`
+__label__Added include transform in outer_props
+__label__Added missing and remove unnecessary dependencies to packages.
+__label__Added "[wfly-1158] adding ""remove vault entry"" feature for default vault impl."
+__label__Added `reacttestrenderer.act()` and `reacttestutils.act()` for batching updates so that tests more closely match real behavior.
+__label__Added add an index level setting to disable/enable- purging of expired docs (issue -1791)--
+__label__Added 1.x: expose single.lift()--
+__label__Added jsr-223 based standardscriptfactory (including- <lang:std> support)--this commit also completes 4.2 schema variants in spring-context.--issue: spr-5215-
+__label__Added strip lines from feature paths if filters are specified
+__label__Added builder - updating submitbuilderjob payload to include author
+__label__Added stability monitors are inheritable - thus don't use listener.iheritance feature + always remove listener when stability monitor is registered
+__label__Added hbase-11423 visibility label and per cell acl feature not working with htable#mutaterow() and multirowmutationendpoint. (anoop)
+__label__Added `send` - send generic messages to slack
+__label__Added add lwjgl3 maximized window features
+__label__Added "why keep a changelog?" section.
+__label__Added fallback to tags if no meta-information file found
+__label__Added cpp-560 new welcome screen for clion--
+__label__Added jbrules-1641: foreach node  - initial core- implementation of a for each node jbrules-1551: workflow human tasks  - human- task node with swimlane integration--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@20429 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added made changes in the api. removed incomplete features that will not be used. also changed protected variables to public.
+__label__Added added initial log4j.properties with the rolling file appending feature to the conf directory
+__label__Added various new features in event bus bridge to help mitigate against dos attacks
+__label__Added support for the `disablepictureinpicture` attribute on `<video>`.
+__label__Added "make `index` in termslookup mandatory (#25753)
+__label__Added every feature is always a work in progress.
+__label__Added "why should i care?" section mentioning the changelog podcast.
+__label__Added `clippath` element and attribute for svg
+__label__Added add a unit test to verify assigned labels with spaces. reduce duplicate code in test unit when validating cloud labels.
+__label__Added added feature which allows to quickfilter and define streamrules with a
+__label__Added `getderivedstatefromerror` lifecycle method for catching errors in a future asynchronous server-side renderer.
+__label__Added add `iseventfromthisapp` to `keyboardevent` notifications to disambiguate keyboard events when apps are running side-by-side
+__label__Added add ability for webview to `setclientauthenticationcredential` when `usewebkit={true}` for mutual tls authentication
+__label__Added "report expressions like ""!b != c"" in ""double- negation"" inspection and add test--"
+__label__Added "[hudson-3889] in 1.325  i added a ping support so that the master detects dead connections more rapidly. this feature is off by default  until we feel comfortable enough that this feature works correctly."
+__label__Added adding web & full feature packs and server provisioning
+__label__Added our first cucumber-features scenario is passing.
+__label__Added added application-only-authentication feature to asynctwitter
+__label__Added hbase-4272. add -metaonly flag to hbck feature to only inspect and try to repair meta and root.
+__label__Added add infinispan storefeatures cluster mode comment
+__label__Added support for toggling suspense from devtools.
+__label__Added add android support for `fontvariant` prop
+__label__Added add `rctexceptionsmanager.reportexception`
+__label__Added support for reversed order of tags in diff link for bitbucket links
+__label__Added hadoop-6534. trim whitespace from directory lists- initializing localdirallocator. contributed by todd lipcon--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@909806 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added updating the features section to match the website
+__label__Added added `userinterfacestyle` for `actionsheetios` and `share` to override user interface style on ios 13
+__label__Added "o added @stepdefinitions annotation  to register all the steps for a feature"
+__label__Added correct feature pack licenses.html title
+__label__Added "bz1158818 add ""reminder"" feature"
+__label__Added storedirect: add encryption feature bit
+__label__Added added storefeatures option supportsmultiquery so that backends can indicate whether they can efficiently execute (i.e. bundle) multiqueries.
+__label__Added [wfly-311] feature provisioning service
+__label__Added builder - add option to submit v3.5 jobs to the airflow builder
+__label__Added "added tags and lines attributes to @feature  making it possible to run a single scenario (or just some)"
+__label__Added builder - enable v3.5 for recurring jobs
+__label__Added added analysis result as html--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@15004 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added "implement scheduler method with duetime--- added method: schedule(t state  func2<scheduler  t  subscription> action  date duetime)-"
+__label__Added korean translation from [@pierceh89](https://github.com/pierceh89).
+__label__Added [new feature] regular expression find files.
+__label__Added config import and jetty stuff added to new feature
+__label__Added add `moduleforname: lazilyloadifnecessary` to rctbridge.h to lookup modules by name and force load them, plus various improvements to lazyloading
+__label__Added fragments with differences in comments only are- considered equivalent--
+__label__Added "remove plugin isolation feature for a future version
+__label__Added "add version to prebuilt analyzers
+__label__Added implement subscription forward to feature.
+__label__Added cfid-28: add browser-like features to authorizationcodeaccesstokenprovider
+__label__Added hbase-798  provide client api to explicitly lock- and unlock rows (jonathan gray via jim kellerman)--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@685391 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added "add ""unixadmin"" to featured list [ci skip]"
+__label__Added add a wordpress url generator for theme and plugin package
+__label__Added add a presets system to be independent from the package.json
+__label__Added `debug_network_send_delay` can be used to simulate slow network.
+__label__Added add doonsubscribe for single--
+__label__Added added new menu items for marking in different colors. updated help file for marking feature.
+__label__Added implemented new commands: - truncate cluster -- truncate class--
+__label__Added "support for not-logget transactions by setting- otransaction.setusinglog(false). default is true  so full compatibility is- guaranteed--"
+__label__Added jbrules-527: adding primitive support to alpha- hashing code--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@7150 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added "require android api 19  so fully use java 7 try-with-resources  as well as a few other java 7 features. reduce deprecation warning count in android"
+__label__Added 1.0.0 (2016-04-04)
+__label__Added the initial release
+__label__Added croatian translation from [@porx](https://github.com/porx).
+__label__Added [wfly-4588] update the elytron specific configurations within the feature packs so elytron is used exclusively for authentication.
+__label__Added jax-rs extension continued: - added an- objectfactory to the jax-rs extension for customized root resource class and- provider instantiation. contributed by bruno dumon.--
+__label__Added "query dsl: add `and`  `or`  and `not` filters - closes -216--"
+__label__Added add empty feature for usage (global admin)
+__label__Added allow a user to provide a custom changelog header
+__label__Added all cucumber-features scenarios are green. closes #45.
+__label__Added hbase-8383 support lib/*jar inside coprocessor- jar--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1471754 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added the selectorindexperhostmap is now a hashmap and created lazily + added some serve warning when feature enabled
+__label__Added started support for server-side triggers--
+__label__Added using the language feature import since 2.9 is not supported
+__label__Added camel-3014 camel-josql should have sql language- meta-inf which can be found automatically by camel-core--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@980675 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add prerelease lifecycle script hook
+__label__Added [`git.md`](git.md) `on reviewing` section.
+__label__Added revised incremental push tags feature
+__label__Added a deprecation warning for `react.proptypes`. points users to prop-types instead.
+__label__Added  - initial code for new default http connector and- sip connector.--
+__label__Added "[wfly-3344] some schemas versions were bumped to enable development of wildfly 9 features  however maintenance of wildfly 8 continued - this commit is to port the subsequent wildfly 8 maintenance to the bumped versions for wildfly 9."
+__label__Added react dom now supports the `onanimationstart`, `onanimationend`, `onanimationiteration`, `ontransitionend`, and `oninvalid` events. support for `onload` has been added to `object` elements.
+__label__Added update create build introduce functionality behavior modify modification
+__label__Added hbase-13103 [ergonomics] add region size balancing as a feature of master
+__label__Added add fast refresh by default
+__label__Added [wfly-4872] add configuratios to the servlet-feature-pack that contain the elytron subsystem.
+__label__Added better error messages when loading features from rerun file
+__label__Added blueprints sail feature branch added.
+__label__Added missing documentation to read_changelog and emojify_changelog actions
+__label__Added updated new features list.
+__label__Added requires `$github_token`, `$github_owner`, and `$github_repo` env vars
+__label__Added "added ""packagestoscan"" feature to localcontainerentitymanagerfactorybean (avoiding persistence.xml)"
+__label__Added add support for nested/scoped packages.
+__label__Added `react.version`.
+__label__Added support for selection events.
+__label__Added georgian translation from [@tatocaster ](https://github.com/tatocaster).
+__label__Added add autoloading of classes required to make the plugin always working
+__label__Added support for namespaces, eg `<components.checkbox />`
+__label__Added added for sceanrios to transform.feature
+__label__Added "introduce ""dummy"" environment implementation--for testing purposes in which an environment implementation is required-but a configurableenvironment is not desirable.--all methods are no-ops and return null  therefore npes are likely.-"
+__label__Added "add client-side encryption
+__label__Added `react.proptypes.symbol` to support es2015 symbols as props.
+__label__Added remove validation and ldap features
+__label__Added hbase-5228. [rest] rip out transform feature
+__label__Added hbase-8921 [thrift2] add genericoptionsparser to- thrift 2 server--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1501982 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added unwrap github-api promises
+__label__Added explicit warning when missing polyfills
+__label__Added use custom similarity in search (if there is one)--
+__label__Added "jcache implementation added to new features  3.3.1"
+__label__Added rework the changelog generator function
+__label__Added yarn-975. added a file-system implementation for- historystorage. contributed by zhijie shen. svn merge --ignore-ancestry -c- 1556727 ../yarn-321--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1562184 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added yoga: add back deprecated `getparent` methods for non-breaking api change
+__label__Added mahout-521 move featurevectorencoders to vectorizer.encoders
+__label__Added removed hostgroup feature - explanation: http://www.lennartkoopmann.net/post/11612984083/hostgroups-in-graylog2-will-die
+__label__Added support feature: orderedfield
+__label__Added "initial commit for module to compute metrics on queries
+__label__Added 'hassyntaxerrors' check moved from diagnostic to- positioningstrategy--this makes possible to mark diagnostic errors when syntax error are present (by overriding isvalid in positioningstrategy subclasses).-
+__label__Added hdfs-3167. cli-based driver for minidfscluster.- contributed by henry robinson.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1308160 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added web socket support for macos
+__label__Added completed the new features headlines for 3.5.
+__label__Added support experimental call/return types in `react.children` utilities.
+__label__Added include component stack information in key warnings.
+__label__Added added note that feature is experimental
+__label__Added "http transport: allow to configure- `max_header_size`  `max_initial_line_length`  and `max_chunk_size`  closes- -1174.--"
+__label__Added camel-3689: advicewith can now manipulate routes.- this allows you for example to replace parts of routes during testing.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1072545 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added :sparkles: support multi-line longer description
+__label__Added inital support for zen discovery module- (multicast discovery implemented)--
+__label__Added `deployment` - command for sending deployment status to slack
+__label__Added adding new styling props to `flatlist`/`virtualizedlist` for `listheadercomponent` and `listfootercomponent`
+__label__Added "implement admin function to clear captured data
+__label__Added support for editing `usestate` state from devtools.
+__label__Added support for iterators and immutable-js sequences as children.
+__label__Added enable views to be nested within text; this brings feature parity to android, but be aware that it has some limitations
+__label__Added added section to userguide explaining how experimental features are indicated
+__label__Added experimental swipeablerow's datasource now has a `getlastrowid` method
+__label__Added brazilian portuguese translation from [@webysther](https://github.com/webysther).
+__label__Added @resource injection points support @lazy as well--issue: spr-    -
+__label__Added "patch 3122104 for feature request ""[2163626] scan database - find unlinked files"".
+__label__Added add `getnativescrollref` method to flatlist component
+__label__Added add interactive option to manually select commits
+__label__Added added `snaptooffsets` to `scrollview` and made a number of fixes to `snaptointerval` as well
+__label__Added allow "unreleased" commit group to be renamed
+__label__Added `referrerpolicy` to supported html attributes.
+__label__Added introduce unit test
+__label__Added add .nvmrc and ensure node version required is compatible with eslint 5
+__label__Added add devdependencies support for templates
+__label__Added include the `autofocus` attribute into ssr markup.
+__label__Added "update query-filter.asciidoc
+__label__Added "bump to lucene 3.2 and use new feature to return numeric fields as numbers  not strings."
+__label__Added "mappings: remove ability to disable _source field
+__label__Added implemented integration of globla property with- binary serialization--
+__label__Added "added more translations  and started work on a replace string feature"
+__label__Added "changed syntax for ""create class"" command. now- wants the keyword ""cluster"" and also accepts cluster names--"
+__label__Added warnings to help migrate towards descriptors
+__label__Added changelog - command to generate changelog with nlp predicted labels
+__label__Added "feature: field names ""doi""  ""ee""  and ""url"" are now written as ""doi""  ""ee""  and ""url"""
+__label__Added warnings to the in-browser transformer to make it clear it is not intended for production use.
+__label__Added spr-7305 -- o.s.http.client.simpleclienthttprequestfactory does not allow to specify a- java.net.proxy--
+__label__Added migrate to es2015
+__label__Added rewrite of menu handling and inflation to use the native menu instance via a wrapper when on post-3.0. this allows us to remain forwards compatibile with any new features introduced to the menu xml schema while still supporting whatever we want on older platforms via the custom inflater.
+__label__Added **git:** :sparkles:check remote differ to info users to pull first; check local status to decide i
+__label__Added [g2m] edit poi (#171)
+__label__Added generate a bug report when unexpected errors happens
+__label__Added hbase-10031. add a section on the transparent cf encryption feature to the manual
+__label__Added "made 'unique statements' behavior the default in graphsail  as reasoners are less efficient without that feature."
+__label__Added support for `<dialog>` element and associated `open` attribute
+__label__Added `stamp_changelog` action
+__label__Added add `appearance` module to expose the user's current night theme preference
+__label__Added add texttransform style support
+__label__Added "merge r1606407 from trunk. yarn-614. changed- resourcemanager to not count disk failure  node loss and rm restart towards- app failures. contributed by xuan gong--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1606408 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added **options:** :sparkles:add whether to use emoji code option
+__label__Added add a `touchsounddisabled` prop to button, touchable, and touchablewithoutfeedback
+__label__Added add overridecolorscheme interface and setoverridecolorscheme method to appearancemodule
+__label__Added  - continued nio connector--
+__label__Added `strokeopacity` to the list of unitless css properties
+__label__Added support for `react.memo()`.
+__label__Added add git basic to commit message format
+__label__Added allow registering custom packager command handlers
+__label__Added missing event plugin priorities
+__label__Added trunk-257: add feature to enable moving encounter data to a different patient
+__label__Added modified lscommand to accomodate feature of listing the pinned files
+__label__Added add the contains, hasprefix, hassuffix, replace, lower and upper functions to the template functions map
+__label__Added "remove comma-separated feature parsing for getindicesaction
+__label__Added "remove incomplete and deprecated ticgit feature
+__label__Added counter-examples: "what makes unicorns cry?"
+__label__Added updated to junit 4.11. relates to #255. might also relate to #322. intellij idea reports features with background and scenario outline incorrect.y. might be the case on master too.
+__label__Added allow setting custom ripple radius on `touchablenativefeedback`
+__label__Added allow substituting a default font handler
+__label__Added `$rn_cache_dir` can now be used to manually specify the ios build cache directory
+__label__Added **update-notifier:** :sparkles:add `update-notifier`
+__label__Added notes - utilize nlp labels into the format
+__label__Added danish translation from [@frederikspang](https://github.com/frederikspang).
+__label__Added marketplace/main - close button added in modal view
+__label__Added add `hostcomponent` to the public api of react native
+__label__Added tfj-762 add application-only authentication feature.
+__label__Added add experimental autocommit feature
+__label__Added add preview feature on description textarea.
+__label__Added ru translation from [@aishek](https://github.com/aishek).
+__label__Added "new aggregations feature - ï¿½percentagescoreï¿½ heuristic for significant_terms aggregation provides simple ï¿½per-capitaï¿½ type measures.
+__label__Added add history feature; group some functionality into subpackages
+__label__Added "finish feature to search on trace headline
+__label__Added implemented inventory.contains with a minimum amount of item required. as per feature request #187
+__label__Added support for elements `mask` and `tspan`
+__label__Added "graphdb: supported 3 locking modes: no locking - database level locking (default) and record level locking--"
+__label__Added hive-6968: list bucketing feature does not update the location map for unpartitioned tables
+__label__Added add next and previous in tag
+__label__Added android subpixel text
+__label__Added add operators to create observables from- broadcastreceiver--it allows to listen global and local (with support localbroadcastmanager) broadcasts-
+__label__Added add `accessibilityhint` for ios
+__label__Added "[as7-4070] add ""wait on port timeout"" feature for arq as7 managed container"
+__label__Added `reactis.isvalidelementtype()` to help higher-order components validate their inputs.
+__label__Added [`git.md`](git.md) added `[g2m]` prefix as a good practice under `on pull/merge requests` section.
+__label__Added make is possible to enhance color schemes from- plugin in non-intellij environment (e.g. upsource)--
+__label__Added "mappings: reencode transformed result with same xcontent
+__label__Added calculator feature is now passing!
+__label__Added add support for bitbucket ssh urls
+__label__Added french translation from [@zapashcanon](https://github.com/zapashcanon).
+__label__Added the ability to skip stamping when [unreleased] section is empty
+__label__Added improve error message in nativemoduleregistrybuilder
+__label__Added support for `accessibilitylabel` prop to the `picker` component
+__label__Added support for css grid style properties.
+__label__Added template: pr branch name?
+__label__Added improve events for new inventory features. adds bukkit-3859
+__label__Added drop database implemented and tested against- local and remote db--
+__label__Added camel-2970: jmsproducer supports non blocking- async routing engine for inout exchanges (request-reply over jms).--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@978995 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added support string values for the `capture` attribute.
+__label__Added share general implimentation of listenerhandler and methodexpressioneventlistener
+__label__Added geoquery - convert queryparams and sourceparams to middleware, new geoqueryhandler
+__label__Added "add default feature path  default glue and default formatter once"
+__label__Added "[store] move to on data.path per shard
+__label__Added add a few more uses-features that describe the app better
+__label__Added add experimental index-time field boosting feature.
+__label__Added additional information to the controlled input warning.
+__label__Added add proper jacksonfeature to resourceconfig in restapiservice
+__label__Added jbrules-1730: add support for other data types when- writing processes to xml  - pluggable data types support--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@21496 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added add support for cancelling fetch requests with `abortcontroller`
+__label__Added `notes` - support tier 2 category, when commit message subject is in the form of `tier1/tier2 - title`
+__label__Added improve automatic config detection.
+__label__Added show warning on usages of javaclass<t>() in- annotations loaded from java--
+__label__Added support for the pointer events specification.
+__label__Added "implemented periodic scheduling  too. needs testing- now.--"
+__label__Added check git repository
+__label__Added js enumerable for ecma5--
+__label__Added use the proper color to match the blue featured in all the theme.holo 9-patch pngs from honeycomb.
+__label__Added preserve formatting when writing to package.json
+__label__Added add a breaking changes section
+__label__Added trunk-3749 - backport some new features in the order data model to 1.9.x
+__label__Added cli options added to only check for specified groups of dependencies (see [options](readme.md#options) section in `readme.md`)
+__label__Added zen disco: support for a node to act as a client- (and not become master) using discovery.zen.master setting (default to true).- it will automatically be set to false when node.client is set to true.--
+__label__Added add docs for swift usage to `rctbridgemodule.h`
+__label__Added add missing audit log feature
+__label__Added support commit&#x27;s url and issues autolink in changelog
+__label__Added add compositesubscription--- also a utility method for creating a subscription around a future-
+__label__Added hadoop-7110. implement chmod with jni. contributed- by todd lipcon--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@1063090 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add putifabsent on cache abstraction--this commit adds a putifabsent method to the cache interface. this-method offers an atomic put if the key is not already associated in-the cache.--issue: spr-11400-
+__label__Added use autolink script in template on ios
+__label__Added support for react devtools profiler
+__label__Added component stack info to invalid element type warning.
+__label__Added initial release with git practices.
+__label__Added allow functions as template values
+__label__Added fetching github changelog
+__label__Added builder/v3 - add data source option (ca/us, ca by default)
+__label__Added updated the new features and enhancements for the 3.6 ea package.
+__label__Added <s>added a deprecation warning for `react.createclass`. points users to create-react-class instead.
+__label__Added hadoop-2398. additional instrumentation for- namenode and rpc server. add support for accessing instrumentation statistics- via jmx. (sanjay radia via dhruba)--git-svn-id: https://svn.apache.org/repos/asf/lucene/hadoop/trunk/src/contrib/hbase@611906 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added support for more dom elements and attributes (e.g., `<canvas>`)
+__label__Added remove warning for feature section (and preserve rendering)
+__label__Added #231 ??node.js???????????? new feature
+__label__Added missing package dependencies.
+__label__Added adds support for github links
+__label__Added need to specify affected database objects for dbdoc and other features
+__label__Added allow to specify an optional environment when- creating a new kiesession--
+__label__Added "implement proper support for endpoint config  its properties & features"
+__label__Added feature request 839: add links to jabref in about section
+__label__Added support for devtools
+__label__Added introducing a new directory constructor with a- localreference instance.--
+__label__Added apply line filters only to the own feature path
+__label__Added sort commits by emoji and date
+__label__Added  - initial code for new default http connector.--
+__label__Added version navigation.
+__label__Added adds support for java-swing-ayatana. refs feature #796
+__label__Added readme now contains answers to common questions about changelogs
+__label__Added implementation of autosave & backup feature (#2118)
+__label__Added implement `type` property on for events created via `testutils.simulate.*`.
+__label__Added [feature request] sharing config or online config
+__label__Added add peer recovery status to the indices status- api exposing both on going and summary when recovering from a peer shard--
+__label__Added support for react devtools.
+__label__Added camel-1320: created gzip data format--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@756039 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added channelobservable.get--
+__label__Added yarn-1635. implemented a leveldb based- applicationtimelinestore. contributed by billie rinaldi. svn merge- --ignore-ancestry -c 1565868 ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1565869 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add query validation feature
+__label__Added add theme switching buttons for the feature demo.
+__label__Added fix: add displayname to activityindicator (#22417)
+__label__Added "reorganized menu:
+__label__Added implementing update for forward to feature.
+__label__Added translation lines. improved marking feature. added inverted grouping. added button for autosetting of pdf field.
+__label__Added support `performancelogger` stoptimespan updates
+__label__Added  - continued sip transaction support--
+__label__Added "allow to configure a common logger prefix using- `es.logger.prefix` system prop  closes -360.--"
+__label__Added better explanation of the difference between the file ("changelog") and its function "the change log".
+__label__Added ep for upsource added--
+__label__Added "un-deprecate the ability to sort terms aggregation by ascending count.
+__label__Added "implemented optional create-on-push
+__label__Added "add ""otomoto"" to featured list"
+__label__Added `notes` - a generic "others" category to capture all parser-unmatched
+__label__Added warning for unknown properties on dom elements.
+__label__Added "change separator for shards preference
+__label__Added add context hierarchy tests to spring mvc test--issue: spr-5613-
+__label__Added jbrules-233 for leaps--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@4214 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added russian translation from [@aishek](https://github.com/aishek).
+__label__Added [`changelog.md`](changelog.md).
+__label__Added add single.fromcallable()--
+__label__Added error codes to production invariants, with links to the view the full error text.
+__label__Added remove heap histogram feature
+__label__Added wfly-2266 make deployment overlays feature able to replace application libraries
+__label__Added warning that reactperf is not enabled in production.
+__label__Added "the maven ""feature"" goal has been renamed to ""cucumber"". the maven property configuration.args (<configuration><args>...) has been removed. use configuration.cucumberargs instead."
+__label__Added tfj-26 : added debugging feature
+__label__Added include `strictmode` in the component stack
+__label__Added remove ldap and validation objects - (removing these features)
+__label__Added **cz:** add up cz
+__label__Added tfj-26 : added debugging feature
+__label__Added add error description to image onerror callback
+__label__Added generate full and partial changelog
+__label__Added :sparkles: add `--set-upstream` option when `git push`
+__label__Added "enable validation of optional values
+__label__Added support for `onload` event for `<embed>`.
+__label__Added first implement
+__label__Added update create build introduce functionality behavior modify modification
+__label__Added "#230 - improve empty folder navigation.
+__label__Added "cluster health api: add `wait_for_nodes` (accepts- ""n""  ""<n""  "">n""  ""<=n""  and "">=n"")  closes -269.--"
+__label__Added "add support for customizing the rule file in icu tokenizer
+__label__Added adds genercis and other java5 features to the code
+__label__Added support for stamping section identifier with _version_ instead of _git tag_
+__label__Added hadoop-6583. captures authentication and- authorization metrics. contributed by devaraj das.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@915095 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added transform tag to feature
+__label__Added **cz:** add cz support
+__label__Added home - link selectors with baseroute
+__label__Added "added experimental feature to minimize to sys tray. system tray icon is
+__label__Added  - initial code for new default http connector and- sip connector.--
+__label__Added [g2m] data pipeline job log (#146)
+__label__Added "spr-8454 introduce registration style objects - rename several spring mvc *configurer helpers to *registry  add more tests--"
+__label__Added repair closing of coarsechangefilter and apply it for the autosave feature
+__label__Added [core] use whole path for uri:s for file system feature files.
+__label__Added remove commit message preview on select format
+__label__Added "just apply this feature for ie for now  but allow override"
+__label__Added added ops to vm and datacenter features to softlayer
+__label__Added new warning for rare case of attempting to unmount a container owned by a different copy of react.
+__label__Added add new api to return poi type in a list
+__label__Added implemented range operator--
+__label__Added [wfly-1889] the schema containing wildfly 8 specific features should be bumped to version 2.0 leaving the 1.x versions available for eap 6
+__label__Added a new [experimental](https://github.com/reactjs/rfcs/pull/51) `react.unstable_profiler` component for measuring performance.
+__label__Added **git:** :sparkles:skip tasks or add task according to git status
+__label__Added tfj-690 remove annotations feature
+__label__Added add feature to list all the pinned files
+__label__Added "adds ""mht"" to the list of known extensions. implementes feature #778"
+__label__Added yarn-2059. added admin acls support to timeline- server. contributed by zhijie shen. svn merge --ignore-ancestry -c 1597207- ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1597208 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added update code. finished towny implimentation
+__label__Added `react-test-renderer/shallow`, which exports the shallow renderer.
+__label__Added upgrade `make-fetch-happen` to v5.0.0
+__label__Added stack trace to null input value warning.
+__label__Added move elytron from servlet feature pack to core
+__label__Added `webview` can now use `wkwebview` internally if you pass `usewebkit={true}`
+__label__Added added vm feature to savvis
+__label__Added added feature stack options in wekasegmentation to have the feature stack array always up to date.
+__label__Added create global version of the module
+__label__Added " - continued support for non-blocking https to the- internal nio connectors  client-side and server-side.--"
+__label__Added add url of output example for template style
+__label__Added allow overriding `edittext` construction in `reacttextinputshadownode`
+__label__Added basic functionality in place for listhosts feature
+__label__Added try keyword--
+__label__Added added back pressure to the new features section.
+__label__Added merge yarn-360 from trunk. allow apps to- concurrently register tokens for renewal. contributed by daryn sharp.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1442442 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added ability to set which configuration to enable flipper for when using use_flipper!
+__label__Added **functional components can now return `null`.** we added support for [defining stateless components as functions](/react/blog/2015/09/10/react-v0.14-rc1.html#stateless-function-components) in react 0.14. however, react 0.14 still allowed you to define a class component without extending `react.component` or using `react.createclass()`, so [we couldn’t reliably tell if your component is a function or a class](https://github.com/facebook/react/issues/5355), and did not allow returning `null` from it. this issue is solved in react 15, and you can now return `null` from any component, whether it is a class or a function.
+__label__Added support error boundaries.
+__label__Added `react.lazy()` for code splitting components.
+__label__Added adding configurable post update priority
+__label__Added return exit code 0 when no features are found
+__label__Added ability to force network requests to use wifi using the `allowscellularaccess` property. this can ensure that network requests are sent over wifi if communicating with a local hardware device and is accomplished by setting a flag. default behavior of allowing network connections over cellular networks when available is unchanged.
+__label__Added add config option to disable analysis features in the ui for certain fields (#4175)
+__label__Added `react.createelement` api in preparation for react v0.12
+__label__Added [as7-4486] remove feature that starts bundles automatically on 'deploy' operation
+__label__Added hiero upgraded to version 5! supports freetype and a number of new features.
+__label__Added duplicated scenario in cukes.feature
+__label__Added improve cli help output
+__label__Added include "england" as a valid value
+__label__Added camel-1198: ant path matcher now also possible- with camel-ftp.--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@730753 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added link, and make it obvious that date format is iso 8601.
+__label__Added "added improvement of ""change group containment"" by andreas schlicker.
+__label__Added added a failing feature for #61.
+__label__Added add support for install and uninstall operations
+__label__Added **listr:** :sparkles:switching to verboserenderer
+__label__Added add cli client
+__label__Added added error message if user tries to use rename field feature on multiple fields.
+__label__Added `xmlns`, `xmlnsxlink` to supported svg attributes.
+__label__Added deprecation warnings and separate module for `react.dom` factory helpers.
+__label__Added adds warnings for codesmells in selector
+__label__Added move all ec2 entries into new features
+__label__Added `react.children.count` has been added as a helper for counting the number of children
+__label__Added `notes` - cli `--verbose` option controlled non-error and non-eventual output messages
+__label__Added added support of ranges.--
+__label__Added "hive-17540: remove feature: describe pretty (zoltan haindrich  reviewed by ashutosh chauhan)"
+__label__Added `react.addons.transitiongroup` was added as a more general animation wrapper
+__label__Added tuple literals--
+__label__Added a deprecation warning for `react.createclass`. points users to `create-react-class` instead.
+__label__Added supported dynamic features based on configuration
+__label__Added added the hasimplicitelements feature for use with sailgraph and others which return elements not explicitly created with addvertex or addedge
+__label__Added notes - `--fetch` flag to control whether to run git fetch
+__label__Added a new warning to communicate that `props` objects passed to `createelement` must be plain objects.
+__label__Added hbase-1183 new mr splitting algorithm and other new features need a way to split a key range in n chunks
+__label__Added http static content now supports single file as- configuration--
+__label__Added "add functionality for labels + features in same seqrecreader for sequencerecordreaderdatasetiterator
+__label__Added persian translation from [@hameds](https://github.com/hameds).
+__label__Added add wait for recvieve to become ready feature to camel producer
+__label__Added [wfly-9008] add licenses to the servlet-feature-pack
+__label__Added first release of the [new package](https://github.com/facebook/react/tree/master/packages/react-is) that libraries can use to detect different react node types.
+__label__Added "removed computevisibleglyphs  added truncate feature to glyphlayout."
+__label__Added working history feature.  tweak to paging.
+__label__Added last changes before 2.4 beta. updated action enable/disable list and removed db features from the toolbar.
+__label__Added **emoji:** add emoji support in commit
+__label__Added "revert ""added doesobjectexist feature"""
+__label__Added new method to return string representation of- typedescriptor--
+__label__Added "camel-1338: added basic operator support for- simple language - end users is confused its not working  and nice to have- core support for basic operators. added ?method=methodname for the bean- langauge so its in line with the bean component.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@744707 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added added `platformcolor` implementations for ios and android
+__label__Added jbrules-3714 add capability to configure- date-effective/date-expires for spreadsheet--
+__label__Added add `accessibilityvalue` property
+__label__Added bz-1004311 - multiple connections feature can be switched on be setting jbpm.enable.multi.con=false
+__label__Added added round robin pool features to ultradns
+__label__Added added `changelog` command
+__label__Added "animaltamer and tameable interfaces  and corresponding features."
+__label__Added camel-6053: allow to override blueprint config- admin placeholders from unit test.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1443931 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added on android, textinput now takes `onkeypress` like ios
+__label__Added add feature to set default profile name via system property for profilecredentialsprovider
+__label__Added "remove the ability to enable doc values with the `fielddata.format` setting.
+__label__Added ws streaming feature restricted to grizzly provider for the time being.
+__label__Added possibility to attach current date to section identifier in yyyy/mm/dd format
+__label__Added add support for fullscreen feature
+__label__Added created examples/java-no-features to demonstrate cucumber jvm behaviour
+__label__Added swedish translation from [@magol](https://github.com/magol).
+__label__Added add done for cookies in the feature list
+__label__Added **tests:** adds test suite, fixed several node 0.10 issues along the way
+__label__Added add additional accessibility roles and states
+__label__Added generate changelog json file
+__label__Added first release of the [new package](https://github.com/reactjs/react-lifecycles-compat) to help library developers target multiple versions of react.
+__label__Added support for more attributes:
+__label__Added added load/save session feature.
+__label__Added czech translation from [@h4vry](https://github.com/h4vry).
+__label__Added additional implementation of forward to feature.
+__label__Added combined pressedlistener and clicklistener functionality. the extra baggage if not all features are needed is minor.
+__label__Added support for `onmouseover` and `onmouseout` in addition to the existing `onmouseenter` and `onmouseleave` events
+__label__Added add test for interpolatortype
+__label__Added add `isreducemotionenabled()` plus `reducemotionchanged` to `accessibilityinfo`
+__label__Added add the layout for the featured image on the website to the feature demo. can be accessed by clicking an action item.
+__label__Added cname file to enable github pages custom domain
+__label__Added lib/parsecommits - enrich with nlp model predicted label
+__label__Added revised- persistenceexceptiontranslationinterceptor to lazily retrieve- persistenceexceptiontranslator beans on demand--issue: spr-10894-
+__label__Added hbase-3167 hbase export: add ability to export- specific column family; turn block cache off during export; improve usage doc--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1028546 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added a new `react.forwardref()` api to let components forward their refs to a child.
+__label__Added "mahout-492 - modified interactionvalueencoder to be more generic  to allow interactions of any two featurevectorencoders and also to allow specifying weight to apply to interaction"
+__label__Added allow a version # to be provided for release-as, rather than just major, minor, patch.
+__label__Added  - initial code for new default http connector and- sip connector.--
+__label__Added changed the place of `feature` information to make
+__label__Added add support for template route matching mode--
+__label__Added secoauth-328: consolidate authorizationrequestmanager features
+__label__Added there's now an api to specify a different directory for ios image assets
+__label__Added a way to suppress the react devtools installation prompt.
+__label__Added added `flipper` to template app
+__label__Added made admin features optional and url based on adminurl for identity service in catalog
+__label__Added constraint incorporation--in a constraint system a new bound is incorporated:-all new constrains that can be derived from it-(and from existing ones) are added-
+__label__Added brought up to date with 4.4 features
+__label__Added do not override the top of the existing file
+__label__Added publish canary version on master push
+__label__Added "nullpointerexception for invalid faceted query - closes -1136.--"
+__label__Added [wfly-4873] update the servlet-feature-pack templates to version 4.0 of the schema.
+__label__Added "improve the look of the trace id
+__label__Added support for `<picture>` element and associated `media` and `sizes` attributes
+__label__Added add support for bumping version # in bower.json
+__label__Added "add tabata trainer  workout/hiit to featured list"
+__label__Added `react.children.toarray` which takes a nested children object and returns a flat array with keys assigned to each child. this helper makes it easier to manipulate collections of children in your `render` methods, especially if you want to reorder or slice `this.props.children` before passing it down. in addition, `react.children.map` now returns plain arrays too.__label__added support for svg tags `defs`, `lineargradient`, `polygon`, `radialgradient`, `stop`
+__label__Added readme doesn't explain what gren does
+__label__Added `onerror` handling to `<source>` element.
+__label__Added add appsales to featured list
+__label__Added add tag&#x27;s date on version
+__label__Added added doesobjectexist feature
+__label__Added hbase-6427 pluggable compaction and scan policies- via coprocessors--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1367361 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added `react.purecomponent` - a new base class to extend, replacing `react-addons-pure-render-mixin` now that mixins don't work with es2015 classes.
+__label__Added add deployment scanner to web feature pack
+__label__Added add configuration-file option
+__label__Added add content text to feature toggles. landscape on large and up only.
+__label__Added made bellystepdefs sideffect-free so that they don't need @dirty annotation and do not clash with dirtycukes.feature
+__label__Added as7-5826 multi-jsf feature
+__label__Added "jabref 2.0: feature to allow custom importers added
+__label__Added "update geo-shape.asciidoc
+__label__Added add registerset.updateifgreater to factorize code and improve performance
+__label__Added "add options for indices.get feature
+__label__Added add `flatlist` and `sectionlist` to animated exports
+__label__Added a new `<react.strictmode>` wrapper to help prepare apps for async rendering.
+__label__Added jar:sign mojo seems to be a new feature in 2.1
+__label__Added "new scope checker feature.
+__label__Added add an "ignore label" flag
+__label__Added dispose line filters when feature paths are clobbered
+__label__Added "internal changes to dhns to improve filtering features. return of the view concept  and refactoring in graph control. add the graphmodel and rationalize directed/undirected/mixed graphs access. small changes in graphapi  mainly in access with filtering."
+__label__Added support for `reversed` attribute for `<ol>` elements
+__label__Added introduce variable: support extraction of string- template fragments  -kt-2089 fixed--
+__label__Added add action item support to the feature demo.
+__label__Added removed graphjungloader/helper work as it will not be a feature.
+__label__Added **gitmoji:** :sparkles:update gitmojis.json
+__label__Added **prettier:** :sparkles:replace eslint with prettier
+__label__Added support for `nomodule` boolean attribute on the `<script>` tag.
+__label__Added textinput now has prop [autocomplete](https://reactnative.dev/docs/textinput#autocomplete) prop
+__label__Added misc - update changelog.md by dogfooding the changelog cmd
+__label__Added added a feature to descripte the desired functionality
+__label__Added implement `accessibilityinfo.setaccessibilityfocus` for android
+__label__Added add tab listener for feature toggles.
+__label__Added support for css variables in `style` attribute.
+__label__Added filter bookmark commit out
+__label__Added create a group-by-label option
+__label__Added support for more attributes:
+__label__Added added read/write features for drives in elastic hosts
+__label__Added released v. 1.5. reenabled the citeseer features afterwards.
+__label__Added "feature 809: import pubmed central id
+__label__Added "ruby test runner: statistcis can be sort by- ""tests"" column--"
+__label__Added started work on alternative group add/remove/move feature.
+__label__Added camel-2919: debugger api--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@961615 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added feature trunk-2009: implement texthandler for complex obs
+__label__Added hbase-12176 walcellcodec encoders support for- non-keyvalue cells (anoop sam john)--
+__label__Added yarn-1063. augmented hadoop common winutils to have- the ability to create containers as domain users. contributed by remus- rusanu. committed as a yarn patch even though all the code changes are in- common.--(cherry picked from commit 5ca97f1e60b8a7848f6eadd15f6c08ed390a8cda)-
+__label__Added on android, scrollview now takes `snaptointerval` like ios
+__label__Added better german translation for new feature pref
+__label__Added "jbrules-2537 json marshaller -added json marshaller- using xstream  with unit tests.--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@33359 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-"
+__label__Added front-end cli hook up. this feature is now visible
+__label__Added consolidate changes by affected packages.
+__label__Added "enable strict duplicate checks for all xcontent types (#22225)
+__label__Added remove auto-double braces feature also from gui
+__label__Added "added contains() method to the dsl for- .header(""foo"").contains(""cheese"") for multi-value headers--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@539516 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added avro-extension -- feature to specify multiple avro reader schemas inline  (#3368)
+__label__Added feature to add servlet filters in a druid node via extension modules
+__label__Added "#272 logstash????????? new feature   polish"
+__label__Added `react.isvalidclass` - used to determine if a value is a valid component constructor.
+__label__Added remove theme switching buttons from features demo. theme switching is now its own sample.
+__label__Added add tests
+__label__Added `react-dom/test-utils`, which exports the react test utils.
+__label__Added :sparkles:prompt when password needed
+__label__Added export `logbox` module
+__label__Added update full-feature-pack-licenses.xml
+__label__Added add the duplicate workspace feature from the edit menu
+__label__Added added an api for checking if there are busy timers to `timingmodule`
+__label__Added jbrules-313: adding halt command--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@12902 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added support mounting into iframes.
+__label__Added improve autosave and backup feature (#2194)
+__label__Added add filter auto refresh feature.
+__label__Added translate promises to async, await
+__label__Added bundle download progress is now shown like ios
+__label__Added new imap features headline information added
+__label__Added change to kindly error message when git-tag does not exist
+__label__Added add gitbasedurlgenerator to replace abstracturlgenerator
+__label__Added support for using es6 classes to build react components; see the [v0.13.0 beta 1 notes](https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html) for details.
+__label__Added  - continued sip transaction support--
+__label__Added added unicode_character_class support to regex- flags. this flag is only supported in java7 and is ignored if set on a java 6- jvm--closes -2895-
+__label__Added add `announceforaccessibility` and `announcementfinished` apis for making screen reader announcements
+__label__Added since this is a feature it has been moved to the titan0.1 branch.
+__label__Added form scope provider & dom lookups implemented--
+__label__Added send history feature now exports full csv dump
+__label__Added make more of cucumber-features pass. rename table to datatable. #45.
+__label__Added text and textinput now support `textalign:justify` for android o+ (api level >=26)
+__label__Added renamed features to highlight their focus
+__label__Added hbase-12366 add login code to hbase canary tool- (srikanth srungarapu)--
+__label__Added "allow plugins to register pre-configured tokenizers (#24751)
+__label__Added specs
+__label__Added update 'feature toggles' for new dropdown list navigation. closes #330.
+__label__Added wfly-7409 bantransitivedependencies for full feature pack module on ibm jdk
+__label__Added hbase-11452 add getuserpermission feature in accesscontrolclient as client api (demai ni)
+__label__Added explicity state this features is for local workers in the docs
+__label__Added "[jira] [hbase-5074] support checksums in hbase- block cache--author: dhruba--summary:-hfile is enhanced to store a checksum for each block. hdfs checksum verification-is avoided while reading data into the block cache. on a checksum verification-failure  we retry the file system read request with hdfs checksums switched on-(thanks todd).--i have a benchmark that shows that it reduces iops on the disk by about 40%. in-this experiment  the entire memory on the regionserver is allocated to the-regionserver's jvm and the os buffer cache size is negligible. i also measured-negligible (<5%) additional cpu usage while using hbase-level checksums.--the salient points of this patch:--1. each hfile's trailer used to have a 4 byte version number. i enhanced this so-that these 4 bytes can be interpreted as a (major version number  minor-version). pre-existing hfiles have a minor version of 0. the new hfile format-has a minor version of 1 (thanks mikhail). the hfile major version remains-unchanged at 2. the reason i did not introduce a new major version number is-because the code changes needed to store/read checksums do not differ much from-existing v2 writers/readers.--2. introduced a hfilesystem object which is a encapsulates the filesystem-objects needed to access data from hfiles and hlogs.  hdfs filesystem objects-already had the ability to switch off checksum verifications for reads.--3. the majority of the code changes are located in hbase.io.hfie package. the-retry of a read on an initial checksum failure occurs inside the hbase.io.hfile-package itself.  the code changes to hbase.regionserver package are minor.--4. the format of a hfileblock is the header followed by the data followed by the-checksum(s). each 16 k (configurable) size of data has a 4 byte checksum.  the-hfileblock header has two additional fields: a 4 byte value to store the-bytesperchecksum and a 4 byte value to store the size of the user data-(excluding the checksum data). this is well explained in the associated-javadocs.--5. i added a test to test backward compatibility. i will be writing more unit-tests that triggers checksum verification failures aggressively. i have left a-few redundant log messages in the code (just for easier debugging) and will-remove them in later stage of this patch. i will also be adding metrics on-number of checksum verification failures/success in a later version of this-diff.--6. by default  hbase-level checksums are switched on and hdfs level checksums-are switched off for hfile-reads. no changes to hlog code path here.--test plan: the default setting is to switch on hbase checksums for hfile-reads -thus all existing tests actually validate the new code pieces. i will be writing-more unit tests for triggering checksum verification failures.--reviewers: mbautin--reviewed by: mbautin--cc: jira  tedyu  mbautin  dhruba  todd  stack--differential revision: https://reviews.facebook.net/d1521--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1298641 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added supports vim like `j/k` keybind with item selection of `--init`
+__label__Added the `code` property to the keyboard event objects.
+__label__Added mac laf: add support for search controls with- history popups--
+__label__Added `es3` restores the previous default behavior. an additional transform is added here to ensure the use of reserved words as properties is safe (eg `this.static` will become `this['static']` for ie8 compatibility).
+__label__Added  - reference now verifies the validity of- characters before setting them. suggested by stephan koops.--
+__label__Added pass ansible variable through ansible's environment feature
+__label__Added adding 'show around' feature
+__label__Added new invariant providing actionable error in missing instance case.
+__label__Added supports annotated git-tag and adds `tag.subject` field [#3](https://github.com/git-chglog/git-chglog/issues/3)
+__label__Added add configuration so users can customize commit mapping
+__label__Added spr-5251: uri templates for @initbinder--
+__label__Added `notes` - initial release
+__label__Added "what's new and migrating are prominently featured
+__label__Added all core cucumber-features are passing except one
+__label__Added upgrade `yargs` to v13
+__label__Added allow additional settings for the node in- essinglenodetestcase--this change adds a method that extending classes can override to provide additional settings-for the node used in a single node test case.-
+__label__Added "percolator: replace percolate api with the new percolator query
+__label__Added add `unstable_enablelogbox`
+__label__Added marketplace/bundledetail - add single view route
+__label__Added add request controller subsystem to web feature pack standalone config
+__label__Added "- [ 1297576 ] new feature: printing of entry preview.
+__label__Added a warning for using `autofocus` rather than `autofocus`.
+__label__Added avoid paginating over all pull requests
+__label__Added "increase visibility of deprecation logger
+__label__Added add a way to dismiss popupmenu elements
+__label__Added hive-9278 : cached expression feature broken in one case (navis via ashutosh chauhan)
+__label__Added hbase-9369 add support for 1- and 2-byte integers- in orderedbytes and provide types (he liangliang)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1524297 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add gif in readme.md file
+__label__Added trunk-3780: searching for patient with patient name/new feature
+__label__Added added feature that allows a camel header to be used for setting the
+__label__Added "switch cert and peer validation to false by default
+__label__Added actionsheetios has a new prop `destructivebuttonindexes` for an `array<number>` of destructive indexes
+__label__Added bump minor rather than major, if release is < 1.0.0
+__label__Added "hive-14513: enhance custom query feature in ldap atn to support resultset of ldap groups (naveen gangam  via chaoyu tang)"
+__label__Added add a generic preset using configuration file
+__label__Added [breaking] `parsecommits` now returns a promise (async function)
+__label__Added hbase-4460  support running an embedded- thriftserver within a regionserver (jgray)--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1186586 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added added back pressure item into new features
+__label__Added added support for commitall option in cli
+__label__Added generate changelog markdown file
+__label__Added new visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
+__label__Added bumping next version b/c of new feature.
+__label__Added prettier has a config and an npm script; try it out with `npm run prettier`
+__label__Added `uiscene` support for `rctimageview`
+__label__Added add ios 12 textcontenttype options (#21079)
+__label__Added - [ 1570570 ] new feature: deselect all duplicates on import
+__label__Added `fragment` as named export to react.
+__label__Added "bulk udp: removal.
+__label__Added add `textcolor` and `backgroundcolor` props to `segmentedcontrol` for ios >=13
+__label__Added add threadlocal cache to proxies to improve performance
+__label__Added add new line after plugin output
+__label__Added show list of packages that will be updated in the end of upgrade process (#18)
+__label__Added "[mybatis] multi-db feature 2nd part readded  still in draft"
+__label__Added initial release
+__label__Added "add options for indices.get feature
+__label__Added **add options:** :sparkles:add push option
+__label__Added add support for skipping lifecycle steps, polish lifecycle work
+__label__Added adding adminurl to endpoint so we can access admin client features
+__label__Added "feature: ""normalize to bibtex name format"" also removes newlines"
+__label__Added add `autofocus` to textinput
+__label__Added feature 847: adds title case as a case changer
+__label__Added update template format to human readable
+__label__Added implementing math operations--
+__label__Added new package for cooperatively scheduling work in a browser environment. it's used by react internally, but its public api is not finalized yet.
+__label__Added support github enterprise
+__label__Added add standard-version
+__label__Added update message when gems were already up-to-date
+__label__Added adding missing features of scrap reports - trunk-1808
+__label__Added " - refactored the jdbcclient to return xml result- sets (using a new rowsetrepresentation class). in addition  the    xml- request can now contain several sql statements to be executed as a batch.- contributed by thierry boileau.--"
+__label__Added implemented issue 109:- http://code.google.com/p/orient/issues/detail?id=109 about in-memory clusters- inside regular persistent databases.--
+__label__Added `onauxclick` event for browsers that support it
+__label__Added jax-rs extension continued: - @formparam is now- supported--
+__label__Added "allow setting wsdl document as a resource--prior to this change  localjaxwsservicefactory allowed specifying a wsdl-document url. now users may also specify a wsdl document represented as-a spring resource object for convenience.--issue: spr-9909-"
+__label__Added `react-native run-ios` now supports the `--port` argument for metro
+__label__Added added `react-native-community/eslint-plugin` as a dependency for `react-native-community/eslint-config`
+__label__Added [`naming.md`](naming.md).
+__label__Added add the 'extractduplicates' parameter enabling the duplicates detection and extraction
+__label__Added adding notes about experimental features
+__label__Added jbpm-4254: added endpoint address override feature.
+__label__Added manifest.json support
+__label__Added add touchablebounce now has a simple `bounce()` function that can be used to trigger a bounce without callbacks
+__label__Added jbrules-446 support rulebase configuration via- jsr94 registerruleexecutionset properties--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@13123 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added hbase-12731 heap occupancy based client pushback--
+__label__Added #2158 add a completion-aware feature to handle a group of multiple writes overe atmosphereresponse
+__label__Added drop the featured scrolling.
+__label__Added [wfly-8986] move to a single licenses.xml source file in feature-pack
+__label__Added feature request #710: a setting to choose either a doi link or a url to be standard
+__label__Added notes - `--github` flag to update the head ref associated github release
+__label__Added -now works with non droolsobjectinputstream- serialization.--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@13207 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added added more new features content.
+__label__Added [react native monthly #5](https://reactnative.dev/blog/2017/11/06/react-native-monthly-5.html) was added
+__label__Added lib/formatnotes - group by t2
+__label__Added publish only if commit+push succeed
+__label__Added marketplace/top-items - add redirect link to view all & bundle inside search. extract common function to util
+__label__Added **tasks:** :sparkles:skip git push when there is no tracking remote
+__label__Added add `onslidingcomplete` callbacks when sliders adjusted via a11y.
+__label__Added "add ""timeact to-do"" to featured implementations [ci skip]"
+__label__Added nlp model trained and applied through fasttext (by facebook)
+__label__Added a new top-level api `react.cloneelement(el, props)` for making copies of react elements – see the [v0.13 rc2 notes](https://reactjs.org/blog/2015/03/03/react-v0.13-rc2.html#react.cloneelement) for more details.
+__label__Added default of auto update time stamp is now false. refs feature 799.
+__label__Added "add ability to customize message channels--@enablewebsocketmessagebroker message channel configuration can now be-customized via websocketmessagebrokerconfigurer. it is necessary to-make this easy and even required as part of the basic configuration-since by default the message channels are backed by a thread pool of-size 1  not suitable for production use.--issue: spr-11023-"
+__label__Added add support for github ssh urls
+__label__Added make it possible to clobber feature paths and glue with -dcucumber.options
+__label__Added change the features cards.
+__label__Added remove no longer supported feature description and sample code.
+__label__Added "add a resourceresolver implementation for webjars--prior to this commit  webjars users needed to use versioned links within-templates for webjars resources  such as `/jquery/1.2.0/jquery.js`.-this can be rather cumbersome when updating libraries - all references-in templates need to be updated.--one could use version-less links in templates  but needed to add a-specific mvc handler that uses webjars.org's webjar-locator library.-while this approach makes maintaing templates easier  this makes http-caching strategies less optimal.--this commit adds a new webjarsresourceresolver that search for resources-located in webjar locations. this resourceresolver is automatically-registered if the ""org.webjars:webjars-locator"" dependency is present.--registering webjars resource handling can be done like this:--```java-@override-protected void addresourcehandlers(resourcehandlerregistry registry) {-  registry.addresourcehandler(""/webjars/**"")-          .addresourcelocations(""classpath:meta-inf/resources/webjars"")-          .resourcechain(true)-              .addresolver(new webjarsresourceresolver());-}-```--issue: spr-12323--polish-"
+__label__Added support for the [new jsx transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html).
+__label__Added add trytx feature to graph.
+__label__Added plugins: tooltip for plugins with newer version- (idea-75998)--
+__label__Added "added more gui implimentation  and a super basic login screen"
+__label__Added **rebrand:** rebrand recommended-workflow to standard-version (#9)
+__label__Added entries contained in an .aux file can now be selected (feature 644).
+__label__Added `<marketplacesearch/>` design parity with new marketplace beta
+__label__Added support for attributes `dx`, `dy`, `fillopacity`, `fontfamily`, `fontsize`, `markerend`, `markermid`, `markerstart`, `opacity`, `patterncontentunits`, `patternunits`, `preserveaspectratio`, `strokedasharray`, `strokeopacity`
+__label__Added non-blocking implementation of scheduledobserver--
+__label__Added support for `srclang`, `default`, and `kind` attributes for `<track>` elements
+__label__Added jbrules-527: adding primitive support for hashcode- calculation on indexing--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@7155 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added switched from html to markdown and added tables to the features section
+__label__Added "added push to lyx feature: there is a problem however  (check line 476 in basepanel) pref.get('lyxpipe') return 'asdf'. when lyxpipe path is hard coded  tit works fine"
+__label__Added slovak translation from [@jkostolansky](https://github.com/jkostolansky).
+__label__Added geo query response - added a unique description for use in graphing - calculated propensity value/sample instead of sending both - cast report '/stats' aggregates as ::int for ease of use in recharts frontend
+__label__Added good examples and basic guidelines, including proper date formatting.
+__label__Added enable `?.` optional chaining operator plugins
+__label__Added added `filter` cli argument (see [usage](readme.md#usage) section in `readme.md`)
+__label__Added tfj-688 retire feature specific rate limit status
+__label__Added "added the ability to reorder the panels in the side pane.
+__label__Added add support for bitbucket :tada:
+__label__Added add springrouter-style supplemental direct routing- via the attachments property.  this allows for multiple routes for the same- bean or routes which would be illegal/unmatched as bean names.--
+__label__Added "frequently asked questions" section.
+__label__Added hbase-10885 support visibility expressions on- deletes (ram)--
+__label__Added builder/details - show job viz for newly created, unprocessed jobs
+__label__Added [jbtm-1933] finish migration of acid features from txframework to xts and rest-at
+__label__Added issue -71:- http://code.google.com/p/orient/issues/detail?id=71 working in progress--
+__label__Added section about "changelog" to keep track of changes.
+__label__Added add ratebeer to the featured apps. scroll 'em too.
+__label__Added ensure glue and feature path if system properties don't set them.
+__label__Added add support for composer ^2.0
+__label__Added proguard rule for hermes
+__label__Added opla: supported invocation of java static methods--
+__label__Added add enhanced accessibility actions support
+__label__Added add dry-run mode
+__label__Added "rename uri to featurepath  which is more explicit"
+__label__Added as per suggestions: added single static instance of- executorservice for delayed posting introduced schedulediosaction to enable- compositesubscription--
+__label__Added compensate for sendmessage losing its 'unintended splitting on existing newlines'-feature
+__label__Added "update views.html
+__label__Added added more info to module registry systraces
+__label__Added add the possibility to create a changelog file
+__label__Added pushing down the dependency change set feature.
+__label__Added added skeleton for ip features
+__label__Added create from usage: create constructor parameter- by reference in delegation specifier  -kt-6601 fixed--
+__label__Added introduce templates for the issues
+__label__Added "deprecate the `_default_` mapping. (#25652)
+__label__Added hadoop-7657. add support for lz4 compression.- contributed by binglin chang.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1220312 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added support passing booleans to the `focusable` svg attribute
+__label__Added support for `color` attribute
+__label__Added bumping to 3.0 alpha 2 to reflect the new history feature.
+__label__Added "bumped version to 2.7.0-snapshot  because new features were added."
+__label__Added set scrollview throttle by default
+__label__Added adds smart serialization of operation to optimize performance/reduce size
+__label__Added :sparkles: support run postpush hook
+__label__Added added feature for saving complexobs data while saving encounters
+__label__Added "adding a maintenance feature to list patients who are also users. (this should probably be removed before the 1.6 release  assuming that we switch the api to properly support that feature.)"
+__label__Added mahout-492 - added interactionvalueencoder for encoding interaction of two categorical features into feature vectors
+__label__Added c++ client section updated after feature implementer`s review.
+__label__Added [`react.addons.createfragment` was added](https://reactjs.org/docs/create-fragment.html) for adding keys to entire sets of children.
+__label__Added support synchronous thenables passed to `react.lazy()`.
+__label__Added supported propagation for subclass of- j.u.collection and similar classes.--
+__label__Added allowed custom parsing of atom documents.--
+__label__Added added additional shortcut--
+__label__Added mapreduce-3121. nodemanager should handle- disk-failures (ravi gummadi via mahadev) - merging r1208131 from trunk.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1208135 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add takeuntil support in single--
+__label__Added spr-     - allow xstreammarshaller subclasses to- customise xstream object--
+__label__Added refactor sub fetch phase to also allow for hits- level execution--
+__label__Added `notes` - portable cli
+__label__Added explicitly add google url cleaner as feature
+__label__Added "add functionality for labels + features in same seqrecreader for sequencerecordreaderdatasetiterator
+__label__Added removed hostgroup features. can now be done in streams. (explanation: http://www.lennartkoopmann.net/post/11612984083/hostgroups-in-graylog2-will-die) also improved error handling of index checker on startup.
+__label__Added add `minify` flag to react-native bundle command
+__label__Added pt-br translation from [@tallesl](https://github.com/tallesl).
+__label__Added "optimize demo for tablets  cache requestwindowfeature and invoke it"
+__label__Added `flatlist` is now strict mode compliant
+__label__Added [changed] spritebatch.settransformmatrix/setprojectionmatrix can now be called in between begin()/end() making our live a little bit easier. do not overuse this feature as it flushes the batch!
+__label__Added add pull requests as data-source option
+__label__Added "added feature learning example
+__label__Added depends on stapler 1.26 for features that take advantage of java5
+__label__Added experimental modification to save as action. incorporation of exact duplicate removal into duplicate removal. experimental addition of autocompletion feature.
+__label__Added support for `onload` and `onerror` on `<img>` elements
+__label__Added new feature trunk-1995 regimens tab should provide ordering of drug regimen;
+__label__Added added `statusbartranslucent` prop to modal component
+__label__Added [hooks](https://reactjs.org/docs/hooks-intro.html) — a way to use state and other react features without writing a class.
+__label__Added camel-1004 - added a servicestatus property to- most service implementations - and exposed the status of a route--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@748071 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added add listener for non-value animated node
+__label__Added html formatter produces empty report if no features run. closes #191
+__label__Added cameraroll can now deletephotos 📸
+__label__Added simplified and traditional chinese translations from [@tianshuo](https://github.com/tianshuo).
+__label__Added reordered the features so its easier to read
+__label__Added ukrainian translation from [@osadchyi-s](https://github.com/osadchyi-s).
+__label__Added allow binary messages in stompsubprotocolhandler--issue: spr-12301-
+__label__Added hbase-9999 add support for small reverse scan--git-svn-id: https://svn.apache.org/repos/asf/hbase/trunk@1573949 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added "revert ""[wfly-6779] added wise feature code"""
+__label__Added "rpms: add timeout to shutdown with kill signal
+__label__Added "add checks for: networktype  networkconfiguration  ipscope  networkfeatures  syslogserversettings  routerinfo  networkservice  iprange(s)  ipaddress(es)"
+__label__Added add minimal ruby version in gemspec
+__label__Added change order and wording of action item buttons in the feature demo to match the tab section.
+__label__Added [drools-991] allow to configure maxeventsinmemory- in filelogger--
+__label__Added fixed issue -1445 providing the new timeout in- most of the commands--
+__label__Added reorganizing the recent activity feature
+__label__Added expose rctnetworking as a public 'networking' api
+__label__Added "changed jetty version to 8.1.9  added jstl libraries  completed basic ui features"
+__label__Added act-675 + act-673 added historictaskinstancequery features + act-671 updated docs
+__label__Added add `fadingedgelength` prop to flatlist and scrollview
+__label__Added `isrunning()` api.
+__label__Added combined features from jbpm-4526 (reoccurring jobs) and bz-1171859-history log cleanup to provide possibility to schedule automatic cleanup of logs in background job
+__label__Added new experimental _rctsurface_: measure and layout a ui in a thread-safe and synchronous manner
+__label__Added added description of the key generation regxp replace feature.
+__label__Added "support dropwizard applications without logback (#1900)
+__label__Added allow `zindex` to `usenativedriver`
+__label__Added `tangentialpressure` and `twist` fields to pointer events
+__label__Added add exception in .gitignore for `debug.keystore` to the android template.
+__label__Added support for nesting `act` from different renderers.
+__label__Added "remove slow  mostly unuseful feature"
+__label__Added add support for maven version ranges--
+__label__Added try to make it writable by using a mustang feature.
+__label__Added remember committed changes splitter proportions- (ideadev-16784)--
+__label__Added add friendcaster to feature impls.
+__label__Added **initial-release:** adds flag for generating changelog.md on the first release.
+__label__Added "added support for 'volatile' statement iterators in graphsail  so as to ease concerns of excessive new object creation during graph traversal through sail.  experimentation indicates  in fact  that the jdk is smart enough to optimize away the creation of short-lived statement objects in typical scenarios.  however  should compiler optimization ever fall short  the feature is there."
+__label__Added core-375 add update-rollback-update feature
+__label__Added hdfs-2465. add hdfs support for fadvise readahead- and drop-behind. contributed by todd lipcon.--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1190625 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added builder - vwi local/national report include poi_address
+__label__Added adds configurable conventionalcommits preset
+__label__Added add maven preset
+__label__Added updating gems
+__label__Added do not update/commit files in .gitignore
+__label__Added optimize help message
+__label__Added support for `onreset` on `<form>` elements
+__label__Added better ios13 support in `statusbar` api
+__label__Added add enablement feature for save actions
+__label__Added support for portals in `react.children` utilities.
+__label__Added [jbas-8450] - integrate features for domain deployments
+__label__Added big rename and more pointcut features in ui
+__label__Added support image resizemode=repeat
+__label__Added added transform.feature and transformsteps
+__label__Added create module initialisation panel
+__label__Added add support for homu merge commits.
+__label__Added added unsupported features for c# client doc.
+__label__Added marketplace - react-window applied for loading time optimization
+__label__Added updated to new grouping features
+__label__Added add `usewindowdimensions` hook to replace most `dimensions` usage
+__label__Added partial implementation of filelisteditor download feature.
+__label__Added camel-1099: added fileidempotentrepositry--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@723291 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added `react.memo()` as an alternative to `purecomponent` for functions.
+__label__Added "translog: implement a file system based translog- and make it the default  closes -260.--"
+__label__Added ignore tags with a certain string
+__label__Added feature request 2472812: rollback can be empty now for no rollback
+__label__Added first implementation of binary record serializer- debug info. issue -4027--
+__label__Added android texttransform style support
+__label__Added more cases to controlled inputs warning.
+__label__Added a new `getsnapshotbeforeupdate()` lifecycle.
+__label__Added [bz-1092084] raise a compilation error when the- same attribute is defined twice on a rule--
+__label__Added added feature to allow users to administer hl7 error and archive queues (#890).
+__label__Added made it possible to select a peptide by clicking in the sequence coverage panel. moved some spectrum options from the file menu to the annotation menu. added an export spectrum as mgf option to the annotation menu. fixed a bug in the maximize frame if closing feature. fixed a bug in the ptm tab related to the hiding of the score columns.
+__label__Added camel-5906: added new camel-servletlistener- component for bootstrapping camel in web app without using spring etc. work- in progress.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1428278 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added "after a search has been done  the first entry of the entry table is selected (feature 656)."
+__label__Added add prebump, postbump, precommit, lifecycle scripts
+__label__Added home/recent activities - filter with multiple values - new filter ui with checkboxes instead of dropdown
+__label__Added custom 'bumpfiles' and 'packagefiles' support
+__label__Added [spr-8387] introduced- supports(mergedcontextconfiguration) method in the smartcontextloader spi;- updated existing loaders accordingly; and fleshed out implementation of and- tests for the new delegatingsmartcontextloader.--
+__label__Added add notes for coptic bug fix and scalar performance improvement
+__label__Added add support for `publicpath` to enable serving static assets from different locations
+__label__Added implement `nativeperformancenow` and `performance.now()`
+__label__Added a warning for invalid `aria-` attributes.
+__label__Added "add link to ""feature branch workflow""
+__label__Added create a visualizationapi for exposing common features like select. use lookup for implemeting visualizationcontroller.
+__label__Added `as` to supported html attributes.
+__label__Added updated new features section
+__label__Added body is persed per line as list item and indented under its subject
+__label__Added support for using `getinitialstate` and `getdefaultprops` in mixins.
+__label__Added first version
+__label__Added `react.addons.clonewithprops` was added for cloning components and modifying their props
+__label__Added [wfly-7045] correct supplement includes ordering for elytron configuration in the ejb3 subsystem and update feature pack subsystems template with upstream changes to default template.
+__label__Added enable action item text display on pre-android 3.0 devices by calling `requestwindowfeature()` with the argument `window.feature_action_bar_watson_text`.
+__label__Added "decided to not include weighting on iterative maps. we can add it if its a useful feature  but it will be expense and require a reduce..... though  with it  gremlin will be semantically correct (albeit  awkaward at scale). more thought needed. an easy  efficient solution that is consistent throughout is currently the state of things."
+__label__Added adds support for bumping for composer versions
+__label__Added a warning if `react.forwardref` render function doesn't take exactly two arguments
+__label__Added added cucumber-features back
+__label__Added added warning message linking api with phones in ios simulator
+__label__Added "term vector settings should be treated like flags without propergation
+__label__Added german translation from [@mpbzh](https://github.com/mpbzh) & [@art4](https://github.com/art4).
+__label__Added **gitmojis:** :sparkles:add 3 more emoji
+__label__Added expanded options for commit template variables
+__label__Added a first good version of the search/replace feature. it is a generalactionsmanipulator.
+__label__Added support for defining `proptypes` in mixins
+__label__Added add support for images, icons and flags in selected values
+__label__Added act-4177 : secure scripting feature : support for execution- and tasklisteners with secure scripting
+__label__Added the `unstable_` prefix before the experimental apis.
+__label__Added platform plugins can participate in rnconfig, `link`, and `unlink` – keep an eye on react-native-window's use of it!
+__label__Added separate cli and defaults from base functionality
+__label__Added support for forced compilation of a set of- files/modules--
+__label__Added turkish translation from [@karalamalar](https://github.com/karalamalar).
+__label__Added **exec:** :hammer:using `execa` instead of `shelljs`
+__label__Added add-ons: a [`shallowcompare`](https://github.com/facebook/react/pull/3355) add-on has been added as a migration path for `purerendermixin` in es6 classes.
+__label__Added back support for running in production mode.
+__label__Added **prompt:** :sparkles: use autocomplete to improve select experience
+__label__Added add filterpath implementation that uses jackson 2.6 streaming filtering feature
+__label__Added camel-845: added firedtime property.--git-svn-id: https://svn.apache.org/repos/asf/activemq/camel/trunk@688957 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added `contexttype` as a more ergonomic way to subscribe to context from a class.
+__label__Added "hbase-17624 address late review of hbase-6721  rsgroups feature"
+__label__Added install from module repository feature does not work under maven+jetty -
+__label__Added support yaml detection on char sequence--
+__label__Added "browsercompatible feature add: double quote long fields exceed [-2^53+1  2^53-1]"
+__label__Added [wfly-6779] added wise feature code
+__label__Added export the devsettings module, add `addmenuitem` method
+__label__Added [kt-4124] add support for simple nested classes--
+__label__Added recording when this feature was added
+__label__Added custom entry file on android using `entry_file` environment variable
+__label__Added removing unused feature-data
+__label__Added add support for gitlab :tada:
+__label__Added expose scrollenabled as ios prop for textinput
+__label__Added a warning about incorrect usage of the context api.
+__label__Added `notes` - (actually officialize) `--verbose, -v` option
+__label__Added enhance instructions for couchdb 1.1 proxy feature.
+__label__Added text and textinput now has prop [maxfontsizemultiplier](https://reactnative.dev/docs/text#maxfontsizemultiplier)
+__label__Added `oncontextmenu` events
+__label__Added added keywordrepeatfilter that allows emitting- stemmed and unstemmed versions of the same token if stemmers are used--closes -2753-
+__label__Added support `flexwrap: 'wrap-reverse'`
+__label__Added stamp react native version into c++ code
+__label__Added expose the `ispackagerrunning` methods on rctbundleurlprovider
+__label__Added "histogram facet: allow to define a key field and- value script  closes -517.--"
+__label__Added add buttons to the feature demo which control the built-in progress bar. this is not represented on the pre-3.0 action bar.
+__label__Added "supported new syntax in sql update to use a inner- query as target. example: update ( traverse v.in  e.out from v ) set date =- sysdate() where out.size() > 1--"
+__label__Added restore endpoint-publish feature on server side
+__label__Added unit tests
+__label__Added "who needs a changelog?" section.
+__label__Added support for [custom accessibility actions](https://developer.apple.com/documentation/uikit/uiaccessibilitycustomaction) on ios
+__label__Added `react-dom.js` to `main` to improve compatibility with tooling
+__label__Added a new `react.createref()` api as an ergonomic alternative to callback refs.
+__label__Added suggest branch name other than master
+__label__Added builder - create custom job modal for bell in builder
+__label__Added add localized accessibility strings to `reactcore` pod
+__label__Added "based on a discussion with daniel beck  implemented a master kill switch as an admin configurable feature."
+__label__Added group commits by emojis group
+__label__Added storedirect&wal: add feature masks
+__label__Added cameraroll's `getphotos` now supports `assettype: "all"` to let users pick from video and photos simultaneously
+__label__Added use different files type for configuration
+__label__Added made download icon visible all the time. and added download feature for the uploaded files
+__label__Added bz743283: decision tables should support timer- column instead of deprecated duration attribute--
+__label__Added profiler: - all the metrics now have a- description and a type - supported new http rest command /profiler/metadata- to retrieve all the metadata--
+__label__Added added datasourcefactory strategy; promoted- embeddeddatabaseconfigurer strategy to public api; added ability to add any- number of sql scripts for db population--
+__label__Added new "guiding principles" sub-section to "how do i make a changelog?".
+__label__Added adding feature to allow controlling when and where the jnlp launch url is exposed.
+__label__Added check cli version
+__label__Added added the versioncodeupdatefromversion feature and put more checks to avoid failures
+__label__Added `notes` - support commit message body
+__label__Added a missing `package.json` dependency.
+__label__Added include component stack into the warning about `contenteditable` and `children`.
+__label__Added extractors feature - code coverage supplemented
+__label__Added first release of the [new experimental package](https://github.com/facebook/react/tree/master/packages/react-call-return) for parent-child communication.
+__label__Added adds horizontal text alignment feature for textfields
+__label__Added installation wizard in order to help to create the default changelog.md in project folder
+__label__Added remove the releases limit
+__label__Added add 'pay with square' to featured applications.
+__label__Added a new `suppresshydrationwarning` attribute for intentional client/server text mismatches.
+__label__Added add exact option to canary version
+__label__Added added support for out-of-tree platform plugins via a new `haste` field in `package.json`; read more in the [docs entry](https://reactnative.dev/docs/out-of-tree-platforms)
+__label__Added load balancer status features for radio. #476
+__label__Added prelaminary work to clientusercodedeployment feature
+__label__Added unreleased section to gather unreleased changes and encourage note keeping prior to releases.
+__label__Added hbase-1552 provide version running on cluster via- getclusterstatus--git-svn-id: https://svn.apache.org/repos/asf/hadoop/hbase/trunk@786666 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added update commit msg for when using commitall
+__label__Added support sticky headers for inverted lists with `invertstickyheaders`
+__label__Added "new feature: xmp privacy filter can be used to prevent sensible fields to be exported.
+__label__Added i prefer strongly typed named variable for controlling feature flags.
+__label__Added run tests using xcode 9.4 and ios 11.4
+__label__Added [junit] handle empty feature files gracefully.
+__label__Added columns - extendcolumns to allow explicit cols to extend inferred
+__label__Added "camel-4077: sanitiy check route in xml dsl  that- there is input and outputs in routes.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1134300 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Added "add ""schedule"" to featured list"
+__label__Added add support for build.gradle with crlf for use with `react-native link`
+__label__Added get the options with an external npm tool
+__label__Added implemented the new automatic indexes using the orientdb built-in index features
+__label__Added `gren --help` quietly does stuff
+__label__Added adds validation of code smells in case expressions
+__label__Added use milestones to create release notes
+__label__Added added `minpressduration` to `pressable`.
+__label__Added [g2m] endpoint for serving data for tegola layers (#190)
+__label__Added support for checking loaded descriptors agains an- expected txt file--
+__label__Added bz-1158818 - please add reminder feature in new hire process in maitai - small improvements
+__label__Added support for more dom properties:
+__label__Added inline html to report the plugin that implemented the feature.
+__label__Added marketplace - categories view with initial filering
+__label__Added joyent server and dataset features
+__label__Added get the information from the local git config
+__label__Added new top-level api `react.finddomnode(component)`, which should be used in place of `component.getdomnode()`. the base class for es6-based components will not have `getdomnode`. this change will enable some more patterns moving forward.
+__label__Added "improvement to push-to-vim feature  courtesy of stephan rave"
+__label__Added + add implicit (string) type for typed string- values w/o a specified type--
+__label__Added "executeonkeys(keys entryprocessor) introduced on imap. with this feature you can run entry processor on a set of keys"
+__label__Added "add ""retreive more info"" feature -- resolves redirectors and gets first product result inside the app"
+__label__Added add better description for downgrade operations
+__label__Added [bleeding] add spawnreasons to cover new minecraft features.
+__label__Added "added feature learning example
+__label__Added new normalized `onbeforeinput` event
+__label__Added a separate profiling entry point at `schedule/tracking-profiling`.
+__label__Added databinder tries conversionservice if- propertyeditor could not produce required type--issue: spr-13042-
+__label__Added **index.js:** add checkpoint for publish script after tag successfully
+__label__Added expose enablebabelruntime config param externally
+__label__Added feat(conventional-changelog-standard): move to conventional-changelog-standard style. this style lifts the character limit on commit messages, and puts us in a position to make more opinionated decisions in the future.
+__label__Added "basic implementation of feature for ldap user synchronization as
+__label__Added added vertex-component-loader as an experimental feature.
+__label__Added "capture high-level memory allocation
+__label__Added add support for gitlab repositories
+__label__Added support for `nonce` attribute for `<script>` and `<style>` elements
+__label__Added "upgraded version to 2.1.0-snapshot  because we will release a new feature."
+__label__Added runasync method for outputting multiple values--
+__label__Added "added 'coming' tags to mlt for multiple docs feature.
+__label__Added support for `contexttype`.
+__label__Added another cucumber-feature passing
+__label__Added a umd build.
+__label__Added creating feature branch for cost based optimizer work
+__label__Added jbrules-313: adding fire limit option--git-svn-id: https://svn.jboss.org/repos/labs/labs/jbossrules/trunk@12927 c60d74c8-e8f6-0310-9e8f-d4a2fc68ab70-
+__label__Added remove ldap feature support
+__label__Added added takelast to observable--
+__label__Added ssl feature added for client
+__label__Added update the documentation
+__label__Added "adding a maintenance feature to list patients who are also users. (this should probably be removed before the 1.6 release  assuming that we switch the api to properly support that feature.)"
+__label__Added squashed dirty spring features
+__label__Added allow changing the project path in `react-native-xcode.sh` using env var `project_root`
+__label__Added ignore dependency update bots by default
+__label__Added additional type information to the `proptypes.element` warning.
+__label__Added updates for the max selectbox list feature.
+__label__Added add commits in commit version struct
+__label__Added hbase-13071 hbase streaming scan feature
+__label__Added has_aoi - add query to check if each poi could be found in aoi report table - if yes/no: response will include has_aoi flag indicating true/false
+__label__Added neighbours features in nodeimpl.
+__label__Added if matching root doc's inner objects don't match- the `nested_filter` then the `missing` value should be used to sort the root- doc. closes -3020--
+__label__Added i declare that this feature is no longer beta.
+__label__Added major improvements to accessibility features
+__label__Added new `<pressable>` component to make it easier to create touchable elements
+__label__Added implement a cached thread scheduler using event- loops--
+__label__Added add `error-subclass-name` lint rule
+__label__Added home/recent-activities - fill in details for share-with-external logs
+__label__Added **console:** :sparkles:update console output, show more details.
+__label__Added add `--next-tag` flag (experimental)
+__label__Added debug js in nuclide is now an option in the dev menu 🐜
+__label__Added add `--from` and `--to` as replacements for `--tag-from/to`
+__label__Added camel-4023 properties to cxf clientproxyfactory- can be set on endpoint uri or cxfendpoint bean.--git-svn-id: https://svn.apache.org/repos/asf/camel/trunk@1128561 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Added cli autolinking support
+__label__Added updates to rackspace cdn container metadata handling. added feature to purge cdn object. added feature to set default index and error pages for cdn based static website.
+__label__Added create a better log
+__label__Added `<table />` component ported from [react-labs](https://github.com/eqworks/react-labs).
+__label__Added factor out `utils.exec` to perform `execsync` and `log`
+__label__Added add rctweakproxy to properly deallocate rctuiimageviewanimated
+__label__Added bz-1171859 - history data cleanup feature for process / human task
+__label__Added mahout-1378: running random forest with ignored features fails when loading feature descriptor from json file
+__label__Added ignore modules feature
+__label__Added the `disableremoteplayback` property for `video` elements.
+__label__Added use `warnonce` for excessive number of callbacks error
+__label__Added "set available processors for netty
+__label__Added include the component stack into more warnings.
+__label__Added cli application accept path/preset option
+__label__Added scrollview now supports smooth bi-directional content loading and takes new prop `maintainvisiblecontentposition`
+__label__Added added the 3.5 new feature and enhancement headlines.
+__label__Added [jclouds-1162] dockercomputeserviceadapter shouldn't remove container if it stops with non-zero exit code quickly after start. the commit also adds feature which prints container logs into jclouds compute log during node destroy if the trace log level is enabled
+__label__Added viewer: add a keyboard shortcut (ctrl+alt+b) for adding a bookmark
+__label__Added for details on the major changes in calibre between 4.0 and 5.0, see https://calibre-ebook.com/new-in/fourteen
+__label__Added viewer: use the same loading spinner as is used by the rest of calibre
+__label__Added edit metadata: use a border rather than background color to indicate correct title and author sort values. works better with dark themes.
+__label__Added viewer: add keyboard shortcuts to toggle between paged mode and flow mode and to quit
+__label__Added viewer: calculate default column widths based on current font size
+__label__Added when running calibre-portable.exe popup a more useful error message if it is placed in a location with a too long path.
+__label__Added tag browser: when grouping items by first letter if adjacent letters have few entries combine them into a single group.
+__label__Added now all matches are displayed when searching in a side bar with a few words of context. also supports searching using regular expressions.
+__label__Added tag browser: add options in preferences->look & feel->tag browser to hide empty categories and also to have the find in the tag browser show all matches instead of jumping from match to match.
+__label__Added book details popup window: add open with actions to context menu when right clicking the cover image.
+__label__Added viewer: allow customizing what actions appear on the toolbar (preferences->miscellaneous->customize toolbar).
+__label__Added conversion: change the default white-space css for <pre> tags to pre-wrap as this suits ebooks better
+__label__Added viewer in flow mode: add auto-scrolling which can be triggered from the viewer controls and also make smooth scrolling by pressing down the arrow keys configurable
+__label__Added edit book: add a new fuzzy search mode in which typographical quotes and various space types are matched by the plain equivalents
+__label__Added manage authors dialog: improve performance in very large libraries
+__label__Added macos: use transient scrollbars unless they are disabled in system preferences
+__label__Added viewer: allow also using --open-at with book positions
+__label__Added tag browser: allow adding/removing tags/authors/etc. to the currently selected book by right clicking on that tag and choosing "apply to selected books".
+__label__Added tag browser: the find function for searching for items in the tag browser can now do exact matching by using = as a prefix.
+__label__Added edit metadata dialog: use only a single line for custom column date fields
+__label__Added viewer: add a setting to control how many pixels a scroll wheel should generate before triggering a page turn
+__label__Added content server: add a button to delete all locally cached books.
+__label__Added docx input: add support for word controls used to rotate or flip images
+__label__Added kobo driver: add support for the new kobo nia
+__label__Added allow copy/pasting dates from columns having different date display formats.
+__label__Added if you turn on dark mode under the windows settings->personalisation->colors and restart calibre it will use dark colors. can also be enabled by setting the calibre_use_dark_palette environment variable.
+__label__Added allow testing if a number column is set or not set in coloring/icon/emblem rules.
+__label__Added viewer: allow right clicking in the lookup panel to zoom in/out.
+__label__Added edit metadata dialog: make most custom metadata controls use only a single line.
+__label__Added show completions when editing tags/authors/series etc in the tag browser and manage tags dialog.
+__label__Added kobo driver: add support for new firmware with the series list on the device
+__label__Added allow storing and calling functions in the calibre template language (preferences->template functions)
+__label__Added viewer: set the classes calibre-viewer-paginated and calibre-viewer-scrolling on the <body> tag in paged and flow modes. this allows the user styles to target these modes, if needed.
+__label__Added allow forcing calibre to remember the column width for the on device column by right clicking the header of the column
+__label__Added viewer: re-enable the old reference mode from calibre 3.x
+__label__Added switch calibre to python 3. this means that some no longer maintained third party plugins will not work. see https://www.mobileread.com/forums/showthread.php?t=326405
+__label__Added edit book: when searching in normal mode, have spaces in the search expression match multiple spaces and line breaks in the text.
+__label__Added edit book: show epub version in window title
+__label__Added edit book: check book: mark empty id attributes in the opf as errors.
+__label__Added manage categories dialog: when editing a value with multiple values selected, change them all
+__label__Added viewer: add command line option to force reloading of books
+__label__Added viewer lookup panel: add a checkbox to disable automatic update of lookup when the selected text changes.
+__label__Added edit book: remove unused css: add an option to merge css rules that have identical properties
+__label__Added viewer: when the search results panel is expanded, show more context
+__label__Added cover grid: vertically center covers that are smaller than the available space.
+__label__Added e-book viewer: add support for highlighting https://manual.calibre-ebook.com/viewer.html#highlighting-text
+__label__Added viewer: keyboard shortcuts to change number of columns (ctrl+[ and ctrl+])
+__label__Added pdf output: headers/footers: allow displaying the current page number and total number of pages in the top level section/chapter.
+__label__Added pdf output: add an option to shift text horizontally on odd/even pages.
+__label__Added viewer: restore print to pdf functionality
+__label__Added viewer: much improved search functionality
+__label__Added add an item to search for categories to the category editor context menu.
+__label__Added viewer: show number of search results in title of search panel.
+__label__Added tag browser: allow manage tags to open to a selected letter when clicking on a letter.
+__label__Added edit book: preview panel: allow right clicking on images to edit them
+__label__Added quickview panel: add actions to the context menu to search for book in library, open in e-book viewer, etc.
+__label__Added manage tags/authors/etc dialogs: allow searching and filtering the list of items.
+__label__Added viewer: allow setting colors for the margins when creating new color schemes in preferences->colors
+__label__Added driver for the new pocketbook inkpad x
+__label__Added category editor: add a right click menu to change case of the selected entries.
+__label__Added viewer: add an optional toolbar with common actions turn it on under preferences->miscellaneous
+__label__Added book details window: show path to book in cover tooltip.
+__label__Added viewer: add a setting under preferences->colors to control when the viewer will override all book colors or not.
+__label__Added viewer: add an option to have taps turn by screen fulls instead of pages, under scrolling behavior
+__label__Added automatically extract the source docx file from kindle create kpf files when adding them to calibre. if you prefer to preserve the kpf file you can disable the kpf extract plugin in preferences->plugins
+__label__Added book details panel context menu: add an action to open the book details window.
+__label__Added content server: in the book list hovering over the library name now shows the total number of books in the library.
+__label__Added edit book: the check book function has a new, improved css checker with support for css 3
+__label__Added viewer: add shortcut for showing metadata (ctrl+n)
+__label__Added viewer: allow copying images by right clicking on them.
+__label__Added renaming a tag now renames it and all its children. drag and drop of hierarchical tags alters their hierarchy. deleting a tag now deletes all its children.
+__label__Added add an option to the wireless device driver to ignore device free space when sending books.
+__label__Added viewer: allow right clicking on the scrollbar to easily access commonly used scrolling shortcuts
+__label__Added viewer: save current position after 3 seconds of last position change. useful if the viewer crashes on resume from sleep.
+__label__Added viewer toolbar: add actions for next and previous section. they are not added to the toolbar by default, customize it to add them.
+__label__Added elide the names of custom columns that are longer than a fixed width, instead of using multiple lines.configurable via preferences->tweaks->edit metadata custom column label length
+__label__Added viewer: allow showing data in left and right margins in addition to headers/footers.
+__label__Added enhancement: allow using templates in search expressions
+__label__Added comments editor: add an action to the context menu to smarten punctuation.
+__label__Added edit book: in dark mode, make the preview panel also dark.
+__label__Added book details: add an option in preferences->look & feel->book details to show a heading for the comments in the book details panel
+__label__Added add a shortcut (shift+v) to open the last read book.
+__label__Added edit book: create @font-face rules when importing multiple font files into book automatically, similar to how it is done when importing a single font file.
+__label__Added when creating custom columns allow specifying a default value to be applied to new books for that column
+__label__Added viewer: change the default color scheme to "system" which matches the colors used by the rest of calibre/the operating system. also means the colors change automatically when the system color theme changes.
+__label__Added viewer: improve rendering of comics. no blank pages after large images or after every image in multi-page mode.
+__label__Added edit book: allow skipping confirmation dialog when marking non-first file as cover page
+__label__Added viewer: allow double clicking or long tapping on images to view then in a new window.
+__label__Added kobo driver: add support for updated firmware
+__label__Added viewer: halve the time taken to prepare large epub files for first open
+__label__Added viewer/edit book fuzzy search: ignore soft hyphens and zero-width joiner characters when searching for text.
+__label__Added windows 10: add support for dark mode.
+__label__Added regular expression engine used for searching the book list and reading metadata from filenames has been made more powerful.
+__label__Added viewer: add an option to keep the toolbar visible in full screen mode (viewer preferences->miscellaneous)
+__label__Added news download: allow passing username/password in feed urls.
+__label__Added viewer: add a control to easily reset the interface to defaults
+__label__Added macos: various improvements to dark mode support
+__label__Added viewer: add a shortcut (ctrl+f11) to toggle the toolbar
+__label__Added viewer: improve the interface for changing font sizes
+__label__Added viewer: allow showing the 'position in book', as was displayed in the top left of the viewer in calibre 3, in the header or footer of the viewer.
+__label__Added viewer: when searching have single and double quotes match their curly variants as well.
+__label__Added book details window: double clicking on the cover now shows it in the default system image viewer.
+__label__Added viewer: add next and previous buttons in the bookmarks panel.
+__label__Added windows: allow adding of books to calibre from directories whose path length is larger than 260 characters
+__label__Added tag browser: improve handling of hierarchical tags
+__label__Added e-book viewer: add support for right-to-left and vertical text
+__label__Added content server's in-browser viewer now supports bookmarking. bookmarks and highlights are auto-synced across devices.
+__label__Added edit book: allow selecting the contents of a tag with ctrl+alt+t
+__label__Added image viewing popup dialog: add a checkbox to fit image to window.
+__label__Added quickview: double clicking an item now searches for it
+__label__Added viewer: make it easier to use the bookmarks panel with only keyboard.
+__label__Added viewer image pop-up: allow maximizing/minimizing the window.
+__label__Added viewer: group search results by section
+__label__Added viewer: allow skipping the confirmation when using the remove highlight button in the popup bar.
+__label__Added viewer search panel: show more result context in a tooltip when hovering over a search result.
+__label__Added fb2 output: speed up conversion of images and handle external links
+__label__Added only works with output formats such as epub that support css transforms
+__label__Added add a new quick select action to quickly select a virtual library with a few keystrokes. activated by ctrl+t or the virtual library menu
+__label__Added kobo driver: add support for new firmware. also add recognition of 'kobo plus' subscription books
+__label__Added viewer: add options to control scrolling using the mouse in paged mode.
+__label__Added kobo driver: support for new firmware
+__label__Added tag browser: allow editing the set of permissible values and colors for a custom column with fixed values, by right clicking on it.
+__label__Added edit book: preview: support displaying mathematics
+__label__Added edit book: add an "open with" action to the context menu of the files browser to easily open files with external programs.
+__label__Added driver for the new bookeen diva hd
+__label__Added quickview panel: add a checkbox to easily toggle if virtual libraries are respected.
+__label__Added viewer: in multiple pages per screen mode, when paging back to a chapter we have just paged forward from return to the exact position we left from in terms of number of blank trailing pages displayed.
+__label__Added add a shortcut [ctrl+alt+p] to switch to the previously opened library.
+__label__Added viewer: allow modifying the current selection using ctrl+shift+arrow.
+__label__Added kobo driver: add support for the latest firmware version
+__label__Added book details panel: when right clicking on tags/authors/etc. allow finding them in the tag browser easily.
+__label__Added book list column header context menu: add an entry to resize the column to fit its current contents.
+__label__Added the print by kovid goyal
+__label__Added independent australia by pat stapelton
+__label__Added heise ct and ix by ralf hein
+__label__Added saechsische zeitung by by epubli
+__label__Added istorias and sardinia post by tzium
+__label__Added spectator australia by james cridland

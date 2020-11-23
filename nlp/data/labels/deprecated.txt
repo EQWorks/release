@@ -1,0 +1,56 @@
+__label__Deprecated `unstable_createportal`
+__label__Deprecated `react.createfactory()`
+__label__Deprecated ruby 2.1 is now deprecated in order to use latest nokogiri with ruby 2.4
+__label__Deprecated the `react-tools` package and `jsxtransformer.js` browser file [have been deprecated](https://reactjs.org/blog/2015/06/12/deprecating-jstransform-and-react-tools.html). you can continue using version `0.13.3` of both, but we no longer support them and recommend migrating to [babel](https://babeljs.io), which has built-in support for react and jsx.
+__label__Deprecated deprecated [maskedviewios](https://reactnative.dev/docs/maskedviewios) as it has now been moved to [react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
+__label__Deprecated deprecated [imagestore](https://reactnative.dev/docs/imagestore) and directed users to `expo-file-system` and `react-native-fs`
+__label__Deprecated ignore yellowbox warnings with `yellowbox.ignorewarnings `console.ignoredyellowbox = [...]`
+__label__Deprecated `linkedstatemixin` and `valuelink` are now deprecated due to very low popularity. if you need this, you can use a wrapper component that implements the same behavior: [react-linked-input](https://www.npmjs.com/package/react-linked-input).
+__label__Deprecated ruby 2.2 is now deprecated
+__label__Deprecated patterns that warned in 0.12 no longer work: most prominently, calling component classes without using jsx or react.createelement and using non-component functions with jsx or createelement
+__label__Deprecated "(1) 'gpt' has a new option '-x' (clear tile cache after row write) (2) 'gpt' option '-c' now accepts also zero (= no tile cache at all) (3) writeop refactoring: deprecation of ""static utility method"" and ""parameter list explosion"" code smells."
+__label__Deprecated `react.createdescriptor` has been deprecated as a result
+__label__Deprecated **deprecated** `instance.transferpropsto`
+__label__Deprecated add deprecation warning to `accessibilityinfo.fetch`
+__label__Deprecated component instance methods are removed: `setprops`, `replaceprops`, and `getdomnode`.
+__label__Deprecated we are deprecating the method `uimanagermodule.resolveroottagfromreacttag`, this will not be supported in the next version of rn
+__label__Deprecated refs on an animated component are now the internal component. the `getnode` call has been deprecated.
+__label__Deprecated old names for the `unsafe_*` lifecycle methods.
+__label__Deprecated **deprecated** returning `false` from event handlers to preventdefault
+__label__Deprecated deprecated `console.disableyellowbox` in favor of `logbox.ignorealllogs`.
+__label__Deprecated deprecate getclustername. it's a duplicate of describeclustername
+__label__Deprecated `javascript:` urls as a common attack surface.
+__label__Deprecated deprecate `callercontext` from `reactimagemanager`
+__label__Deprecated deprecated [viewpagerandroid](https://reactnative.dev/docs/viewpagerandroid) as it has now been moved to [react-native-community/viewpager](https://github.com/react-native-community/react-native-viewpager)
+__label__Deprecated deprecate uimanager.measurelayoutrelativetoparent
+__label__Deprecated commonjs `react/addons` entry point is removed. as a reminder, you should use separate `react-addons-*` packages instead. this only applies if you use the commonjs builds.
+__label__Deprecated deprecated [netinfo](https://reactnative.dev/docs/netinfo) as it has now been moved to [react-native-community/netinfo](https://github.com/react-native-community/react-native-netinfo)
+__label__Deprecated the undocumented and misleading `reacttestutils.simulatenative` api.
+__label__Deprecated reusing and mutating a `style` object between renders has been deprecated. this mirrors our change to freeze the `props` object.
+__label__Deprecated deprecate ios 9.x support
+__label__Deprecated uncommon "module pattern" (factory) components.
+__label__Deprecated **deprecated** `react.isvalidclass`
+__label__Deprecated drawerlayoutandroid drawerposition now expects a string, number is deprecated
+__label__Deprecated add warning message for trying to use `toolbarandroid` which has been removed from the core since 0.61.
+__label__Deprecated requests has officially stopped support for python 2.6.
+__label__Deprecated `react-addons-test-utils` is deprecated. use `react-dom/test-utils` and `react-test-renderer/shallow` instead.
+__label__Deprecated a jest-specific `reacttestutils.mockcomponent()` helper
+__label__Deprecated restore `react.__spread` api to unbreak code compiled with some tools making use of this undocumented api. it is now officially deprecated.
+__label__Deprecated `this.getdomnode()` is now deprecated and `reactdom.finddomnode(this)` can be used instead. note that in the common case, `finddomnode` is now unnecessary since a ref to the dom component is now the actual dom node.
+__label__Deprecated `reactdom.unstable_createportal()` in favor of `reactdom.createportal()`.
+__label__Deprecated `componentclass.type` is deprecated. just use `componentclass` (usually as `element.type === componentclass`).
+__label__Deprecated add deprecation warnings for `clipboard`, `segmentedcontrolios`, `progressviewios`, `progressbarandroid`. these modules have been moved to [react-native-community](https://github.com/react-native-community) libraries.
+__label__Deprecated deprecated [slider](https://reactnative.dev/docs/slider) as it has now been moved to [react-native-community/slider](https://github.com/react-native-community/react-native-slider)
+__label__Deprecated `react.addons.classset` is now deprecated. this functionality can be replaced with several freely available modules. [classnames](https://www.npmjs.com/package/classnames) is one such module.
+__label__Deprecated deprecated [asyncstorage](https://reactnative.dev/docs/asyncstorage) as it has now been moved to [react-native-community/asyncstorage](https://github.com/react-native-community/react-native-async-storage)
+__label__Deprecated add-ons: `clonewithprops` is now deprecated. use [`react.cloneelement`](https://reactjs.org/docs/react-api.html#cloneelement) instead (unlike `clonewithprops`, `cloneelement` does not merge `classname` or `style` automatically; you can merge them manually if needed).
+__label__Deprecated addons are removed: `batchedupdates` and `clonewithprops`.
+__label__Deprecated **deprecated** convenience constructor usage as function, instead wrap with `react.createfactory`
+__label__Deprecated make setting `usenativedriver` required. add runtime warning if not specified
+__label__Deprecated ruby 2.4 and below are now deprecated
+__label__Deprecated deprecate method uimanagermodule.playtouchsound()
+__label__Deprecated `setprops` and `replaceprops` are now deprecated. instead, call reactdom.render again at the top level with the new props.
+__label__Deprecated **deprecated** use of `key={null}` to assign implicit keys
+__label__Deprecated replace deprecated `stringbyreplacingpercentescapesusingencoding:` with `stringbyaddingpercentencodingwithallowedcharacters:`
+__label__Deprecated apis are removed from the `react` top-level export: `finddomnode`, `render`, `rendertostring`, `rendertostaticmarkup`, and `unmountcomponentatnode`. as a reminder, they are now available on `reactdom` and `reactdomserver`.
+__label__Deprecated deprecate `[bridge reload]`, prefer `rctreloadcommand`
