@@ -1,0 +1,48 @@
+__label__Security "better support for basic security in templates  other integration testing improvements"
+__label__Security [fixed security-109] security-55 fix to buildtrigger configuration failed if downstream project was not visible.
+__label__Security [security-225] fix failing tests
+__label__Security mapreduce-3345. fixed a race condition in- resourcemanager that was causing testcontainermanagersecurity to fail- sometimes. contributed by hitesh shah. svn merge -c r1199144- --ignore-ancestry ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.23@1199145 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Security "cloudstack 3.0 ui - security group - ingress rule - fix a bug that account  security group failed to be translated."
+__label__Security hadoop-6452 hadoop jsp pages don't work under a- security manager--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@893490 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Security security feature to go live on 1.164
+__label__Security bug 10884: fixed a bug where the security group keeps processing a vm that has been removed
+__label__Security cloudstack-537: cloudstack ui - advanced sg-enabled zone - vm wizard - fix a bug that networkid was not passed to api call when selected networks don't include security group service.
+__label__Security [tachyon-947] fix failed security integration test after merging master with pr #1464
+__label__Security updated setuptools 'security' extra for the new pyopenssl backend in urllib3.
+__label__Security fix security issues with `@react-native-community/cli` by bumping version
+__label__Security [security-167] fix failing unit test.
+__label__Security "bug 11070: cloudstack - delete domain/ipaddress/securitygroup/snapshot/volume - fix a bug that an api error showed after account was deleted (""listxxxxxxx&id=n"")"
+__label__Security summary: fix exception handling in security_group.py
+__label__Security api: add securitygroup db view creation into db create_schema and fix a bug in listsecuritygroupscmd
+__label__Security update `react-devtools-core` and `plist` to include security fixes reported by `npm audit`
+__label__Security allow login modules with duplicate code within same security domain
+__label__Security yarn-3613. testcontainermanagersecurity should init- and start yarn cluster in setup instead of individual methods. (nijel via- kasha)--(cherry picked from commit fe0df596271340788095cb43a1944e19ac4c2cf7)-
+__label__Security security group page - fix a bug that newly created ingress rule failed to be deleted.
+__label__Security project-based security option should only show up when the feature is in use.
+__label__Security fix issue with use of android api 28 by adding security config for metro access
+__label__Security a [potential xss vulnerability when the attacker controls an attribute name](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html) (`cve-2018-6341`). this fix is available in the latest `react-dom@16.4.2`, as well as in previous affected minor versions: `react-dom@16.0.1`, `react-dom@16.1.2`, `react-dom@16.2.1`, and `react-dom@16.3.3`.
+__label__Security bug 10629: fixed regression bug in listvms - security group name and display text weren't returned
+__label__Security made it possible to use react in environments enforcing a strict [content security policy](https://developer.mozilla.org/en-us/docs/security/csp/introducing_content_security_policy). this also makes it possible to use react to build chrome extensions.
+__label__Security react dom now supports these standard html attributes: `capture`, `challenge`, `inputmode`, `is`, `keyparams`, `keytype`, `minlength`, `summary`, `wrap`. it also now supports these non-standard attributes: `autosave`, `results`, `security`.
+__label__Security yarn-1936. added security support for the timeline- client. contributed by zhijie shen. svn merge --ignore-ancestry -c 1597153- ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1597154 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Security a [potential xss vulnerability when the attacker controls an attribute name](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html) (`cve-2018-6341`). this fix is available in the latest `react-dom@16.4.2`, as well as in previous affected minor versions: `react-dom@16.0.1`, `react-dom@16.1.2`, `react-dom@16.2.1`, and `react-dom@16.3.3`.
+__label__Security apply network security config file (fixes #22375) (part 2 of #23105) (#23135)
+__label__Security improve android network security config (#23429)
+__label__Security security.md file has design doc merged in; is linked to from the index
+__label__Security previously, including untrusted objects as react children [could result in an xss security vulnerability](http://danlec.com/blog/xss-via-a-spoofed-react-element). this problem should be avoided by properly validating input at the application layer and by never passing untrusted objects around your application code. as an additional layer of protection, [react now tags elements](https://github.com/facebook/react/pull/4832) with a specific [es2015 (es6) `symbol`](http://www.2ality.com/2014/12/es6-symbols.html) in browsers that support it, in order to ensure that react never considers untrusted json to be a valid element. if this extra security protection is important to you, you should add a `symbol` polyfill for older browsers, such as the one included by [babel’s polyfill](https://babeljs.io/docs/usage/polyfill/).
+__label__Security a [potential xss vulnerability when the attacker controls an attribute name](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html) (`cve-2018-6341`). this fix is available in the latest `react-dom@16.4.2`, as well as in previous affected minor versions: `react-dom@16.0.1`, `react-dom@16.1.2`, `react-dom@16.2.1`, and `react-dom@16.3.3`.
+__label__Security "bug 7659: fix the race condition that agent inside systemvm connecting to mgt server at the head of startcommand returning to mgt server  then got a npe. and fix bugs in security group of kvm"
+__label__Security "hadoop-6932.  namenode start (init) fails because- of invalid kerberos key  even when security set to simple--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/trunk@991030 13f79535-47bb-0310-9956-ffa450edef68-"
+__label__Security bump ws package to 1.1.5 due to vulnerability issues (#21769)
+__label__Security cloudstack-7895 : fixed the script test_security_groups.py - test cases failing on simulator as testcases try to ssh to the vms
+__label__Security yarn-1936. added security support for the timeline- client. contributed by zhijie shen. svn merge --ignore-ancestry -c 1597153- ../../trunk/--git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-2@1597154 13f79535-47bb-0310-9956-ffa450edef68-
+__label__Security security group page - ingress rule tab - fix a bug that validation fails when selected protocol is  icmp.
+__label__Security bug 12764: cloudstack 3.0 new ui - vm wizard - basic zone - select security group step - fix a bug that appeared when only one security group is selected.
+__label__Security implemented self-repair in case the security is- broken. this new method in the odatabaselistener interface will allow to- handle corruptions in better way.--console now displays a message and after a user input fix it. cool!-
+__label__Security a [potential xss vulnerability when the attacker controls an attribute name](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html) (`cve-2018-6341`). this fix is available in the latest `react-dom@16.4.2`, as well as in previous affected minor versions: `react-dom@16.0.1`, `react-dom@16.1.2`, `react-dom@16.2.1`, and `react-dom@16.3.3`.
+__label__Security [security-184] fix test failures checking null value
+__label__Security a potential xss vulnerability when using user content as a `key`: [cve-2013-7035](https://groups.google.com/forum/#!topic/reactjs/oiqxlb2agfu)
+__label__Security vulnerability report ghsl-2020-11101
+__label__Security issue 161: added the support for custom strategy- on creation of records- http://code.google.com/p/orient/wiki/security-customize_on_creation--
+__label__Security a [potential xss vulnerability when the attacker controls an attribute name](https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html) (`cve-2018-6341`). this fix is available in the latest `react-dom@16.4.2`, as well as in previous affected minor versions: `react-dom@16.0.1`, `react-dom@16.1.2`, `react-dom@16.2.1`, and `react-dom@16.3.3`.
+__label__Security bug 10629: fixed regression bug in listvms - security group name and display text weren't returned
