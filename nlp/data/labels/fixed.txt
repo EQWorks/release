@@ -3233,3 +3233,4 @@ __label__Fixed viewer: fix clicking on margins causing keyboard shortcuts to not
 __label__Fixed comments editor: workaround for qt converting ids into anchors
 __label__Fixed possible workaround for some windows machines where the viewer is getting access denied errors while renaming a directory
 __label__Fixed viewer: when there is empty text for an header footer section render it as blank instead of moving the remaining sections to the left
+__label__Fixed manage - mb partial updates patch w/o full campaign scope 
