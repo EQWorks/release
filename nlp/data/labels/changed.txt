@@ -3133,3 +3133,5 @@ __label__Changed _[breaking]_ `requirenativecomponent`'s signature has been simp
 __label__Changed performance improvements (thx @m0nstermind)
 __label__Changed jest preprocessing now uses the ast from metro
 __label__Changed remove exclusionary mentions of "open source" since this project can benefit both "open" and "closed" source projects equally.
+__label__Changed hide cost column be default in report tables
+__label__Changed lib - parseRaw returns t1/t2 categories too
