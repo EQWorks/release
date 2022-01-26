@@ -1,6 +1,6 @@
 {
   "name": "@eqworks/release",
-  "version": "3.5.0-alpha.0",
+  "version": "3.5.0-alpha.1",
   "main": "index.js",
   "license": "MIT",
   "source": "index.js",
@@ -14,6 +14,7 @@
   "repository": "git@github.com:EQWorks/release.git",
   "author": "EQ Devs <dev@eqworks.com>",
   "scripts": {
+    "local": "env $(print-env) node index.js",
     "lint": "yarn eslint .",
     "prepublishOnly": "yarn lint"
   },
