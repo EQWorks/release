@@ -3,7 +3,7 @@ name: NLP model retrain
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'nlp/train.py'
       - 'nlp/data/*'
