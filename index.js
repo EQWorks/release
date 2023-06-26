@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-experimental-fetch
 const { notes, changelog, tag } = require('./lib')
 
 if (require.main === module) {
