@@ -14,7 +14,7 @@
   "repository": "git@github.com:EQWorks/release.git",
   "author": "EQ Devs <dev@eqworks.com>",
   "scripts": {
-    "local": "env $(print-env) node --no-experimental-fetch index.js",
+    "local": "env $(print-env) node index.js",
     "lint": "yarn eslint .",
     "prepublishOnly": "yarn lint"
   },
