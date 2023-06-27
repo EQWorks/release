@@ -1,6 +1,6 @@
 {
   "name": "@eqworks/release",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "main": "index.js",
   "license": "MIT",
   "source": "index.js",
@@ -14,14 +14,14 @@
   "repository": "git@github.com:EQWorks/release.git",
   "author": "EQ Devs <dev@eqworks.com>",
   "scripts": {
-    "local": "env $(print-env) node index.js",
+    "local": "env $(print-env) node --no-experimental-fetch index.js",
     "lint": "yarn eslint .",
     "prepublishOnly": "yarn lint"
   },
   "dependencies": {
     "@octokit/core": "^3.1.2",
     "chalk": "^4.1.0",
-    "fasttext.js": "^1.1.2",
+    "fasttext.js": "^1.1.4",
     "yargs": "^15.1.0"
   },
   "bin": {
