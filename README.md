@@ -75,3 +75,12 @@ Since v3.1.0, the sub-command `tag` identifies the version inside the commit mes
 ```
 
 The above command reads from the latest three commits (by default, change with the `-n` flag.)
+
+## Important note for Node.js 18
+
+When running the CLI commands on Node.js 18, you may need to add the `--no-experimental-fetch` flag to the `NODE_OPTIONS` environment variable. This flag is required to disable the experimental fetch feature introduced in Node.js 18.
+
+To execute the CLI commands with the `--no-experimental-fetch` flag, use the following syntax:
+
+```shell
+% NODE_OPTIONS=--no-experimental-fetch npx @eqworks/release <command>
