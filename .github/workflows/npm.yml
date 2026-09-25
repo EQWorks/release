@@ -35,6 +35,6 @@ jobs:
         if: ${{ success() }}
         run: npx @eqworks/release changelog -v --head ${GITHUB_REF##*/} --github --skip alpha
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.CD_GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_OWNER: EQWorks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
