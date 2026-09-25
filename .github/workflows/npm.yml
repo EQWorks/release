@@ -6,6 +6,10 @@ on:
       - 'v*' # proceeds eg: v1.0
       - '!v*-*' # skips eg: v1.2.99-beta1, v3.5.0-test, etc.
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -27,19 +31,10 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-          registry-url: https://registry.npmjs.org/
-          scope: '@eqworks'
-          always-auth: true
-      - run: yarn publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.CD_NPM_TOKEN_PUBLISH }}
-
       - name: Generate tag associated release changelog
         if: ${{ success() }}
         run: npx @eqworks/release changelog -v --head ${GITHUB_REF##*/} --github --skip alpha
         env:
+          NODE_AUTH_TOKEN: ${{ secrets.CD_GITHUB_TOKEN }}
           GITHUB_OWNER: EQWorks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
