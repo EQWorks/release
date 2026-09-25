@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Cache Node Modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.OS }}-${{ matrix.node-version }}-build-${{ hashFiles('**/yarn.lock') }}
