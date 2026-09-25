@@ -5,6 +5,10 @@ on:
     tags:
       - 'v*-alpha*'
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -22,13 +26,3 @@ jobs:
       - run: yarn publish --access public --tag alpha
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-          registry-url: https://registry.npmjs.org/
-          scope: '@eqworks'
-          always-auth: true
-      - run: yarn publish --access public --tag alpha
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.CD_NPM_TOKEN_PUBLISH }}
